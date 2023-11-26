@@ -1,0 +1,172 @@
+[
+	{
+		"title": "Tutorial",
+		"tags": "",
+		"body": "Hello! Press \"z\" to go to the next dialogue line and/or to choose an option.\nPress \"x\" to make text scroll faster.\nUse the arrow keys to move around.\nUse the \"Up\" and \"Down\" arrow keys to browse through the options.\nPress \"e\" to interact with appliances and customers!\nGood luck!",
+		"position": {
+			"x": 498,
+			"y": 294
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Customer1",
+		"tags": "",
+		"body": "One coffee please!\n\n[[ (Give coffee) |Give_Coffee1]]\n[[ Sure thing! |thanks1]]",
+		"position": {
+			"x": 496,
+			"y": 763
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Make_Drinks",
+		"tags": "",
+		"body": "Would you like to make a drink?\n\n[[ Yes |Drink_Choices]]\n[[ No |No]]",
+		"position": {
+			"x": -82,
+			"y": 30
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Make_Pastries",
+		"tags": "",
+		"body": "Would you like to make a pastry?\n\n[[ Yes |Pastry_Choices]]\n[[ No |No]]",
+		"position": {
+			"x": -85,
+			"y": 440
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Customer3",
+		"tags": "",
+		"body": "Hi!\nJust a coffee for me!\n\n[[ (Give coffee) |Give_Coffee3]]\n[[ Sure thing! |thanks3]]",
+		"position": {
+			"x": 1043,
+			"y": -176
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Customer2",
+		"tags": "",
+		"body": "Hi!\nI would like a cake please!\n\n[[ (Give cake) |Give_Cake2]]\n[[ Sure thing! |thanks2]]",
+		"position": {
+			"x": 1020,
+			"y": 289
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Cake",
+		"tags": "",
+		"body": "You made cake!  +1 cake\n\nPress \"z\" to exit.\n\n<<Cake>>",
+		"position": {
+			"x": -681,
+			"y": 444
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Pastry_Choices",
+		"tags": "",
+		"body": "What pastry would you like to make?\n\n[[ Cake |Cake]]\n\n[[ Never mind |No]]",
+		"position": {
+			"x": -375,
+			"y": 443
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Coffee",
+		"tags": "",
+		"body": "You made coffee!    +1 coffee\n\nPress \"z\" to exit.\n\n<<Coffee>>",
+		"position": {
+			"x": -675,
+			"y": 26
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Drink_Choices",
+		"tags": "",
+		"body": "What drink would you like to make?\n\n[[ Coffee |Coffee]]\n\n[[ Never mind |No]]",
+		"position": {
+			"x": -390,
+			"y": 30
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Give_Cake2",
+		"tags": "",
+		"body": "<<if $cake > 0>> \nThank you for the cake! <<removeCake>>\n<<else>>\nIt seems like you didn't bring any cake with you.\n<<endif>>",
+		"position": {
+			"x": 1379,
+			"y": 274
+		},
+		"colorID": 0
+	},
+	{
+		"title": "thanks3",
+		"tags": "",
+		"body": "Once you make it, please bring it to me! Thank you!",
+		"position": {
+			"x": 1417,
+			"y": -177
+		},
+		"colorID": 0
+	},
+	{
+		"title": "thanks2",
+		"tags": "",
+		"body": "Once you make it, please bring it to me! Thank you!",
+		"position": {
+			"x": 1390,
+			"y": 548
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Give_Coffee3",
+		"tags": "",
+		"body": "<<if $coffee > 0>> \nThank you for the coffee!   <<removeCoffee>>\n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"position": {
+			"x": 1417,
+			"y": -426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "thanks1",
+		"tags": "",
+		"body": "Once you make it, please bring it to me! Thank you!",
+		"position": {
+			"x": 811,
+			"y": 1013
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Give_Coffee1",
+		"tags": "",
+		"body": "<<if $coffee > 0>> \nThank you for the coffee!  <<removeCoffee>>\n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"position": {
+			"x": 804,
+			"y": 762
+		},
+		"colorID": 0
+	},
+	{
+		"title": "No",
+		"tags": "",
+		"body": "Press \"z\" to exit.",
+		"position": {
+			"x": 183,
+			"y": 236
+		},
+		"colorID": 0
+	}
+]
