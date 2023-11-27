@@ -1927,8 +1927,14 @@
     {
       "folded": true,
       "name": "textScrollSpeed",
-      "type": "number",
-      "value": 0
+      "type": "string",
+      "value": "0.02"
+    },
+    {
+      "folded": true,
+      "name": "textScrollSpeedMultiplier",
+      "type": "string",
+      "value": "1"
     }
   ],
   "layouts": [

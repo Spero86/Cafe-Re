@@ -12,7 +12,7 @@
 	{
 		"title": "Customer1",
 		"tags": "",
-		"body": "One coffee please!\n\n[[ (Give coffee) |Give_Coffee1]]\n[[ Sure thing! |thanks1]]",
+		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee1]] [[ Sure thing! |thanks1]]",
 		"position": {
 			"x": 496,
 			"y": 763
@@ -20,19 +20,19 @@
 		"colorID": 0
 	},
 	{
-		"title": "Make_Drinks",
+		"title": "makeDrinks",
 		"tags": "",
-		"body": "Would you like to make a drink?\n\n[[ Yes |Drink_Choices]]\n[[ No |No]]",
+		"body": "Would you like to make a drink?\n[[ Yes |drinkChoices]] [[ No |No]]",
 		"position": {
-			"x": -82,
-			"y": 30
+			"x": -84,
+			"y": 24
 		},
 		"colorID": 0
 	},
 	{
-		"title": "Make_Pastries",
+		"title": "makePastries",
 		"tags": "",
-		"body": "Would you like to make a pastry?\n\n[[ Yes |Pastry_Choices]]\n[[ No |No]]",
+		"body": "Would you like to make a pastry?\n[[ Yes |pastryChoices]] [[ No |No]]",
 		"position": {
 			"x": -85,
 			"y": 440
@@ -42,7 +42,7 @@
 	{
 		"title": "Customer3",
 		"tags": "",
-		"body": "Hi!\nJust a coffee for me!\n\n[[ (Give coffee) |Give_Coffee3]]\n[[ Sure thing! |thanks3]]",
+		"body": "Hi!\nJust a coffee for me!\n[[ (Give coffee) |giveCoffee3]] [[ Sure thing! |thanks3]]",
 		"position": {
 			"x": 1043,
 			"y": -176
@@ -52,7 +52,7 @@
 	{
 		"title": "Customer2",
 		"tags": "",
-		"body": "Hi!\nI would like a cake please!\n\n[[ (Give cake) |Give_Cake2]]\n[[ Sure thing! |thanks2]]",
+		"body": "Hi!\nI would like a cake please!\n[[ (Give cake) |giveCake2]] [[ Sure thing! |thanks2]]",
 		"position": {
 			"x": 1020,
 			"y": 289
@@ -60,19 +60,19 @@
 		"colorID": 0
 	},
 	{
-		"title": "Cake",
+		"title": "cakeMade",
 		"tags": "",
-		"body": "You made cake!  +1 cake\n\nPress \"z\" to exit.\n\n<<Cake>>",
+		"body": "<<Cake>>\nYou made cake!  +1 cake",
 		"position": {
-			"x": -681,
+			"x": -682,
 			"y": 444
 		},
 		"colorID": 0
 	},
 	{
-		"title": "Pastry_Choices",
+		"title": "pastryChoices",
 		"tags": "",
-		"body": "What pastry would you like to make?\n\n[[ Cake |Cake]]\n\n[[ Never mind |No]]",
+		"body": "What pastry would you like to make?\n[[ Cake |cakeMade]] [[ Never mind |No]]",
 		"position": {
 			"x": -375,
 			"y": 443
@@ -80,9 +80,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Coffee",
+		"title": "coffeeMade",
 		"tags": "",
-		"body": "You made coffee!    +1 coffee\n\nPress \"z\" to exit.\n\n<<Coffee>>",
+		"body": "<<Coffee>>  \nYou made coffee!    +1 coffee",
 		"position": {
 			"x": -675,
 			"y": 26
@@ -90,19 +90,19 @@
 		"colorID": 0
 	},
 	{
-		"title": "Drink_Choices",
+		"title": "drinkChoices",
 		"tags": "",
-		"body": "What drink would you like to make?\n\n[[ Coffee |Coffee]]\n\n[[ Never mind |No]]",
+		"body": "What drink would you like to make?\n[[ Coffee |coffeeMade]] [[ Never mind |No]]",
 		"position": {
-			"x": -390,
+			"x": -387,
 			"y": 30
 		},
 		"colorID": 0
 	},
 	{
-		"title": "Give_Cake2",
+		"title": "giveCake2",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "<<if $cake == true>> \n<<removeCake>>\nThank you for the cake! \n<<else>>\nIt seems like you didn't bring any cake with you.\n<<endif>>",
 		"position": {
 			"x": 1379,
 			"y": 274
@@ -112,7 +112,7 @@
 	{
 		"title": "thanks3",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "Once you make it, please bring it to me! Thank you!",
 		"position": {
 			"x": 1417,
 			"y": -177
@@ -122,7 +122,7 @@
 	{
 		"title": "thanks2",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "Once you make it, please bring it to me! Thank you!",
 		"position": {
 			"x": 1390,
 			"y": 548
@@ -130,29 +130,29 @@
 		"colorID": 0
 	},
 	{
-		"title": "Give_Coffee3",
+		"title": "giveCoffee3",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "<<if $coffee == true>> \n<<removeCoffee>>\nThank you for the coffee!   \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
 		"position": {
-			"x": 1417,
-			"y": -426
+			"x": 1416,
+			"y": -427
 		},
 		"colorID": 0
 	},
 	{
 		"title": "thanks1",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "Once you make it, please bring it to me! Thank you!",
 		"position": {
 			"x": 811,
-			"y": 1014
+			"y": 1013
 		},
 		"colorID": 0
 	},
 	{
-		"title": "Give_Coffee1",
+		"title": "giveCoffee1",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "<<if $coffee == true>> \n<<removeCoffee>>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
 		"position": {
 			"x": 804,
 			"y": 762

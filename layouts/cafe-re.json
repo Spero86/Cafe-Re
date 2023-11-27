@@ -67,13 +67,13 @@
       "name": "textUI",
       "objects": [
         {
-          "name": "Text"
-        },
-        {
           "name": "Options"
         },
         {
           "name": "Text_box"
+        },
+        {
+          "name": "BBText"
         }
       ]
     }
@@ -1634,13 +1634,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 93,
+      "height": 87,
       "layer": "Collision",
       "name": "Collision_detect",
       "persistentUuid": "bc669ab4-619e-444f-9d3a-d126ac0a73f8",
-      "width": 123,
+      "width": 112,
       "x": 740,
-      "y": 408,
+      "y": 414,
       "zOrder": 123,
       "numberProperties": [],
       "stringProperties": [],
@@ -1650,13 +1650,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 93,
+      "height": 83,
       "layer": "Collision",
       "name": "Collision_detect",
       "persistentUuid": "87c46f28-6bd2-4826-8cd6-169fc1b8301a",
-      "width": 123,
-      "x": 1050,
-      "y": 399,
+      "width": 104,
+      "x": 1064,
+      "y": 409,
       "zOrder": 123,
       "numberProperties": [],
       "stringProperties": [],
@@ -1666,13 +1666,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 93,
+      "height": 86,
       "layer": "Collision",
       "name": "Collision_detect",
       "persistentUuid": "fa5eb95a-7272-4043-b5cb-3a55c5669106",
-      "width": 123,
-      "x": 1050,
-      "y": 236,
+      "width": 106,
+      "x": 1058,
+      "y": 243,
       "zOrder": 123,
       "numberProperties": [],
       "stringProperties": [],
@@ -1682,13 +1682,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 93,
+      "height": 82,
       "layer": "Collision",
       "name": "Collision_detect",
       "persistentUuid": "07f9e145-96a6-4a53-b275-c33c13e0699e",
-      "width": 123,
-      "x": 736,
-      "y": 228,
+      "width": 106,
+      "x": 740,
+      "y": 239,
       "zOrder": 123,
       "numberProperties": [],
       "stringProperties": [],
@@ -1911,8 +1911,8 @@
       "name": "Text",
       "persistentUuid": "43e039cb-ceec-4241-84d0-7961683a53d3",
       "width": 432,
-      "x": 436,
-      "y": 461,
+      "x": 77,
+      "y": 775,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -1922,14 +1922,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 35,
+      "height": 66,
       "layer": "Dialogue",
       "name": "Options",
       "persistentUuid": "7752052e-7803-4bb1-ae65-65fd45799093",
-      "width": 28,
+      "width": 187,
       "x": 448,
       "y": 542,
-      "zOrder": 2,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1962,6 +1962,70 @@
       "x": 310,
       "y": 114,
       "zOrder": 138,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 44,
+      "layer": "",
+      "name": "E_3",
+      "persistentUuid": "0238f13d-8d5b-43d2-895e-62b3777f9c01",
+      "width": 34,
+      "x": 936,
+      "y": 371,
+      "zOrder": 139,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 44,
+      "layer": "",
+      "name": "E_3",
+      "persistentUuid": "7c53be58-702d-4ed8-8665-1e094d4e603f",
+      "width": 34,
+      "x": 836,
+      "y": 178,
+      "zOrder": 139,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 44,
+      "layer": "",
+      "name": "E_3",
+      "persistentUuid": "c523bae4-d42c-4339-a58f-15e9e2c2a65f",
+      "width": 34,
+      "x": 1056,
+      "y": 183,
+      "zOrder": 139,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 143,
+      "layer": "Dialogue",
+      "name": "BBText",
+      "persistentUuid": "27cddd4e-1e62-4875-88be-762e45960dfe",
+      "width": 435,
+      "x": 433,
+      "y": 457,
+      "zOrder": 140,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4787,6 +4851,45 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "E_3",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "E",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 35,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BBText",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4929,6 +5032,12 @@
       },
       {
         "objectName": "E_2"
+      },
+      {
+        "objectName": "E_3"
+      },
+      {
+        "objectName": "BBText"
       }
     ]
   },
@@ -4990,6 +5099,14 @@
             "value": "Cache"
           },
           "parameters": [
+            "E_3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
             "E_2"
           ]
         },
@@ -5016,7 +5133,7 @@
           },
           "parameters": [
             "",
-            "\"gameStart\""
+            "\"textScroll\""
           ]
         }
       ]
@@ -5026,14 +5143,20 @@
       "conditions": [
         {
           "type": {
-            "value": "CompareTimer"
+            "inverted": true,
+            "value": "VarScene"
           },
           "parameters": [
-            "",
-            "\"gameStart\"",
-            ">",
+            "startTutorial",
+            "=",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -5047,11 +5170,12 @@
         },
         {
           "type": {
-            "value": "PauseTimer"
+            "value": "ModVarScene"
           },
           "parameters": [
-            "",
-            "\"gameStart\""
+            "startTutorial",
+            "=",
+            "1"
           ]
         }
       ]
@@ -5066,7 +5190,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": ""
+      "comment": "Customer Setup"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -5201,6 +5325,12 @@
             "value": "DialogueTree::IsDialogueRunning"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -5237,7 +5367,7 @@
         },
         {
           "type": {
-            "value": "KeyPressed"
+            "value": "KeyReleased"
           },
           "parameters": [
             "",
@@ -5251,9 +5381,15 @@
           "parameters": [
             "",
             "\"textScroll\"",
-            ">=",
-            "0.5"
+            ">",
+            "1"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -5274,6 +5410,16 @@
           "parameters": [
             "textUI"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "textScrollSpeedMultiplier",
+            "=",
+            "1"
+          ]
         }
       ]
     },
@@ -5287,7 +5433,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": ""
+      "comment": "Text"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -5304,11 +5450,10 @@
       "actions": [
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+            "value": "BBText::SetBBText"
           },
           "parameters": [
-            "Text",
-            "Text",
+            "BBText",
             "=",
             "DialogueTree::ClippedLineText()"
           ]
@@ -5325,8 +5470,8 @@
               "parameters": [
                 "",
                 "\"textScroll\"",
-                ">=",
-                "GlobalVariable(textScrollSpeed)"
+                ">",
+                "GlobalVariable(textScrollSpeed) / GlobalVariable(textScrollSpeedMultiplier)"
               ]
             }
           ],
@@ -5397,7 +5542,7 @@
               "parameters": [
                 "textScrollSpeed",
                 "=",
-                "0.01"
+                "0.02"
               ]
             }
           ]
@@ -5441,7 +5586,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": ""
+      "comment": "Options"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -5496,18 +5641,12 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "KeyReleased"
               },
               "parameters": [
                 "",
                 "Down"
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -5524,18 +5663,12 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "KeyReleased"
               },
               "parameters": [
                 "",
                 "Up"
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -5552,7 +5685,7 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "KeyReleased"
               },
               "parameters": [
                 "",
@@ -5873,7 +6006,7 @@
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
-                "\"Make_Drinks\""
+                "\"makeDrinks\""
               ]
             }
           ]
@@ -5890,6 +6023,12 @@
           "parameters": [
             "\"Coffee\""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -5902,6 +6041,15 @@
             "coffee",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetBooleanVariable"
+          },
+          "parameters": [
+            "\"coffee\"",
+            "True"
           ]
         },
         {
@@ -5951,7 +6099,7 @@
           "parameters": [
             "Player",
             "microwave",
-            "100",
+            "75",
             ""
           ]
         }
@@ -5993,7 +6141,7 @@
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
-                "\"Make_Pastries\""
+                "\"makePastries\""
               ]
             }
           ]
@@ -6010,6 +6158,12 @@
           "parameters": [
             "\"Cake\""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -6022,6 +6176,15 @@
             "cake",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetBooleanVariable"
+          },
+          "parameters": [
+            "\"cake\"",
+            "True"
           ]
         },
         {
@@ -6070,13 +6233,23 @@
           },
           "parameters": [
             "Player",
-            "Customers",
+            "Customer1",
             "100",
             ""
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "E_3",
+            ""
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -6092,6 +6265,18 @@
             },
             {
               "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Customer1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -6103,7 +6288,149 @@
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
-                "Customers.VariableString(dialogueBranch)"
+                "\"Customer1\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "Customer2",
+            "100",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "E_3",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Customer2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"Customer2\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "Customer3",
+            "100",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "E_3",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Customer3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"Customer3\""
               ]
             }
           ]
@@ -6120,6 +6447,12 @@
           "parameters": [
             "\"removeCoffee\""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -6132,6 +6465,15 @@
             "coffee",
             "-",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetBooleanVariable"
+          },
+          "parameters": [
+            "\"coffee\"",
+            "False"
           ]
         },
         {
@@ -6158,6 +6500,12 @@
           "parameters": [
             "\"removeCake\""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -6170,6 +6518,15 @@
             "cake",
             "-",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetBooleanVariable"
+          },
+          "parameters": [
+            "\"cake\"",
+            "False"
           ]
         },
         {
@@ -6210,6 +6567,7 @@
       "comment": "For when a level is completed, show summary, and moves on to next level after player closes summary (for beta)"
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
