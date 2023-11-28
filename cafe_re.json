@@ -1985,7 +1985,7 @@
         "alwaysLoaded": false,
         "file": "assets/New image118.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image118.png\"}",
         "name": "New image118",
         "smoothed": false,
         "userAdded": true
@@ -2221,6 +2221,15 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite23",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite24",
         "smoothed": false,
         "userAdded": true
       }
