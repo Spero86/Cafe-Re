@@ -1,8 +1,8 @@
 {
   "b": 51,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Cafe_32Re_58",
-  "name": "Cafe Re:",
+  "mangledName": "Week_323",
+  "name": "Week 3",
   "r": 63,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4335774304702891,
+    "zoomFactor": 0.4789341884535818,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1906,22 +1906,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 133,
-      "layer": "Dialogue",
-      "name": "Text",
-      "persistentUuid": "43e039cb-ceec-4241-84d0-7961683a53d3",
-      "width": 432,
-      "x": 77,
-      "y": 775,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 66,
       "layer": "Dialogue",
       "name": "Options",
@@ -1939,7 +1923,7 @@
       "customSize": true,
       "depth": 1,
       "height": 109,
-      "layer": "",
+      "layer": "Interactions",
       "name": "E_1",
       "persistentUuid": "85ecabe2-0b11-4fe9-b302-fb3ff2ffeade",
       "width": 57,
@@ -1955,7 +1939,7 @@
       "customSize": true,
       "depth": 0,
       "height": 56,
-      "layer": "",
+      "layer": "Interactions",
       "name": "E_2",
       "persistentUuid": "8024e5aa-ee9a-45c5-bd06-3b97e9f715cc",
       "width": 57,
@@ -1971,7 +1955,7 @@
       "customSize": true,
       "depth": 1,
       "height": 44,
-      "layer": "",
+      "layer": "Interactions",
       "name": "E_3",
       "persistentUuid": "0238f13d-8d5b-43d2-895e-62b3777f9c01",
       "width": 34,
@@ -1987,7 +1971,7 @@
       "customSize": true,
       "depth": 1,
       "height": 44,
-      "layer": "",
+      "layer": "Interactions",
       "name": "E_3",
       "persistentUuid": "7c53be58-702d-4ed8-8665-1e094d4e603f",
       "width": 34,
@@ -2003,7 +1987,7 @@
       "customSize": true,
       "depth": 1,
       "height": 44,
-      "layer": "",
+      "layer": "Interactions",
       "name": "E_3",
       "persistentUuid": "c523bae4-d42c-4339-a58f-15e9e2c2a65f",
       "width": 34,
@@ -2693,7 +2677,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Week 1",
+      "string": "Week 3",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
       "characterSize": 32,
@@ -6600,6 +6584,38 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Interactions",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     },
     {
       "ambientLightColorB": 200,
