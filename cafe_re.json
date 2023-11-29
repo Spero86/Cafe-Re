@@ -2223,6 +2223,16 @@
         "name": "NewSprite23",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "Corporate_Daydream_By_OhpalMusic.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Corporate_Daydream_By_OhpalMusic.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2256,18 +2266,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/cafe-re"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/week-2"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/week-3"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/week-4"
     }
   ],
   "externalEvents": [],

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.4790395861759558,
+    "zoomFactor": 0.5117784035210936,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1861,22 +1861,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 133,
-      "layer": "Dialogue",
-      "name": "Text",
-      "persistentUuid": "43e039cb-ceec-4241-84d0-7961683a53d3",
-      "width": 432,
-      "x": 77,
-      "y": 775,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 66,
       "layer": "Dialogue",
       "name": "Options",
@@ -1914,8 +1898,8 @@
       "name": "E_2",
       "persistentUuid": "8024e5aa-ee9a-45c5-bd06-3b97e9f715cc",
       "width": 57,
-      "x": 317,
-      "y": 120,
+      "x": 132,
+      "y": 225,
       "zOrder": 138,
       "numberProperties": [],
       "stringProperties": [],
@@ -5515,6 +5499,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 56,
+      "layer": "Collision",
+      "name": "Collision_detect",
+      "persistentUuid": "dcb843c9-4319-48a3-9cae-2a0c86dfca1a",
+      "width": 445,
+      "x": 160,
+      "y": 375,
+      "zOrder": 196,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -5538,7 +5538,14 @@
       "width": 128,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": false,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -5549,7 +5556,14 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": false,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -5560,7 +5574,14 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": false,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -5604,7 +5625,14 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": false,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -5615,7 +5643,14 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "cost": 5,
+          "impassable": false,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -5637,7 +5672,14 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "cost": 5,
+          "impassable": false,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -5692,7 +5734,14 @@
       "width": 128,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": false,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -6708,10 +6757,10 @@
       "effects": [],
       "behaviors": [
         {
+          "maxSpeed": 130,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "allowDiagonals": false,
-          "maxSpeed": 100,
           "rotateObject": false,
           "acceleration": 400,
           "angleOffset": 0,
@@ -8871,6 +8920,49 @@
       "comment": "Customer Setup"
     },
     {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Customer1",
+            "Pathfinding",
+            "",
+            "621",
+            "335"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Customer2",
+            "Pathfinding",
+            "",
+            "621",
+            "335"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Customer3",
+            "Pathfinding",
+            "",
+            "621",
+            "335"
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -9738,7 +9830,7 @@
             "",
             "pouring-coffee-6743.mp3",
             "",
-            "20",
+            "25",
             ""
           ]
         }
@@ -9776,7 +9868,7 @@
           },
           "parameters": [
             "Player",
-            "microwave",
+            "bakery",
             "75",
             ""
           ]
@@ -9873,7 +9965,7 @@
             "",
             "plateSound.mp3",
             "",
-            "20",
+            "25",
             ""
           ]
         }
@@ -9955,6 +10047,15 @@
             },
             {
               "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c1S\"",
+                "False"
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -10029,6 +10130,15 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c2S\"",
+                "False"
+              ]
             }
           ],
           "actions": [
@@ -10093,6 +10203,15 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c3S\"",
+                "False"
               ]
             },
             {
@@ -10162,7 +10281,7 @@
             "",
             "cash-register-purchase-87313.mp3",
             "",
-            "20",
+            "25",
             ""
           ]
         }
@@ -10215,7 +10334,7 @@
             "",
             "cash-register-purchase-87313.mp3",
             "",
-            "20",
+            "25",
             ""
           ]
         }
@@ -10242,13 +10361,84 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "For when a level is completed, show summary, and moves on to next level after player closes summary (for beta)"
+      "comment": "For when a level is completed, show summary, and moves on to next level after player closes summary"
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c1S\"",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c2S\"",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c3S\"",
+                "True"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"week1Summary\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"Week2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Week 2\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "layers": [

@@ -2,7 +2,7 @@
 	{
 		"title": "Tutorial",
 		"tags": "",
-		"body": "Hello! Press \"z\" to go to the next dialogue line and/or to choose an option.\nPress \"x\" to make text scroll faster.\nUse the arrow keys to move around.\nUse the \"Up\" and \"Down\" arrow keys to browse through the options.\nPress \"e\" to interact with appliances and customers!\nGood luck!",
+		"body": "Hello! Press \"z\" to go to the next dialogue line and/or to choose an option.\nHold \"x\" to make text scroll faster.\nUse the arrow keys to move around.\nUse the \"Up\" and \"Down\" arrow keys to browse through the options.\nPress \"e\" to interact with appliances and customers!\nGood luck! << set $c1S to false >>  << set $c2S to false >> << set $c3S to false >>",
 		"position": {
 			"x": 498,
 			"y": 294
@@ -14,8 +14,8 @@
 		"tags": "",
 		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee1]] [[ Sure thing! |thanks1]]",
 		"position": {
-			"x": 496,
-			"y": 763
+			"x": 494,
+			"y": 761
 		},
 		"colorID": 0
 	},
@@ -102,7 +102,7 @@
 	{
 		"title": "giveCake2",
 		"tags": "",
-		"body": "<<if $cake == true>> \n<<removeCake>>\nThank you for the cake! \n<<else>>\nIt seems like you didn't bring any cake with you.\n<<endif>>",
+		"body": "<<if $cake == true>> \n<<removeCake>>\n<< set $c2S to true >>\nThank you for the cake! \n<<else>>\nIt seems like you didn't bring any cake with you.\n<<endif>>",
 		"position": {
 			"x": 1379,
 			"y": 274
@@ -132,7 +132,7 @@
 	{
 		"title": "giveCoffee3",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\nThank you for the coffee!   \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c3S to true >>\nThank you for the coffee!   \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
 		"position": {
 			"x": 1416,
 			"y": -427
@@ -152,7 +152,7 @@
 	{
 		"title": "giveCoffee1",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c1S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
 		"position": {
 			"x": 804,
 			"y": 762
@@ -166,6 +166,66 @@
 		"position": {
 			"x": 183,
 			"y": 236
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Week2intro",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -77,
+			"y": 761
+		},
+		"colorID": 0
+	},
+	{
+		"title": "introTutorial",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 497,
+			"y": -19
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Week4intro",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -681,
+			"y": 753
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Week3intro",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -366,
+			"y": 759
+		},
+		"colorID": 0
+	},
+	{
+		"title": "week1Summary",
+		"tags": "",
+		"body": "I was able to complete this week.\nI wonder if I can save this cafe.\n[[ Go to next week |week2Load]]",
+		"position": {
+			"x": 191,
+			"y": 763
+		},
+		"colorID": 0
+	},
+	{
+		"title": "week2Load",
+		"tags": "",
+		"body": "Fast Forwarding to next week...\n<<Week2>>",
+		"position": {
+			"x": 194,
+			"y": 1055
 		},
 		"colorID": 0
 	}
