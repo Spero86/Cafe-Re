@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2952916551237823,
+    "zoomFactor": 0.5653158055127186,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1499,7 +1499,7 @@
       "name": "plated_cake",
       "persistentUuid": "21524e4a-2393-46f4-9062-c16d7c6c5f8a",
       "width": 0,
-      "x": 429,
+      "x": 516,
       "y": 273,
       "zOrder": 117,
       "numberProperties": [],
@@ -1813,11 +1813,11 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 60,
+      "height": 91,
       "layer": "Collision",
       "name": "Collision_detect",
       "persistentUuid": "ad4a7f8b-b1cc-4476-84b9-3f89adf9687b",
-      "width": 125,
+      "width": 135,
       "x": 163,
       "y": 325,
       "zOrder": 132,
@@ -1845,7 +1845,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 204,
+      "height": 211,
       "layer": "Dialogue",
       "name": "Text_box",
       "persistentUuid": "af91baeb-579d-4859-8373-e8e7d1f0f6a7",
@@ -4662,7 +4662,7 @@
       "name": "shadow_tile",
       "persistentUuid": "5b5125c7-0f80-4bc9-9568-af488d50a04d",
       "width": 3,
-      "x": 445,
+      "x": 532,
       "y": 326,
       "zOrder": 169,
       "numberProperties": [],
@@ -4678,7 +4678,7 @@
       "name": "shadow_tile",
       "persistentUuid": "4c68ea85-a530-41f1-8d69-dc0b74cc846a",
       "width": 24,
-      "x": 448,
+      "x": 535,
       "y": 317,
       "zOrder": 168,
       "numberProperties": [],
@@ -4694,7 +4694,7 @@
       "name": "shadow_tile",
       "persistentUuid": "33c1050a-d2d6-4eda-a853-09d8cefd27c8",
       "width": 3,
-      "x": 442,
+      "x": 529,
       "y": 323,
       "zOrder": 169,
       "numberProperties": [],
@@ -4710,7 +4710,7 @@
       "name": "shadow_tile",
       "persistentUuid": "b8852f12-18cd-4a8a-8c57-0d8da7b7eaf5",
       "width": 3,
-      "x": 475,
+      "x": 562,
       "y": 323,
       "zOrder": 169,
       "numberProperties": [],
@@ -4726,7 +4726,7 @@
       "name": "shadow_tile",
       "persistentUuid": "0524dead-3b39-4edc-a329-89fb3ace6499",
       "width": 3,
-      "x": 472,
+      "x": 559,
       "y": 326,
       "zOrder": 169,
       "numberProperties": [],
@@ -5530,6 +5530,240 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Items",
+      "name": "green_tea",
+      "persistentUuid": "eb4f315c-ba1e-425f-8beb-84753f6682ec",
+      "width": 0,
+      "x": 444,
+      "y": 266,
+      "zOrder": 197,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "inventory_box",
+      "persistentUuid": "537d24a7-b023-41bc-bc90-f1d560d1f3a7",
+      "width": 0,
+      "x": 29,
+      "y": 616,
+      "zOrder": 204,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "inventory_box",
+      "persistentUuid": "7ab0d6e8-6f30-41ec-b99e-4e1fb8cd9bbb",
+      "width": 0,
+      "x": 120,
+      "y": 616,
+      "zOrder": 205,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "inventory_box",
+      "persistentUuid": "3677f1b5-7cfa-4086-9184-0cbe08fb74af",
+      "width": 0,
+      "x": 214,
+      "y": 616,
+      "zOrder": 206,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "inventory_box",
+      "persistentUuid": "7d9dd3fa-527d-48ab-9886-c1a8d559201b",
+      "width": 0,
+      "x": 308,
+      "y": 616,
+      "zOrder": 207,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "coffee_counter",
+      "persistentUuid": "5e7bb069-baaf-4630-8803-61ce4670b4fa",
+      "width": 0,
+      "x": 87,
+      "y": 622,
+      "zOrder": 212,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 36,
+      "layer": "UI",
+      "name": "coffee2",
+      "persistentUuid": "f4e56a8d-d340-413a-823b-a6c62c268253",
+      "width": 36,
+      "x": 48,
+      "y": 643,
+      "zOrder": 215,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 36,
+      "layer": "UI",
+      "name": "green_tea2",
+      "persistentUuid": "a462e695-bbb9-4639-89ba-8902311d7bc2",
+      "width": 36,
+      "x": 139,
+      "y": 643,
+      "zOrder": 216,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 71,
+      "layer": "UI",
+      "name": "plated_cake1",
+      "persistentUuid": "f4ca68c5-15d1-4c72-99a3-4569076ef836",
+      "width": 71,
+      "x": 217,
+      "y": 616,
+      "zOrder": 217,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 71,
+      "layer": "UI",
+      "name": "plated_donut2",
+      "persistentUuid": "b05ce121-fa85-4b66-b5c1-12708d4b89d6",
+      "width": 71,
+      "x": 312,
+      "y": 615,
+      "zOrder": 218,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3,
+      "layer": "Item Shadows",
+      "name": "shadow_tile",
+      "persistentUuid": "0e6552aa-8998-4f83-91d5-c395be1bad9b",
+      "width": 2,
+      "x": 445,
+      "y": 323,
+      "zOrder": 169,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3,
+      "layer": "Item Shadows",
+      "name": "shadow_tile",
+      "persistentUuid": "22ae0925-724a-47f2-be86-027ef2ee4517",
+      "width": 3,
+      "x": 447,
+      "y": 326,
+      "zOrder": 169,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 15,
+      "layer": "Item Shadows",
+      "name": "shadow_tile",
+      "persistentUuid": "05308074-4ed2-4153-bc70-ca09b9f48960",
+      "width": 21,
+      "x": 450,
+      "y": 317,
+      "zOrder": 168,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3,
+      "layer": "Item Shadows",
+      "name": "shadow_tile",
+      "persistentUuid": "6995d598-4ed2-426d-a90c-8f178b1f9795",
+      "width": 3,
+      "x": 471,
+      "y": 326,
+      "zOrder": 169,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3,
+      "layer": "Item Shadows",
+      "name": "shadow_tile",
+      "persistentUuid": "e4411d42-1a46-4a8a-947c-b86232becd62",
+      "width": 2,
+      "x": 474,
+      "y": 323,
+      "zOrder": 169,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -5913,7 +6147,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite15",
+                  "image": "NewSprite38",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8260,9 +8494,9 @@
     },
     {
       "assetStoreId": "",
-      "height": 204,
+      "height": 208,
       "name": "Text_box",
-      "texture": "New image100",
+      "texture": "New image137",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 521,
       "variables": [],
@@ -8435,7 +8669,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite20",
+                  "image": "NewSprite26",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8471,7 +8705,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite21",
+                  "image": "NewSprite25",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8527,12 +8761,12 @@
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"NewSprite\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAC1JREFUWEft0EERAAAAAUH6lxbDZxU4s815PffjAAECBAgQIECAAAECBAgQIDAaPwAh6O5R/QAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAOxJREFUWEdjZBhgwDjA9jOMOmA0BEZDYDQEBm8IGMhI/6dGKXnhyVO8nsQpOTIdgOzrDfGZJMUAv7AQVvWOfa1wcWzRgRIFI9MBxPj65pPHiOD9+RN71LCzw8VtHC3h7Ne3n8DZAQunY0QH46gDkENgSmAUPIhk+PjhbFFVGTj717tvWKOATYgLq/j5s1fh4jnrl+GPglEHRDqow4PIWtAYzhbk44Oz33/6BGcffX8Wa7D7yDvCxbc83A9nLz9wE38UjEwHIIchco5ADg3kIL3CcIekOqJ94R7y6oKR6QBc0UFSmKMpHm0REQoBAHa0zCEYb6Y9AAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"NewSprite27\"],\"name\":\"NewSprite\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite23",
+                  "image": "NewSprite27",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8548,19 +8782,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0,
                         "y": 11
                       },
                       {
-                        "x": 31,
+                        "x": 30,
                         "y": 11
                       },
                       {
-                        "x": 31,
+                        "x": 30,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 0,
                         "y": 32
                       }
                     ]
@@ -8632,6 +8866,465 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "green_tea",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite28",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 63
+                      },
+                      {
+                        "x": 1,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite29",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 63
+                      },
+                      {
+                        "x": 1,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite30",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 63
+                      },
+                      {
+                        "x": 1,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "coffee2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite35",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 32,
+                        "y": 1
+                      },
+                      {
+                        "x": 32,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "green_tea2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite36",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 32,
+                        "y": 1
+                      },
+                      {
+                        "x": 32,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "inventory_box",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite41",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 78,
+                        "y": 7
+                      },
+                      {
+                        "x": 78,
+                        "y": 80
+                      },
+                      {
+                        "x": 0,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "coffee_counter",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "plated_cake1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite42",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 26
+                      },
+                      {
+                        "x": 49,
+                        "y": 26
+                      },
+                      {
+                        "x": 49,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "plated_donut2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite43",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -8675,6 +9368,9 @@
       },
       {
         "objectName": "counter"
+      },
+      {
+        "objectName": "counter_bottom"
       },
       {
         "objectName": "bakery"
@@ -8734,10 +9430,22 @@
         "objectName": "coffee"
       },
       {
+        "objectName": "coffee2"
+      },
+      {
+        "objectName": "green_tea"
+      },
+      {
+        "objectName": "green_tea2"
+      },
+      {
         "objectName": "cake"
       },
       {
         "objectName": "plated_cake"
+      },
+      {
+        "objectName": "plated_cake1"
       },
       {
         "objectName": "donut"
@@ -8746,7 +9454,13 @@
         "objectName": "plated_donut"
       },
       {
+        "objectName": "plated_donut2"
+      },
+      {
         "objectName": "plant1"
+      },
+      {
+        "objectName": "shadow_tile"
       },
       {
         "objectName": "level_border"
@@ -8755,7 +9469,7 @@
         "objectName": "week_counter"
       },
       {
-        "objectName": "shadow_tile"
+        "objectName": "inventory_box"
       },
       {
         "objectName": "Player"
@@ -8794,7 +9508,7 @@
         "objectName": "BBText"
       },
       {
-        "objectName": "counter_bottom"
+        "objectName": "coffee_counter"
       }
     ]
   },
@@ -10664,7 +11378,7 @@
       "isLocked": false,
       "name": "Collision",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
