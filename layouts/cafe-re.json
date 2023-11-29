@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8141881203711177,
+    "zoomFactor": 0.5117784035210982,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1530,8 +1530,8 @@
       "name": "Customer2",
       "persistentUuid": "8093541c-d1d7-439e-a22b-6daf2e39ac32",
       "width": 76,
-      "x": 605,
-      "y": 838,
+      "x": 972,
+      "y": 217,
       "zOrder": 119,
       "numberProperties": [],
       "stringProperties": [],
@@ -1562,8 +1562,8 @@
       "name": "Customer1",
       "persistentUuid": "adde70d3-f675-4892-8446-c271c11085cc",
       "width": 76,
-      "x": 605,
-      "y": 729,
+      "x": 859,
+      "y": 225,
       "zOrder": 121,
       "numberProperties": [],
       "stringProperties": [],
@@ -1578,8 +1578,8 @@
       "name": "Customer3",
       "persistentUuid": "f00d4ed4-0e8d-4d7f-9e0d-f26be79c2e0e",
       "width": 76,
-      "x": 599,
-      "y": 959,
+      "x": 863,
+      "y": 403,
       "zOrder": 122,
       "numberProperties": [],
       "stringProperties": [],
@@ -9713,88 +9713,9 @@
       "comment": "Customer Setup"
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
-        {
-          "type": {
-            "value": "PathfindingBehavior::SetDestination"
-          },
-          "parameters": [
-            "Customer1",
-            "Pathfinding",
-            "",
-            "621",
-            "335"
-          ]
-        },
-        {
-          "type": {
-            "value": "PathfindingBehavior::SetDestination"
-          },
-          "parameters": [
-            "Customer2",
-            "Pathfinding",
-            "",
-            "621",
-            "335"
-          ]
-        },
-        {
-          "type": {
-            "value": "PathfindingBehavior::SetDestination"
-          },
-          "parameters": [
-            "Customer3",
-            "Pathfinding",
-            "",
-            "621",
-            "335"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "PathfindingBehavior::SetDestination"
-          },
-          "parameters": [
-            "Customer1",
-            "Pathfinding",
-            "",
-            "865",
-            "210"
-          ]
-        },
-        {
-          "type": {
-            "value": "PathfindingBehavior::SetDestination"
-          },
-          "parameters": [
-            "Customer3",
-            "Pathfinding",
-            "",
-            "867",
-            "392"
-          ]
-        },
-        {
-          "type": {
-            "value": "PathfindingBehavior::SetDestination"
-          },
-          "parameters": [
-            "Customer2",
-            "Pathfinding",
-            "=",
-            "979",
-            "210"
-          ]
-        },
         {
           "type": {
             "value": "ModVarObjet"
@@ -11077,6 +10998,15 @@
             "25",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"endChat\""
+          ]
         }
       ]
     },
@@ -11129,6 +11059,15 @@
             "",
             "25",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"endChat\""
           ]
         }
       ]
@@ -11191,6 +11130,23 @@
                 "\"c3S\"",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"endChat\"",
+                ">",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ]
         }
@@ -11201,34 +11157,32 @@
             "value": "DialogueTree::StartDialogueFromBranch"
           },
           "parameters": [
-            "\"week1Summary\""
+            "\"summary1\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"week2\""
           ]
         }
       ],
-      "events": [
+      "actions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsCommandCalled"
-              },
-              "parameters": [
-                "\"Week2\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Week 2\"",
-                ""
-              ]
-            }
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Week 2\"",
+            ""
           ]
         }
       ]
