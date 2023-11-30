@@ -2,17 +2,17 @@
 	{
 		"title": "Tutorial",
 		"tags": "",
-		"body": "Hello! Press \"z\" to go to the next dialogue line and/or to choose an option.\nHold \"x\" to make text scroll faster.\nUse the arrow keys to move around.\nUse the \"Up\" and \"Down\" arrow keys to browse through the options.\nPress \"e\" to interact with appliances and customers!\nGood luck! << set $c1S to false >>  << set $c2S to false >> << set $c3S to false >>",
+		"body": "Can I really do this? I’ve never even held a minimum-wage job before… What if I can’t keep up?\n<< set $c1S to false >>  << set $c2S to false >> << set $c3S to false >>",
 		"position": {
-			"x": 498,
-			"y": 294
+			"x": 497,
+			"y": 293
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Customer1",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee1]] [[ Sure thing! |thanks1]]",
+		"body": "I see there’s a new face around here! It’s been a while since that has happened. The old man always insisted on doing everything himself.\nOne coffee please!\n[[ (Give coffee) |giveCoffee1]] [[ Sure thing! |thanks1]]",
 		"position": {
 			"x": 980,
 			"y": 964
@@ -42,7 +42,7 @@
 	{
 		"title": "Customer3",
 		"tags": "",
-		"body": "Hi!\nJust a coffee for me!\n[[ (Give coffee) |giveCoffee3]] [[ Sure thing! |thanks3]]",
+		"body": "I heard about the news. I’m sorry for your loss… Though I’m happy that you decided to take up the cafe! Your grandfather would’ve been happy to see you keep his life’s work going. \nWith that being said, just a coffee for me!\n[[ (Give coffee) |giveCoffee3]] [[ Sure thing! |thanks3]]",
 		"position": {
 			"x": 984,
 			"y": -179
@@ -52,7 +52,7 @@
 	{
 		"title": "Customer2",
 		"tags": "",
-		"body": "Hi!\nI would like a cake please!\n[[ (Give cake) |giveCake2]] [[ Sure thing! |thanks2]]",
+		"body": "I love the aesthetic here but I wish there were more pastry options… \nI would like a cake please!\n[[ (Give cake) |giveCake2]] [[ Sure thing! |thanks2]]",
 		"position": {
 			"x": 947,
 			"y": 268
@@ -172,7 +172,7 @@
 	{
 		"title": "Week2intro",
 		"tags": "",
-		"body": "New week, new me!\nShould be another easy week.\n<< set $c4S to false >>  << set $c5S to false >> << set $c6S to false >> << set $c7S to false >>  << set $c8S to false >> << set $c9S to false >>",
+		"body": "Hopefully it's just like last week.\n<< set $c4S to false >>  << set $c5S to false >> << set $c6S to false >> << set $c7S to false >>  << set $c8S to false >> << set $c9S to false >>",
 		"position": {
 			"x": 198,
 			"y": 1348
@@ -185,16 +185,16 @@
 		"body": "Hello! (Press \"z\" to go to next dialogue line and/or choose an option)\nHold \"x\" to make text scroll faster.\nUse arrow keys to move around.\nPress \"e\" to interact with objects and customers.\nAnd thats pretty much it! Welcome to the game!\n [[Answer:introLore|introLore]]",
 		"position": {
 			"x": 498,
-			"y": -21
+			"y": -22
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Week4intro",
 		"tags": "",
-		"body": "Last week was another busy week.\nWhile I do appreciate the influx of customers and their satisfaction, it is challenging to complete all of the orders.\nMaybe it's just the way it is.\nTime to start another week.\n<< set $c22S to false >>  << set $c23S to false >> << set $c24S to false >> << set $c25S to false >>  << set $c26S to false >> << set $c27S to false >> << set $c28S to false >>  << set $c29S to false >> << set $c30S to false >> << set $c31S to false >>  << set $c32S to false >> << set $c33S to false >> << set $c35S to false >> << set $c36S to false >> << set $c37S to false >>",
+		"body": "It’s been weeks and I feel like I’m not getting enough done. Sometimes I wonder if this is really what Grandpa wanted for me. He must’ve had higher expectations of me.\n<< set $c22S to false >>  << set $c23S to false >> << set $c24S to false >> << set $c25S to false >>  << set $c26S to false >> << set $c27S to false >> << set $c28S to false >>  << set $c29S to false >> << set $c30S to false >> << set $c31S to false >>  << set $c32S to false >> << set $c33S to false >> << set $c35S to false >> << set $c36S to false >> << set $c37S to false >>",
 		"position": {
-			"x": -426,
+			"x": -427,
 			"y": 1349
 		},
 		"colorID": 0
@@ -202,17 +202,17 @@
 	{
 		"title": "Week3intro",
 		"tags": "",
-		"body": "Maybe it was just a busy week last week.\nHopefully this week should be more relaxed.\n<< set $c10S to false >>  << set $c11S to false >> << set $c12S to false >> << set $c13S to false >>  << set $c14S to false >> << set $c15S to false >> << set $c16S to false >>  << set $c17S to false >> << set $c18S to false >> << set $c19S to false >>  << set $c20S to false >> << set $c21S to false >>",
+		"body": "Another week.\n<< set $c10S to false >>  << set $c11S to false >> << set $c12S to false >> << set $c13S to false >>  << set $c14S to false >> << set $c15S to false >> << set $c16S to false >>  << set $c17S to false >> << set $c18S to false >> << set $c19S to false >>  << set $c20S to false >> << set $c21S to false >>",
 		"position": {
-			"x": -85,
-			"y": 1349
+			"x": -87,
+			"y": 1348
 		},
 		"colorID": 0
 	},
 	{
 		"title": "summary1",
 		"tags": "",
-		"body": "I was able to complete this week.\nI wonder if I can save this cafe.\n(Unlocked donuts!)\n<<week2>>\n[[ Go to next week |week2Load]]",
+		"body": "That wasn't so bad.\n(Unlocked donuts!)\n<<week2>>\n[[ Go to next week |week2Load]]",
 		"position": {
 			"x": 185,
 			"y": 740
@@ -242,7 +242,7 @@
 	{
 		"title": "summary3",
 		"tags": "",
-		"body": "Maybe managing a cafe isn't for me...\nIt was just a pipe dream after all...\n<<week4>>\n[[ Go to next week |week4Load]]",
+		"body": "This is getting so exhausting. This cafe was meant to be my grandfather’s dream, not mine. Should I just give up and sell it? But then I’d let him and our customers down… \n<<week4>>\n[[ Go to next week |week4Load]]",
 		"position": {
 			"x": -426,
 			"y": 751
@@ -252,7 +252,7 @@
 	{
 		"title": "summary2",
 		"tags": "",
-		"body": "That was a bit more work.\nSurely I can save this cafe... right?\n(Unlocked tea!)\n<<week3>>\n[[ Go to next week |week3Load]]",
+		"body": "There are so many things to do! How can I make time to think about improving this old place when I’m always busy with customers? How did Grandpa do this all by himself?!\n(Unlocked tea!)\n<<week3>>\n[[ Go to next week |week3Load]]",
 		"position": {
 			"x": -95,
 			"y": 743
@@ -292,7 +292,7 @@
 	{
 		"title": "endingChoices",
 		"tags": "",
-		"body": "After working for some time, i've decided to...",
+		"body": "Weeks pass and you slowly begin to develop a routine. It’s starting to feel a lot easier and your customer base is growing steadily.\nThe cafe is no longer being overshadowed by its competitors. Your customers love the changes you’ve made.\nYou still have feelings of self-doubt from time to time but you’re feeling more confident in your skills now! Grandpa would’ve been proud of you. :)\nEnding achieved!!!",
 		"position": {
 			"x": -745,
 			"y": 1342
@@ -352,7 +352,7 @@
 	{
 		"title": "Customer8",
 		"tags": "",
-		"body": "One cake please!\n[[ (Give cake) |giveCake8]] [[ Sure thing! |thanks8]]",
+		"body": "I didn’t know this place was still open. When I heard that the owner had passed, I thought it would shut down. I’m glad to see it’s still going, I’ve been coming here ever since I was a kid.\nOne cake please!\n[[ (Give cake) |giveCake8]] [[ Sure thing! |thanks8]]",
 		"position": {
 			"x": 2160,
 			"y": 2054
@@ -652,7 +652,7 @@
 	{
 		"title": "Customer10",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee10]] [[ Sure thing! |thanks10]]",
+		"body": "I’ve missed the coffee here so much! I know it’s only been a week but coming here every morning has become part of my daily routine.\nOne coffee please!\n[[ (Give coffee) |giveCoffee10]] [[ Sure thing! |thanks10]]",
 		"position": {
 			"x": 3723,
 			"y": -413
@@ -1342,7 +1342,7 @@
 	{
 		"title": "summary0",
 		"tags": "",
-		"body": "Just organized the cafe, time to start anew!\n<<week1>>\n[[Answer:week1Load|week1Load]]",
+		"body": "Maybe it’s worth trying to save. Do you think you can keep up?\n<<week1>>\n[[Answer:week1Load|week1Load]]",
 		"position": {
 			"x": 489,
 			"y": -510
@@ -1372,7 +1372,7 @@
 	{
 		"title": "drinkChoices2",
 		"tags": "",
-		"body": "What drink would you like to make?\n[[ Coffee |coffeeMade2]] [[ Green tea |teaMade2]] [[ Never mind |No2]]",
+		"body": "What drink would you like to make?\n[[ Coffee |coffeeMade2]] [[ Never mind |No2]]",
 		"position": {
 			"x": -395,
 			"y": -726
@@ -1532,7 +1532,7 @@
 	{
 		"title": "introLore",
 		"tags": "",
-		"body": "You just inherited a cafe!\nBefore you can re-open, you must first organize and clean the cafe!\nGo near the plates, cups, in order to organize/clean them!\nGood Luck!",
+		"body": "You inherit a cafe from your late grandfather and are tasked with reviving it.\nIt’s an old but classic cafe. The furniture, decorations, and menu items haven’t been changed at all since it first opened.\nAt first glance, everything seems fine but your customer base is slowly dwindling down. \nIt used to have such loyal customers but they’ve grown tired of the same thing over and over again. \nIt’s difficult to compete with the newer, trendier cafes. You could’ve just given up and sold the place but it’s been in the family for decades.\nIt’d be a shame to lose it… There are still quite a few regulars who would hate to see this place go.\nYou should probably organize/clean the place first. (Go near the cups and plates to organize/clean them!)",
 		"position": {
 			"x": 494,
 			"y": -261
