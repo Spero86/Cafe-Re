@@ -18706,6 +18706,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -19597,6 +19598,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -19969,15 +19971,6 @@
               },
               "parameters": [
                 "\"c33S\"",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
-              },
-              "parameters": [
-                "\"c34S\"",
                 "True"
               ]
             },
