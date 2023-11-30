@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4789341884536002,
+    "zoomFactor": 0.37971210019485313,
     "windowMask": false
   },
   "objectsGroups": [
@@ -5796,6 +5796,198 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 82,
+      "layer": "Humans",
+      "name": "Customer10",
+      "persistentUuid": "d63af668-f7d6-433f-87ad-2b4bca4426e0",
+      "width": 76,
+      "x": 661,
+      "y": 231,
+      "zOrder": 208,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 82,
+      "layer": "Humans",
+      "name": "Customer11",
+      "persistentUuid": "f8d22047-cf7d-484e-9676-41f697bf8a02",
+      "width": 76,
+      "x": 864,
+      "y": 226,
+      "zOrder": 209,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 82,
+      "layer": "Humans",
+      "name": "Customer12",
+      "persistentUuid": "cb3bb174-2fd1-47ba-b634-3a2229d0d452",
+      "width": 76,
+      "x": 973,
+      "y": 391,
+      "zOrder": 210,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 82,
+      "layer": "Humans",
+      "name": "Customer13",
+      "persistentUuid": "76a000cd-ff2b-482b-91af-e5cf22a14b50",
+      "width": 76,
+      "x": 1086,
+      "y": 467,
+      "zOrder": 211,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 82,
+      "layer": "Humans",
+      "name": "Customer14",
+      "persistentUuid": "831d36f1-45ad-4107-b4fa-5a11a8f2d406",
+      "width": 76,
+      "x": 769,
+      "y": 457,
+      "zOrder": 212,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 82,
+      "layer": "Humans",
+      "name": "Customer15",
+      "persistentUuid": "90df684b-4018-438f-90b2-2be089ab1af3",
+      "width": 76,
+      "x": 972,
+      "y": 218,
+      "zOrder": 213,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 82,
+      "layer": "Humans",
+      "name": "Customer16",
+      "persistentUuid": "be342922-e508-401e-b8f1-3050617140f2",
+      "width": 76,
+      "x": 762,
+      "y": 284,
+      "zOrder": 214,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 82,
+      "layer": "Humans",
+      "name": "Customer17",
+      "persistentUuid": "ea7ce644-0b4d-4e92-ad67-35d8f9de6735",
+      "width": 76,
+      "x": 860,
+      "y": 402,
+      "zOrder": 215,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 82,
+      "layer": "Humans",
+      "name": "Customer18",
+      "persistentUuid": "67a46c93-c9eb-46f8-a391-e2a18dacf9ed",
+      "width": 76,
+      "x": 865,
+      "y": 222,
+      "zOrder": 216,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 82,
+      "layer": "Humans",
+      "name": "Customer19",
+      "persistentUuid": "6ab3ada4-0509-4e89-aff9-d92fe9ff9af7",
+      "width": 76,
+      "x": 655,
+      "y": 241,
+      "zOrder": 217,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 82,
+      "layer": "Humans",
+      "name": "Customer20",
+      "persistentUuid": "c0e7a11c-3b23-4a46-a9e3-7743d89a1bda",
+      "width": 76,
+      "x": 971,
+      "y": 391,
+      "zOrder": 218,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 82,
+      "layer": "Humans",
+      "name": "Customer21",
+      "persistentUuid": "5e06f5c8-eb6d-475f-a14a-43e72166c6ca",
+      "width": 76,
+      "x": 771,
+      "y": 471,
+      "zOrder": 219,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -6509,7 +6701,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Week 2",
+      "string": "Week 3",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
       "characterSize": 32,
@@ -6529,9 +6721,9 @@
       "effects": [],
       "behaviors": [
         {
+          "maxSpeed": 150,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "maxSpeed": 130,
           "allowDiagonals": false,
           "rotateObject": false,
           "acceleration": 400,
@@ -7888,7 +8080,24 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": false,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 200,
+          "name": "Pathfinding",
+          "rotateObject": false,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "Walking Down",
@@ -14076,6 +14285,114 @@
         },
         {
           "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "green_tea2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "coffee2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "donut2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "cake2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Customer18"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Customer19"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Customer20"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Customer21"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Customer18",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Customer19",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Customer20",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Customer21",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
             "value": "DialogueTree::LoadDialogueFromJsonFile"
           },
           "parameters": [
@@ -14146,48 +14463,12 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Customer Setup"
+      "comment": "For Later"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
-        {
-          "type": {
-            "value": "PathfindingBehavior::SetDestination"
-          },
-          "parameters": [
-            "Customer1",
-            "Pathfinding",
-            "",
-            "865",
-            "210"
-          ]
-        },
-        {
-          "type": {
-            "value": "PathfindingBehavior::SetDestination"
-          },
-          "parameters": [
-            "Customer3",
-            "Pathfinding",
-            "",
-            "867",
-            "392"
-          ]
-        },
-        {
-          "type": {
-            "value": "PathfindingBehavior::SetDestination"
-          },
-          "parameters": [
-            "Customer2",
-            "Pathfinding",
-            "=",
-            "979",
-            "210"
-          ]
-        },
         {
           "type": {
             "value": "ModVarObjet"
@@ -14217,6 +14498,17 @@
           "parameters": [
             "donut",
             "donut",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "green_tea",
+            "green_tea",
             "=",
             "0"
           ]
@@ -14903,7 +15195,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Make_Coffee",
+      "name": "Make_Drinks",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [],
@@ -15028,6 +15320,77 @@
             "pouring-coffee-6743.mp3",
             "",
             "25",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "coffee2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"greenTea\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "green_tea",
+            "green_tea",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetBooleanVariable"
+          },
+          "parameters": [
+            "\"greenTea\"",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "pouring-coffee-6743.mp3",
+            "",
+            "25",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "green_tea2",
             ""
           ]
         }
@@ -15165,6 +15528,15 @@
             "25",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "cake2",
+            ""
+          ]
         }
       ]
     },
@@ -15218,6 +15590,15 @@
             "25",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "donut2",
+            ""
+          ]
         }
       ]
     },
@@ -15253,7 +15634,7 @@
           },
           "parameters": [
             "Player",
-            "Customer1",
+            "Customer10",
             "100",
             ""
           ]
@@ -15289,7 +15670,7 @@
               },
               "parameters": [
                 "Player",
-                "Customer1",
+                "Customer10",
                 "",
                 "",
                 ""
@@ -15300,8 +15681,16 @@
                 "value": "DialogueTree::CompareDialogueStateBooleanVariable"
               },
               "parameters": [
-                "\"c4S\"",
+                "\"c10S\"",
                 "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Customer10"
               ]
             },
             {
@@ -15317,7 +15706,7 @@
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
-                "\"Customer4\""
+                "\"Customer10\""
               ]
             }
           ]
@@ -15333,7 +15722,7 @@
           },
           "parameters": [
             "Player",
-            "Customer2",
+            "Customer11",
             "100",
             ""
           ]
@@ -15369,7 +15758,7 @@
               },
               "parameters": [
                 "Player",
-                "Customer2",
+                "Customer11",
                 "",
                 "",
                 ""
@@ -15377,18 +15766,26 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
                 "value": "DialogueTree::CompareDialogueStateBooleanVariable"
               },
               "parameters": [
-                "\"c5S\"",
+                "\"c11S\"",
                 "False"
               ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Customer11"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -15397,7 +15794,7 @@
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
-                "\"Customer5\""
+                "\"Customer11\""
               ]
             }
           ]
@@ -15413,7 +15810,7 @@
           },
           "parameters": [
             "Player",
-            "Customer3",
+            "Customer12",
             "100",
             ""
           ]
@@ -15449,7 +15846,7 @@
               },
               "parameters": [
                 "Player",
-                "Customer3",
+                "Customer12",
                 "",
                 "",
                 ""
@@ -15460,8 +15857,16 @@
                 "value": "DialogueTree::CompareDialogueStateBooleanVariable"
               },
               "parameters": [
-                "\"c6S\"",
+                "\"c12S\"",
                 "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Customer12"
               ]
             },
             {
@@ -15477,7 +15882,7 @@
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
-                "\"Customer6\""
+                "\"Customer12\""
               ]
             }
           ]
@@ -15493,7 +15898,7 @@
           },
           "parameters": [
             "Player",
-            "Customer3",
+            "Customer13",
             "100",
             ""
           ]
@@ -15529,7 +15934,7 @@
               },
               "parameters": [
                 "Player",
-                "Customer3",
+                "Customer13",
                 "",
                 "",
                 ""
@@ -15540,7 +15945,7 @@
                 "value": "DialogueTree::CompareDialogueStateBooleanVariable"
               },
               "parameters": [
-                "\"c7S\"",
+                "\"c13S\"",
                 "False"
               ]
             },
@@ -15557,7 +15962,7 @@
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
-                "\"Customer7\""
+                "\"Customer13\""
               ]
             }
           ]
@@ -15573,7 +15978,7 @@
           },
           "parameters": [
             "Player",
-            "Customer3",
+            "Customer14",
             "100",
             ""
           ]
@@ -15609,7 +16014,7 @@
               },
               "parameters": [
                 "Player",
-                "Customer3",
+                "Customer14",
                 "",
                 "",
                 ""
@@ -15620,8 +16025,16 @@
                 "value": "DialogueTree::CompareDialogueStateBooleanVariable"
               },
               "parameters": [
-                "\"c8S\"",
+                "\"c14S\"",
                 "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Customer14"
               ]
             },
             {
@@ -15637,7 +16050,7 @@
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
-                "\"Customer8\""
+                "\"Customer14\""
               ]
             }
           ]
@@ -15653,7 +16066,7 @@
           },
           "parameters": [
             "Player",
-            "Customer3",
+            "Customer15",
             "100",
             ""
           ]
@@ -15689,7 +16102,7 @@
               },
               "parameters": [
                 "Player",
-                "Customer3",
+                "Customer15",
                 "",
                 "",
                 ""
@@ -15700,7 +16113,7 @@
                 "value": "DialogueTree::CompareDialogueStateBooleanVariable"
               },
               "parameters": [
-                "\"c9S\"",
+                "\"c15S\"",
                 "False"
               ]
             },
@@ -15717,7 +16130,519 @@
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
-                "\"Customer9\""
+                "\"Customer15\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "Customer16",
+            "100",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "E_3",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Customer16",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c16S\"",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"Customer16\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "Customer17",
+            "100",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "E_3",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Customer17",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c17S\"",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"Customer17\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "Customer18",
+            "100",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "E_3",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Customer18",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Customer18"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c18S\"",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"Customer18\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "Customer19",
+            "100",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "E_3",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Customer19",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c19S\"",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Customer19"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"Customer19\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "Customer20",
+            "100",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "E_3",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Customer20",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Customer20"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c20S\"",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"Customer20\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "Customer21",
+            "100",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "E_3",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Customer21",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Customer21"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c21S\"",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"Customer21\""
               ]
             }
           ]
@@ -15783,6 +16708,14 @@
             "",
             "\"endChat\""
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "coffee2"
+          ]
         }
       ]
     },
@@ -15844,6 +16777,14 @@
           "parameters": [
             "",
             "\"endChat\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "cake2"
           ]
         }
       ]
@@ -15907,6 +16848,343 @@
             "",
             "\"endChat\""
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "donut2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"removeTea\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "green_tea",
+            "green_tea",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetBooleanVariable"
+          },
+          "parameters": [
+            "\"greenTea\"",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "cash-register-purchase-87313.mp3",
+            "",
+            "25",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"endChat\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "green_tea2"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Customer Fade in and Fade Out",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "When a customer's order is completed, they fade out, allowing a new customer to sit and have their order completed"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+          },
+          "parameters": [
+            "\"c10S\"",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Customer10",
+            "Opacity",
+            "=",
+            "lerp(Customer10.Opacity(), 0, 0.02)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Customer19",
+            "Opacity",
+            "=",
+            "lerp(Customer19.Opacity(), 255, 0.02)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Customer10",
+            "Pathfinding",
+            "",
+            "625",
+            "585"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Customer19",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+          },
+          "parameters": [
+            "\"c11S\"",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Customer11",
+            "Opacity",
+            "=",
+            "lerp(Customer11.Opacity(), 0, 0.02)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Customer18",
+            "Opacity",
+            "=",
+            "lerp(Customer18.Opacity(), 255, 0.02)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Customer11",
+            "Pathfinding",
+            "",
+            "625",
+            "585"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Customer18",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+          },
+          "parameters": [
+            "\"c12S\"",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Customer12",
+            "Opacity",
+            "=",
+            "lerp(Customer12.Opacity(), 0, 0.02)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Customer20",
+            "Opacity",
+            "=",
+            "lerp(Customer20.Opacity(), 255, 0.02)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Customer12",
+            "Pathfinding",
+            "",
+            "625",
+            "585"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Customer20",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+          },
+          "parameters": [
+            "\"c14S\"",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Customer14",
+            "Opacity",
+            "=",
+            "lerp(Customer14.Opacity(), 0, 0.02)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Customer21",
+            "Opacity",
+            "=",
+            "lerp(Customer21.Opacity(), 255, 0.02)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Customer14",
+            "Pathfinding",
+            "",
+            "625",
+            "585"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Customer21",
+            ""
+          ]
         }
       ]
     },
@@ -15947,7 +17225,7 @@
                 "value": "DialogueTree::CompareDialogueStateBooleanVariable"
               },
               "parameters": [
-                "\"c1S\"",
+                "\"c10S\"",
                 "True"
               ]
             },
@@ -15956,7 +17234,7 @@
                 "value": "DialogueTree::CompareDialogueStateBooleanVariable"
               },
               "parameters": [
-                "\"c2S\"",
+                "\"c11S\"",
                 "True"
               ]
             },
@@ -15965,7 +17243,88 @@
                 "value": "DialogueTree::CompareDialogueStateBooleanVariable"
               },
               "parameters": [
-                "\"c3S\"",
+                "\"c12S\"",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c13S\"",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c14S\"",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c15S\"",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c16S\"",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c17S\"",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c18S\"",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c19S\"",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c20S\"",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"c21S\"",
                 "True"
               ]
             },
@@ -15995,7 +17354,7 @@
             "value": "DialogueTree::StartDialogueFromBranch"
           },
           "parameters": [
-            "\"summary2\""
+            "\"summary3\""
           ]
         }
       ]
@@ -16008,7 +17367,7 @@
             "value": "DialogueTree::IsCommandCalled"
           },
           "parameters": [
-            "\"week3\""
+            "\"week4\""
           ]
         }
       ],
@@ -16019,7 +17378,7 @@
           },
           "parameters": [
             "",
-            "\"Week 2\"",
+            "\"Week 4\"",
             ""
           ]
         }
@@ -16328,7 +17687,7 @@
       "isLocked": false,
       "name": "Dialogue",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

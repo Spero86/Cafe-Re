@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5117784035210982,
+    "zoomFactor": 0.5653158055127205,
     "windowMask": false
   },
   "objectsGroups": [
@@ -7006,9 +7006,9 @@
       "effects": [],
       "behaviors": [
         {
+          "maxSpeed": 150,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "maxSpeed": 130,
           "allowDiagonals": false,
           "rotateObject": false,
           "acceleration": 400,
@@ -9640,6 +9640,38 @@
         },
         {
           "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "cake2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "donut2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "green_tea2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "coffee2"
+          ]
+        },
+        {
+          "type": {
             "value": "DialogueTree::LoadDialogueFromJsonFile"
           },
           "parameters": [
@@ -9710,7 +9742,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Customer Setup"
+      "comment": "For later"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -10547,6 +10579,15 @@
             "25",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "coffee2",
+            ""
+          ]
         }
       ]
     },
@@ -10680,6 +10721,15 @@
             "plateSound.mp3",
             "",
             "25",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "cake2",
             ""
           ]
         }
@@ -11007,6 +11057,14 @@
             "",
             "\"endChat\""
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "coffee2"
+          ]
         }
       ]
     },
@@ -11068,6 +11126,14 @@
           "parameters": [
             "",
             "\"endChat\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "cake2"
           ]
         }
       ]

@@ -62,7 +62,7 @@
 	{
 		"title": "cakeMade",
 		"tags": "",
-		"body": "<<Cake>>\nYou made cake!  +1 cake",
+		"body": "<<Cake>>\nYou made cake!",
 		"position": {
 			"x": -682,
 			"y": 444
@@ -82,10 +82,10 @@
 	{
 		"title": "coffeeMade",
 		"tags": "",
-		"body": "<<Coffee>>  \nYou made coffee!    +1 coffee",
+		"body": "<<Coffee>>  \nYou made coffee!",
 		"position": {
 			"x": -675,
-			"y": 26
+			"y": 23
 		},
 		"colorID": 0
 	},
@@ -172,10 +172,10 @@
 	{
 		"title": "Week2intro",
 		"tags": "",
-		"body": "New week, new me!\nShould be another easy week.",
+		"body": "New week, new me!\nShould be another easy week.\n<< set $c4S to false >>  << set $c5S to false >> << set $c6S to false >> << set $c7S to false >>  << set $c8S to false >> << set $c9S to false >>",
 		"position": {
-			"x": 199,
-			"y": 1349
+			"x": 198,
+			"y": 1348
 		},
 		"colorID": 0
 	},
@@ -192,7 +192,7 @@
 	{
 		"title": "Week4intro",
 		"tags": "",
-		"body": "Last week was another busy week.\nWhile I do appreciate the influx of customers and their satisfaction, it is challenging to complete all of the orders.\nMaybe it's just the way it is.\nTime to start another week.",
+		"body": "Last week was another busy week.\nWhile I do appreciate the influx of customers and their satisfaction, it is challenging to complete all of the orders.\nMaybe it's just the way it is.\nTime to start another week.\n<< set $c22S to false >>  << set $c23S to false >> << set $c24S to false >> << set $c25S to false >>  << set $c26S to false >> << set $c27S to false >> << set $c28S to false >>  << set $c29S to false >> << set $c30S to false >> << set $c31S to false >>  << set $c32S to false >> << set $c33S to false >> << set $c35S to false >> << set $c36S to false >> << set $c37S to false >>",
 		"position": {
 			"x": -426,
 			"y": 1349
@@ -202,10 +202,10 @@
 	{
 		"title": "Week3intro",
 		"tags": "",
-		"body": "Maybe it was just a busy week last week.\nHopefully this week should be more relaxed.",
+		"body": "Maybe it was just a busy week last week.\nHopefully this week should be more relaxed.\n<< set $c10S to false >>  << set $c11S to false >> << set $c12S to false >> << set $c13S to false >>  << set $c14S to false >> << set $c15S to false >> << set $c16S to false >>  << set $c17S to false >> << set $c18S to false >> << set $c19S to false >>  << set $c20S to false >> << set $c21S to false >>",
 		"position": {
 			"x": -85,
-			"y": 1350
+			"y": 1349
 		},
 		"colorID": 0
 	},
@@ -292,7 +292,7 @@
 	{
 		"title": "endingChoices",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "After working for some time, i've decided to...",
 		"position": {
 			"x": -745,
 			"y": 1342
@@ -322,7 +322,7 @@
 	{
 		"title": "Customer5",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee5]] [[ Sure thing! |thanks5]]",
+		"body": "One cake please!\n[[ (Give cake) |giveCake5]] [[ Sure thing! |thanks5]]",
 		"position": {
 			"x": 2141,
 			"y": 213
@@ -330,9 +330,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee5",
+		"title": "giveCake5",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c5S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $cake == true>> \n<<removeCoffee>>\n<< set $c5S to true >>\nThank you for the cake!  \n<<else>>\nIt seems like you didn't bring any cake with you.\n<<endif>>",
 		"position": {
 			"x": 2451,
 			"y": 214
@@ -352,7 +352,7 @@
 	{
 		"title": "Customer8",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee8]] [[ Sure thing! |thanks8]]",
+		"body": "One cake please!\n[[ (Give cake) |giveCake8]] [[ Sure thing! |thanks8]]",
 		"position": {
 			"x": 2160,
 			"y": 2054
@@ -360,12 +360,12 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee8",
+		"title": "giveCake8",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c8S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $cake == true>> \n<<removeCake>>\n<< set $c8S to true >>\nThank you for the cake!  \n<<else>>\nIt seems like you didn't bring any cake with you.\n<<endif>>",
 		"position": {
-			"x": 2470,
-			"y": 2055
+			"x": 2469,
+			"y": 2054
 		},
 		"colorID": 0
 	},
@@ -382,17 +382,17 @@
 	{
 		"title": "Customer4",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee4]] [[ Sure thing! |thanks4]]",
+		"body": "One donut please!\n[[ (Give donut) |giveDonut4]] [[ Sure thing! |thanks4]]",
 		"position": {
-			"x": 2107,
-			"y": -431
+			"x": 2108,
+			"y": -433
 		},
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee4",
+		"title": "giveDonut4",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c4S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $donut == true>> \n<<removeDonut>>\n<< set $c4S to true >>\nThank you for the donut!  \n<<else>>\nIt seems like you didn't bring any donuts with you.\n<<endif>>",
 		"position": {
 			"x": 2416,
 			"y": -431
@@ -472,7 +472,7 @@
 	{
 		"title": "Customer9",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee9]] [[ Sure thing! |thanks9]]",
+		"body": "One donut please!\n[[ (Give donut) |giveDonut9]] [[ Sure thing! |thanks9]]",
 		"position": {
 			"x": 2152,
 			"y": 2627
@@ -480,9 +480,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee9",
+		"title": "giveDonut9",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c9S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $donut == true>> \n<<removeDonut>>\n<< set $c9S to true >>\nThank you for the donut!  \n<<else>>\nIt seems like you didn't bring any donuts with you.\n<<endif>>",
 		"position": {
 			"x": 2462,
 			"y": 2628
@@ -532,7 +532,7 @@
 	{
 		"title": "Customer14",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee14]] [[ Sure thing! |thanks14]]",
+		"body": "One donut please!\n[[ (Give donut) |givedonut14]] [[ Sure thing! |thanks14]]",
 		"position": {
 			"x": 3786,
 			"y": 2121
@@ -540,9 +540,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee14",
+		"title": "givedonut14",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c14S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $donut == true>> \n<<removeDonut>>\n<< set $c14S to true >>\nThank you for the donut!  \n<<else>>\nIt seems like you didn't bring any donuts with you.\n<<endif>>",
 		"position": {
 			"x": 4095,
 			"y": 2121
@@ -592,17 +592,17 @@
 	{
 		"title": "Customer12",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee12]] [[ Sure thing! |thanks12]]",
+		"body": "One donut please!\n[[ (Give donut) |giveDonut12]] [[ Sure thing! |thanks12]]",
 		"position": {
-			"x": 3745,
-			"y": 926
+			"x": 3743,
+			"y": 924
 		},
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee12",
+		"title": "giveDonut12",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c12S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $donut == true>> \n<<removeDonut>>\n<< set $c12S to true >>\nThank you for the donut!  \n<<else>>\nIt seems like you didn't bring any donuts with you.\n<<endif>>",
 		"position": {
 			"x": 4055,
 			"y": 927
@@ -622,17 +622,17 @@
 	{
 		"title": "Customer11",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee11]] [[ Sure thing! |thanks11]]",
+		"body": "One green tea please!\n[[ (Give green tea) |giveTea11]] [[ Sure thing! |thanks11]]",
 		"position": {
 			"x": 3724,
-			"y": 267
+			"y": 265
 		},
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee11",
+		"title": "giveTea11",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c11S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $greenTea == true>> \n<<removeTea>>\n<< set $c11S to true >>\nThank you for the green tea!  \n<<else>>\nIt seems like you didn't bring any green tea with you.\n<<endif>>",
 		"position": {
 			"x": 4034,
 			"y": 268
@@ -712,7 +712,7 @@
 	{
 		"title": "Customer20",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee20]] [[ Sure thing! |thanks20]]",
+		"body": "One green tea please!\n[[ (Give green tea) |giveTea20]] [[ Sure thing! |thanks20]]",
 		"position": {
 			"x": 4454,
 			"y": 2168
@@ -720,9 +720,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee20",
+		"title": "giveTea20",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c20S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $greenTea == true>> \n<<removeTea>>\n<< set $c20S to true >>\nThank you for the green tea!  \n<<else>>\nIt seems like you didn't bring any green tea with you.\n<<endif>>",
 		"position": {
 			"x": 4764,
 			"y": 2169
@@ -742,17 +742,17 @@
 	{
 		"title": "Customer19",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee19]] [[ Sure thing! |thanks19]]",
+		"body": "One cake please!\n[[ (Give cake) |giveCake19]] [[ Sure thing! |thanks19]]",
 		"position": {
 			"x": 4468,
-			"y": 1565
+			"y": 1564
 		},
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee19",
+		"title": "giveCake19",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c19S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $cake == true>> \n<<removeCake>>\n<< set $c19S to true >>\nThank you for the cake!  \n<<else>>\nIt seems like you didn't bring any cake with you.\n<<endif>>",
 		"position": {
 			"x": 4778,
 			"y": 1566
@@ -772,7 +772,7 @@
 	{
 		"title": "Customer18",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee18]] [[ Sure thing! |thanks18]]",
+		"body": "One green tea please!\n[[ (Give green tea) |giveTea18]] [[ Sure thing! |thanks18]]",
 		"position": {
 			"x": 4454,
 			"y": 955
@@ -780,9 +780,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee18",
+		"title": "giveTea18",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c18S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $greenTea == true>> \n<<removeTea>>\n<< set $c18S to true >>\nThank you for the green tea!  \n<<else>>\nIt seems like you didn't bring any green tea with you.\n<<endif>>",
 		"position": {
 			"x": 4764,
 			"y": 956
@@ -892,17 +892,17 @@
 	{
 		"title": "Customer23",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee23]] [[ Sure thing! |thanks23]]",
+		"body": "One cake please!\n[[ (Give cake) |giveCake23]] [[ Sure thing! |thanks23]]",
 		"position": {
-			"x": 6082,
-			"y": 322
+			"x": 6081,
+			"y": 321
 		},
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee23",
+		"title": "giveCake23",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c23S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $cake == true>> \n<<removeCake>>\n<< set $c23S to true >>\nThank you for the cake!  \n<<else>>\nIt seems like you didn't bring any cake with you.\n<<endif>>",
 		"position": {
 			"x": 6392,
 			"y": 323
@@ -982,7 +982,7 @@
 	{
 		"title": "Customer24",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee24]] [[ Sure thing! |thanks24]]",
+		"body": "One green tea please!\n[[ (Give green tea) |giveTea24]] [[ Sure thing! |thanks24]]",
 		"position": {
 			"x": 6103,
 			"y": 981
@@ -990,9 +990,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee24",
+		"title": "giveTea24",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c24S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $greenTea == true>> \n<<removeTea>>\n<< set $c24S to true >>\nThank you for the green tea!  \n<<else>>\nIt seems like you didn't bring any green tea with you.\n<<endif>>",
 		"position": {
 			"x": 6413,
 			"y": 982
@@ -1002,7 +1002,7 @@
 	{
 		"title": "Customer32",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee32]] [[ Sure thing! |thanks32]]",
+		"body": "One donut please!\n[[ (Give donut) |giveDonut32]] [[ Sure thing! |thanks32]]",
 		"position": {
 			"x": 6812,
 			"y": 1010
@@ -1010,9 +1010,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee32",
+		"title": "giveDonut32",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c32S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $donut == true>> \n<<removeDonut>>\n<< set $c32S to true >>\nThank you for the donut!  \n<<else>>\nIt seems like you didn't bring any donuts with you.\n<<endif>>",
 		"position": {
 			"x": 7122,
 			"y": 1011
@@ -1042,7 +1042,7 @@
 	{
 		"title": "Customer25",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee25]] [[ Sure thing! |thanks25]]",
+		"body": "One cake please!\n[[ (Give cake) |giveCake25]] [[ Sure thing! |thanks25]]",
 		"position": {
 			"x": 6133,
 			"y": 1597
@@ -1050,9 +1050,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee25",
+		"title": "giveCake25",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c25S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $cake == true>> \n<<removeCake>>\n<< set $c25S to true >>\nThank you for the cake!  \n<<else>>\nIt seems like you didn't bring any cake with you.\n<<endif>>",
 		"position": {
 			"x": 6443,
 			"y": 1598
@@ -1062,7 +1062,7 @@
 	{
 		"title": "Customer33",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee33]] [[ Sure thing! |thanks33]]",
+		"body": "One green tea please!\n[[ (Give green tea) |giveTea33]] [[ Sure thing! |thanks33]]",
 		"position": {
 			"x": 6826,
 			"y": 1620
@@ -1070,12 +1070,12 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee33",
+		"title": "giveTea33",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c33S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $greenTea == true>> \n<<removeTea>>\n<< set $c33S to true >>\nThank you for the green tea!  \n<<else>>\nIt seems like you didn't bring any green tea with you.\n<<endif>>",
 		"position": {
 			"x": 7136,
-			"y": 1621
+			"y": 1620
 		},
 		"colorID": 0
 	},
@@ -1122,20 +1122,20 @@
 	{
 		"title": "Customer34",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee34]] [[ Sure thing! |thanks34]]",
+		"body": "One cake please!\n[[ (Give cake) |giveCake34]] [[ Sure thing! |thanks34]]",
 		"position": {
-			"x": 6812,
+			"x": 6811,
 			"y": 2223
 		},
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee34",
+		"title": "giveCake34",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c34S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $cake == true>> \n<<removeCake>>\n<< set $c34S to true >>\nThank you for the cake!  \n<<else>>\nIt seems like you didn't bring any cake with you.\n<<endif>>",
 		"position": {
 			"x": 7122,
-			"y": 2224
+			"y": 2223
 		},
 		"colorID": 0
 	},
@@ -1182,17 +1182,17 @@
 	{
 		"title": "Customer35",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee35]] [[ Sure thing! |thanks35]]",
+		"body": "One donut please!\n[[ (Give donut) |givedonut35]] [[ Sure thing! |thanks35]]",
 		"position": {
-			"x": 6824,
-			"y": 2777
+			"x": 6823,
+			"y": 2778
 		},
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee35",
+		"title": "givedonut35",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c35S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $donut == true>> \n<<removeDonut>>\n<< set $c35S to true >>\nThank you for the donut!  \n<<else>>\nIt seems like you didn't bring any donuts with you.\n<<endif>>",
 		"position": {
 			"x": 7134,
 			"y": 2778
@@ -1222,7 +1222,7 @@
 	{
 		"title": "Customer28",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee28]] [[ Sure thing! |thanks28]]",
+		"body": "One green tea please!\n[[ (Give green tea) |giveTea28]] [[ Sure thing! |thanks28]]",
 		"position": {
 			"x": 6156,
 			"y": 3355
@@ -1230,9 +1230,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee28",
+		"title": "giveTea28",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c28S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $greenTea == true>> \n<<removeTea>>\n<< set $c28S to true >>\nThank you for the green tea!  \n<<else>>\nIt seems like you didn't bring any green tea with you.\n<<endif>>",
 		"position": {
 			"x": 6465,
 			"y": 3356
@@ -1252,7 +1252,7 @@
 	{
 		"title": "Customer36",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee36]] [[ Sure thing! |thanks36]]",
+		"body": "One cake please!\n[[ (Give cake) |giveCake36]] [[ Sure thing! |thanks36]]",
 		"position": {
 			"x": 6850,
 			"y": 3380
@@ -1260,9 +1260,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee36",
+		"title": "giveCake36",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c36S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $cake == true>> \n<<removeCake>>\n<< set $c36S to true >>\nThank you for the cake!  \n<<else>>\nIt seems like you didn't bring any cake with you.\n<<endif>>",
 		"position": {
 			"x": 7160,
 			"y": 3381
@@ -1282,7 +1282,7 @@
 	{
 		"title": "Customer29",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee29]] [[ Sure thing! |thanks29]]",
+		"body": "One donut please!\n[[ (Give donut) |giveDonut29]] [[ Sure thing! |thanks29]]",
 		"position": {
 			"x": 6166,
 			"y": 4004
@@ -1290,9 +1290,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee29",
+		"title": "giveDonut29",
 		"tags": "",
-		"body": "<<if $coffee == true>> \n<<removeCoffee>>\n<< set $c29S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $donut == true>> \n<<removeDonut>>\n<< set $c29S to true >>\nThank you for the donut!  \n<<else>>\nIt seems like you didn't bring any donuts with you.\n<<endif>>",
 		"position": {
 			"x": 6476,
 			"y": 4005
@@ -1362,7 +1362,7 @@
 	{
 		"title": "coffeeMade2",
 		"tags": "",
-		"body": "<<Coffee>>  \nYou made coffee!    +1 coffee",
+		"body": "<<Coffee>>  \nYou made coffee!",
 		"position": {
 			"x": -682,
 			"y": -725
@@ -1372,10 +1372,10 @@
 	{
 		"title": "drinkChoices2",
 		"tags": "",
-		"body": "What drink would you like to make?\n[[ Coffee |coffeeMade2]] [[ Never mind |No2]]",
+		"body": "What drink would you like to make?\n[[ Coffee |coffeeMade2]] [[ Green tea |teaMade2]] [[ Never mind |No2]]",
 		"position": {
-			"x": -394,
-			"y": -721
+			"x": -395,
+			"y": -726
 		},
 		"colorID": 0
 	},
@@ -1402,7 +1402,7 @@
 	{
 		"title": "cakeMade2",
 		"tags": "",
-		"body": "<<Cake>>\nYou made cake!  +1 cake",
+		"body": "<<Cake>>\nYou made cake!",
 		"position": {
 			"x": -689,
 			"y": -307
@@ -1432,7 +1432,7 @@
 	{
 		"title": "coffeeMade3",
 		"tags": "",
-		"body": "<<Coffee>>  \nYou made coffee!    +1 coffee",
+		"body": "<<Coffee>>  \nYou made coffee!",
 		"position": {
 			"x": -698,
 			"y": -1415
@@ -1445,7 +1445,7 @@
 		"body": "What drink would you like to make?\n[[ Coffee |coffeeMade3]] [[ Green tea |teaMade3]] [[ Never mind |No3]]",
 		"position": {
 			"x": -410,
-			"y": -1408
+			"y": -1410
 		},
 		"colorID": 0
 	},
@@ -1472,7 +1472,7 @@
 	{
 		"title": "cakeMade3",
 		"tags": "",
-		"body": "<<Cake>>\nYou made cake!  +1 cake",
+		"body": "<<Cake>>\nYou made cake!",
 		"position": {
 			"x": -688,
 			"y": -1001
@@ -1502,17 +1502,17 @@
 	{
 		"title": "donutMade2",
 		"tags": "",
-		"body": "<<Donut>>\nYou made a donut! +1 donut",
+		"body": "<<Donut>>\nYou made a donut!",
 		"position": {
-			"x": -1012,
-			"y": -306
+			"x": -1015,
+			"y": -308
 		},
 		"colorID": 0
 	},
 	{
 		"title": "donutMade3",
 		"tags": "",
-		"body": "<<Donut>>\nYou made a donut! +1 donut",
+		"body": "<<Donut>>\nYou made a donut!",
 		"position": {
 			"x": -994,
 			"y": -1000
@@ -1522,7 +1522,7 @@
 	{
 		"title": "teaMade3",
 		"tags": "",
-		"body": "<<greenTea>>  \nYou made green tea! +1 green tea",
+		"body": "<<greenTea>>  \nYou made green tea!",
 		"position": {
 			"x": -1004,
 			"y": -1420
@@ -1532,10 +1532,20 @@
 	{
 		"title": "introLore",
 		"tags": "",
-		"body": "You just inherited a cafe!\nBefore you can re-open, you must first organize and clean the cafe!\nGo near the plates, cups, and anything that seems out of the ordinary in order to organize/clean them!\nGood Luck!",
+		"body": "You just inherited a cafe!\nBefore you can re-open, you must first organize and clean the cafe!\nGo near the plates, cups, in order to organize/clean them!\nGood Luck!",
 		"position": {
 			"x": 494,
-			"y": -259
+			"y": -261
+		},
+		"colorID": 0
+	},
+	{
+		"title": "teaMade2",
+		"tags": "",
+		"body": "<<greenTea>>  \nYou made green tea!",
+		"position": {
+			"x": -996,
+			"y": -728
 		},
 		"colorID": 0
 	}

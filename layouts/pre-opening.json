@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5290357402157689,
+    "zoomFactor": 0.392516117548886,
     "windowMask": false
   },
   "objectsGroups": [
@@ -984,36 +984,6 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Items",
-      "name": "coffee_pot",
-      "persistentUuid": "f06cb72e-0899-4140-a5ee-aaf91369a1a2",
-      "width": 0,
-      "x": 384,
-      "y": 173,
-      "zOrder": 79,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Plates & Cups (Bottom Half)",
-      "name": "empty_coffee",
-      "persistentUuid": "be2b0a9f-07d2-4ace-b318-d2d68428e123",
-      "width": 0,
-      "x": 167,
-      "y": 206,
-      "zOrder": 80,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
       "layer": "Plates & Cups (Bottom Half)",
       "name": "plates",
       "persistentUuid": "15deec0c-2b8f-4d47-a405-659a60eb1fd8",
@@ -1021,126 +991,6 @@
       "x": 206,
       "y": 241,
       "zOrder": 82,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Plates & Cups (Bottom Half)",
-      "name": "empty_coffee",
-      "persistentUuid": "863d51ce-cb61-4411-91a7-039c5c249068",
-      "width": 0,
-      "x": 203,
-      "y": 206,
-      "zOrder": 83,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Plates & Cups (Bottom Half)",
-      "name": "empty_coffee",
-      "persistentUuid": "4ab8480b-7dac-488d-8568-d59f20d670c0",
-      "width": 0,
-      "x": 241,
-      "y": 207,
-      "zOrder": 84,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Items",
-      "name": "empty_coffee",
-      "persistentUuid": "a9e786c0-edec-4c55-a8ad-dcdbb5e3bef5",
-      "width": 0,
-      "x": 166,
-      "y": 138,
-      "zOrder": 85,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Items",
-      "name": "empty_coffee",
-      "persistentUuid": "8fb34963-4c86-43a5-b2e6-46487922cb0a",
-      "width": 0,
-      "x": 202,
-      "y": 138,
-      "zOrder": 86,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Items",
-      "name": "empty_coffee",
-      "persistentUuid": "1e50c2d6-f24e-4c95-ab85-ebe66b627baa",
-      "width": 0,
-      "x": 238,
-      "y": 138,
-      "zOrder": 87,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Items",
-      "name": "empty_coffee",
-      "persistentUuid": "c819116a-b057-4802-b8ec-3a5c3b895214",
-      "width": 0,
-      "x": 166,
-      "y": 171,
-      "zOrder": 88,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Items",
-      "name": "empty_coffee",
-      "persistentUuid": "435684dd-b084-4c39-b954-fcb3f94ea597",
-      "width": 0,
-      "x": 202,
-      "y": 171,
-      "zOrder": 89,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Items",
-      "name": "empty_coffee",
-      "persistentUuid": "25768c50-68a0-44e6-8aee-022ad94e89f8",
-      "width": 0,
-      "x": 239,
-      "y": 171,
-      "zOrder": 90,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4931,6 +4781,186 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Plates & Cups (Bottom Half)",
+      "name": "plates1",
+      "persistentUuid": "934f85ae-a648-4ec8-af44-98c01aa6a2a7",
+      "width": 0,
+      "x": 488,
+      "y": 452,
+      "zOrder": 208,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Plates & Cups (Bottom Half)",
+      "name": "plates2",
+      "persistentUuid": "1a8067dc-f44d-4af1-9105-563779124576",
+      "width": 0,
+      "x": 684,
+      "y": 268,
+      "zOrder": 209,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Plates & Cups (Bottom Half)",
+      "name": "plates3",
+      "persistentUuid": "a2296a33-530a-4068-aab7-48127d3be361",
+      "width": 0,
+      "x": 461,
+      "y": 284,
+      "zOrder": 210,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Plates & Cups (Bottom Half)",
+      "name": "empty_coffee",
+      "persistentUuid": "2fb1e3aa-ccdd-47b3-9a84-ca87b9209ea4",
+      "width": 0,
+      "x": 768,
+      "y": 330,
+      "zOrder": 211,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Plates & Cups (Bottom Half)",
+      "name": "empty_coffee2",
+      "persistentUuid": "4ee5ddd7-38a3-4785-806e-73c7942d6c2f",
+      "width": 0,
+      "x": 803,
+      "y": 329,
+      "zOrder": 212,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Plates & Cups (Bottom Half)",
+      "name": "empty_coffee3",
+      "persistentUuid": "a1b6abad-6fff-4cdf-bd71-5b6a8f4db520",
+      "width": 0,
+      "x": 844,
+      "y": 246,
+      "zOrder": 213,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Items",
+      "name": "empty_coffee4",
+      "persistentUuid": "414c7d08-3591-43b6-962b-e7d5fa4a2110",
+      "width": 0,
+      "x": 1035,
+      "y": 249,
+      "zOrder": 214,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Items",
+      "name": "empty_coffee5",
+      "persistentUuid": "8c85c6f8-17d0-4edb-a0b9-fa21af70b2cd",
+      "width": 0,
+      "x": 999,
+      "y": 435,
+      "zOrder": 215,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Items",
+      "name": "empty_coffee6",
+      "persistentUuid": "a6bbd0c5-9894-4bc3-8cd8-d98041160565",
+      "width": 0,
+      "x": 1103,
+      "y": 506,
+      "zOrder": 216,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Items",
+      "name": "empty_coffee7",
+      "persistentUuid": "9a147f0d-f14e-44c5-976a-cf0faec72512",
+      "width": 0,
+      "x": 846,
+      "y": 421,
+      "zOrder": 217,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Items",
+      "name": "empty_coffee8",
+      "persistentUuid": "018d74c4-e4ef-4b8e-be23-003e8cc8eca8",
+      "width": 0,
+      "x": 803,
+      "y": 509,
+      "zOrder": 218,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Items",
+      "name": "empty_coffee9",
+      "persistentUuid": "f61f1dda-9501-48e8-a714-cad8ec51e7fb",
+      "width": 0,
+      "x": 502,
+      "y": 282,
+      "zOrder": 219,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -5272,7 +5302,7 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "plates",
+      "name": "plates1",
       "texture": "New image135",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -8541,6 +8571,116 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "plates2",
+      "texture": "New image135",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "plates3",
+      "texture": "New image135",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "empty_coffee2",
+      "texture": "New image134",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "empty_coffee3",
+      "texture": "New image134",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "empty_coffee4",
+      "texture": "New image134",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "empty_coffee5",
+      "texture": "New image134",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "empty_coffee6",
+      "texture": "New image134",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "empty_coffee7",
+      "texture": "New image134",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "empty_coffee8",
+      "texture": "New image134",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "empty_coffee9",
+      "texture": "New image134",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -8631,13 +8771,43 @@
         "objectName": "place_mat"
       },
       {
-        "objectName": "plates"
+        "objectName": "plates1"
+      },
+      {
+        "objectName": "plates2"
+      },
+      {
+        "objectName": "plates3"
       },
       {
         "objectName": "coffee_pot"
       },
       {
         "objectName": "empty_coffee"
+      },
+      {
+        "objectName": "empty_coffee2"
+      },
+      {
+        "objectName": "empty_coffee3"
+      },
+      {
+        "objectName": "empty_coffee4"
+      },
+      {
+        "objectName": "empty_coffee5"
+      },
+      {
+        "objectName": "empty_coffee6"
+      },
+      {
+        "objectName": "empty_coffee7"
+      },
+      {
+        "objectName": "empty_coffee8"
+      },
+      {
+        "objectName": "empty_coffee9"
       },
       {
         "objectName": "coffee"
@@ -8826,7 +8996,6 @@
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -9609,8 +9778,759 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "plates1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosX"
+          },
+          "parameters": [
+            "plates1",
+            "=",
+            "242"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosY"
+          },
+          "parameters": [
+            "plates1",
+            "=",
+            "241"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "plates1",
+            "=",
+            "242",
+            "=",
+            "241"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "organizedCupsAndPlates",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "plates2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosX"
+          },
+          "parameters": [
+            "plates2",
+            "=",
+            "206"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosY"
+          },
+          "parameters": [
+            "plates2",
+            "=",
+            "241"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "plates2",
+            "=",
+            "206",
+            "=",
+            "241"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "organizedCupsAndPlates",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "plates3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosX"
+          },
+          "parameters": [
+            "plates3",
+            "=",
+            "169"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosY"
+          },
+          "parameters": [
+            "plates3",
+            "=",
+            "240"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "plates3",
+            "=",
+            "169",
+            "=",
+            "240"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "organizedCupsAndPlates",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "empty_coffee",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosX"
+          },
+          "parameters": [
+            "empty_coffee",
+            "=",
+            "203"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosY"
+          },
+          "parameters": [
+            "empty_coffee",
+            "=",
+            "206"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "empty_coffee",
+            "=",
+            "203",
+            "=",
+            "206"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "organizedCupsAndPlates",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "empty_coffee2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosX"
+          },
+          "parameters": [
+            "empty_coffee2",
+            "=",
+            "241"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosY"
+          },
+          "parameters": [
+            "empty_coffee2",
+            "=",
+            "207"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "empty_coffee2",
+            "=",
+            "241",
+            "=",
+            "207"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "organizedCupsAndPlates",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "empty_coffee3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosX"
+          },
+          "parameters": [
+            "empty_coffee3",
+            "=",
+            "167"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosY"
+          },
+          "parameters": [
+            "empty_coffee3",
+            "=",
+            "206"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "empty_coffee3",
+            "=",
+            "167",
+            "=",
+            "206"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "organizedCupsAndPlates",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "empty_coffee4",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosX"
+          },
+          "parameters": [
+            "empty_coffee4",
+            "=",
+            "239"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosY"
+          },
+          "parameters": [
+            "empty_coffee4",
+            "=",
+            "171"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "empty_coffee4",
+            "=",
+            "239",
+            "=",
+            "171"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "organizedCupsAndPlates",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "empty_coffee5",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosX"
+          },
+          "parameters": [
+            "empty_coffee5",
+            "=",
+            "202"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosY"
+          },
+          "parameters": [
+            "empty_coffee5",
+            "=",
+            "171"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "empty_coffee5",
+            "=",
+            "202",
+            "=",
+            "171"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "organizedCupsAndPlates",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "empty_coffee6",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosX"
+          },
+          "parameters": [
+            "empty_coffee6",
+            "=",
+            "166"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosY"
+          },
+          "parameters": [
+            "empty_coffee6",
+            "=",
+            "171"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "empty_coffee6",
+            "=",
+            "166",
+            "=",
+            "171"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "organizedCupsAndPlates",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "empty_coffee7",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosX"
+          },
+          "parameters": [
+            "empty_coffee7",
+            "=",
+            "238"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosY"
+          },
+          "parameters": [
+            "empty_coffee7",
+            "=",
+            "138"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "empty_coffee7",
+            "=",
+            "238",
+            "=",
+            "138"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "organizedCupsAndPlates",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "empty_coffee8",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosX"
+          },
+          "parameters": [
+            "empty_coffee8",
+            "=",
+            "202"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosY"
+          },
+          "parameters": [
+            "empty_coffee8",
+            "=",
+            "138"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "empty_coffee8",
+            "=",
+            "202",
+            "=",
+            "138"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "organizedCupsAndPlates",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "empty_coffee9",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosX"
+          },
+          "parameters": [
+            "empty_coffee9",
+            "=",
+            "166"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PosY"
+          },
+          "parameters": [
+            "empty_coffee9",
+            "=",
+            "138"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "empty_coffee9",
+            "=",
+            "166",
+            "=",
+            "138"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "organizedCupsAndPlates",
+            "+",
+            "1"
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
@@ -9674,40 +10594,12 @@
           "subInstructions": [
             {
               "type": {
-                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+                "value": "VarGlobal"
               },
               "parameters": [
-                "\"c1S\"",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
-              },
-              "parameters": [
-                "\"c2S\"",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
-              },
-              "parameters": [
-                "\"c3S\"",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"endChat\"",
-                ">",
-                "5"
+                "organizedCupsAndPlates",
+                "=",
+                "12"
               ]
             },
             {
@@ -10058,7 +10950,7 @@
       "isLocked": false,
       "name": "Dialogue",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
