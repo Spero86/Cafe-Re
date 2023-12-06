@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.6337626779317893,
+    "zoomFactor": 0.49508400737497715,
     "windowMask": false
   },
   "objectsGroups": [
@@ -5843,6 +5843,66 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "coffee_counter",
+      "persistentUuid": "693af3e4-2b6f-44d4-84eb-2d7f2dbd7907",
+      "width": 0,
+      "x": 83,
+      "y": 624,
+      "zOrder": 229,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "tea_counter",
+      "persistentUuid": "a868fe7a-a473-468e-9734-550254f3009a",
+      "width": 0,
+      "x": 173,
+      "y": 623,
+      "zOrder": 230,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "donut_counter",
+      "persistentUuid": "a129ed87-ef0a-4733-a31b-4f415bcbb6ea",
+      "width": 0,
+      "x": 261,
+      "y": 624,
+      "zOrder": 231,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "cake_counter",
+      "persistentUuid": "aa856c71-f057-4b9a-97d7-7e8329db4af0",
+      "width": 0,
+      "x": 351,
+      "y": 623,
+      "zOrder": 232,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -5966,7 +6026,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "wallpaper",
-      "texture": "New image19",
+      "texture": "New image166",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -8043,11 +8103,11 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.6,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite50",
+                  "image": "NewSprite114",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8083,7 +8143,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite51",
+                  "image": "NewSprite115",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8119,7 +8179,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite52",
+                  "image": "NewSprite116",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16234,6 +16294,69 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "tea_counter",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "donut_counter",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "cake_counter",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -16405,9 +16528,6 @@
         "objectName": "BBText"
       },
       {
-        "objectName": "coffee_counter"
-      },
-      {
         "objectName": "counter_bottom"
       },
       {
@@ -16457,6 +16577,18 @@
       },
       {
         "objectName": "Customer37"
+      },
+      {
+        "objectName": "coffee_counter"
+      },
+      {
+        "objectName": "tea_counter"
+      },
+      {
+        "objectName": "donut_counter"
+      },
+      {
+        "objectName": "cake_counter"
       }
     ]
   },
@@ -18804,7 +18936,7 @@
       "isLocked": false,
       "name": "Lighting",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
