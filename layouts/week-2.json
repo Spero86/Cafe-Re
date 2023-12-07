@@ -5,7 +5,7 @@
   "name": "Week 2",
   "r": 63,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 51,
   "uiSettings": {
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.713037763069167,
+    "zoomFactor": 0.6040838749989945,
     "windowMask": false
   },
   "objectsGroups": [
@@ -78,7 +78,26 @@
       ]
     }
   ],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "coffee",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "cake",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "donut",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -6016,6 +6035,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 79,
+      "layer": "",
+      "name": "MedievalButtonBrown",
+      "persistentUuid": "8f228a57-355c-4499-9264-52a60c6f02cb",
+      "width": 270,
+      "x": 959,
+      "y": 618,
+      "zOrder": 237,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 71,
+      "layer": "",
+      "name": "SelfDoubt1",
+      "persistentUuid": "546863f7-fdfd-43b4-bdbf-eff807c910d7",
+      "width": 228,
+      "x": 187,
+      "y": 429,
+      "zOrder": 238,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -6751,10 +6802,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "maxSpeed": 150,
+          "acceleration": 600,
+          "maxSpeed": 200,
           "allowDiagonals": false,
           "rotateObject": false,
-          "acceleration": 400,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
           "customIsometryAngle": 30,
@@ -9792,6 +9843,90 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "MedievalButtonBrown",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "assets\\NewSprite118.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "assets\\NewSprite118.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Click for Controls",
+          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 213,
+            "g": 227,
+            "r": 248
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "assets\\NewSprite118.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "SelfDoubt1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "I wonder what Grandpa would think of this…",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -9948,6 +10083,9 @@
         "objectName": "Text"
       },
       {
+        "objectName": "SelfDoubt1"
+      },
+      {
         "objectName": "Options"
       },
       {
@@ -9994,6 +10132,9 @@
       },
       {
         "objectName": "cake_counter"
+      },
+      {
+        "objectName": "MedievalButtonBrown"
       }
     ]
   },
@@ -10108,6 +10249,14 @@
         },
         {
           "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "SelfDoubt1"
+          ]
+        },
+        {
+          "type": {
             "value": "DialogueTree::LoadDialogueFromJsonFile"
           },
           "parameters": [
@@ -10182,39 +10331,30 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "MedievalButtonBrown",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
       "actions": [
         {
           "type": {
-            "value": "ModVarObjet"
+            "value": "DialogueTree::StartDialogueFromBranch"
           },
           "parameters": [
-            "plated_cake",
-            "cake",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "coffee",
-            "coffee",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "donut",
-            "donut",
-            "=",
-            "0"
+            "\"Controls\""
           ]
         }
       ]
@@ -10315,6 +10455,26 @@
             "textUI",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "MedievalButtonBrown"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "MedievalButtonBrown",
+            "=",
+            "1110",
+            "=",
+            "811"
+          ]
         }
       ]
     },
@@ -10382,6 +10542,27 @@
             "textScrollSpeedMultiplier",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "MedievalButtonBrown",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "MedievalButtonBrown",
+            "=",
+            "959",
+            "=",
+            "618"
           ]
         }
       ]
@@ -10493,7 +10674,7 @@
               },
               "parameters": [
                 "",
-                "x"
+                "z"
               ]
             }
           ],
@@ -10505,7 +10686,7 @@
               "parameters": [
                 "textScrollSpeed",
                 "=",
-                "0.02"
+                "0.00"
               ]
             }
           ]
@@ -10520,7 +10701,7 @@
               },
               "parameters": [
                 "",
-                "x"
+                "z"
               ]
             }
           ],
@@ -10532,7 +10713,7 @@
               "parameters": [
                 "textScrollSpeed",
                 "=",
-                "0.05"
+                "0.01"
               ]
             }
           ]
@@ -10932,17 +11113,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "E_1",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -10986,35 +11157,9 @@
           "parameters": [
             "\"Coffee\""
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "coffee",
-            "coffee",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::SetBooleanVariable"
-          },
-          "parameters": [
-            "\"coffee\"",
-            "True"
-          ]
-        },
         {
           "type": {
             "value": "PlaySound"
@@ -11034,6 +11179,36 @@
           "parameters": [
             "coffee2",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "coffee",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetNumberVariable"
+          },
+          "parameters": [
+            "\"coffeeNum\"",
+            "Variable(coffee)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "coffee_counter",
+            "Text",
+            "=",
+            "ToString(Variable(coffee))"
           ]
         }
       ]
@@ -11076,17 +11251,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "E_2",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -11141,26 +11306,6 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "plated_cake",
-            "cake",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::SetBooleanVariable"
-          },
-          "parameters": [
-            "\"cake\"",
-            "True"
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySound"
           },
           "parameters": [
@@ -11178,6 +11323,36 @@
           "parameters": [
             "cake2",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "cake",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetNumberVariable"
+          },
+          "parameters": [
+            "\"cakeNum\"",
+            "Variable(cake)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "cake_counter",
+            "Text",
+            "=",
+            "ToString(Variable(cake))"
           ]
         }
       ]
@@ -11203,26 +11378,6 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "donut",
-            "donut",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::SetBooleanVariable"
-          },
-          "parameters": [
-            "\"donut\"",
-            "True"
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySound"
           },
           "parameters": [
@@ -11240,6 +11395,36 @@
           "parameters": [
             "donut2",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "donut",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetNumberVariable"
+          },
+          "parameters": [
+            "\"donutNum\"",
+            "Variable(donut)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "donut_counter",
+            "Text",
+            "=",
+            "ToString(Variable(donut))"
           ]
         }
       ]
@@ -11282,17 +11467,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "E_3",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -11362,17 +11537,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "E_3",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -11442,17 +11607,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "E_3",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -11522,17 +11677,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "E_3",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -11602,17 +11747,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "E_3",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -11682,17 +11817,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "E_3",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -11768,26 +11893,6 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "coffee",
-            "coffee",
-            "-",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::SetBooleanVariable"
-          },
-          "parameters": [
-            "\"coffee\"",
-            "False"
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySound"
           },
           "parameters": [
@@ -11809,10 +11914,58 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "ModVarScene"
           },
           "parameters": [
-            "coffee2"
+            "coffee",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "coffee_counter",
+            "Text",
+            "=",
+            "ToString(Variable(coffee))"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetNumberVariable"
+          },
+          "parameters": [
+            "\"coffeeNum\"",
+            "Variable(coffee)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateNumberVariable"
+              },
+              "parameters": [
+                "\"coffeeNum\"",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "coffee2"
+              ]
+            }
           ]
         }
       ]
@@ -11838,26 +11991,6 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "plated_cake",
-            "cake",
-            "-",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::SetBooleanVariable"
-          },
-          "parameters": [
-            "\"cake\"",
-            "False"
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySound"
           },
           "parameters": [
@@ -11879,10 +12012,58 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "ModVarScene"
           },
           "parameters": [
-            "cake2"
+            "cake",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "cake_counter",
+            "Text",
+            "=",
+            "ToString(Variable(cake))"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetNumberVariable"
+          },
+          "parameters": [
+            "\"cakeNum\"",
+            "Variable(cake)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateNumberVariable"
+              },
+              "parameters": [
+                "\"cakeNum\"",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "cake2"
+              ]
+            }
           ]
         }
       ]
@@ -11908,26 +12089,6 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "donut",
-            "donut",
-            "-",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::SetBooleanVariable"
-          },
-          "parameters": [
-            "\"donut\"",
-            "False"
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySound"
           },
           "parameters": [
@@ -11949,10 +12110,219 @@
         },
         {
           "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "donut",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "donut_counter",
+            "Text",
+            "=",
+            "ToString(Variable(donut))"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetNumberVariable"
+          },
+          "parameters": [
+            "\"donutNum\"",
+            "Variable(donut)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateNumberVariable"
+              },
+              "parameters": [
+                "\"donutNum\"",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "donut2"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+          },
+          "parameters": [
+            "\"c4S\"",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
             "value": "Cache"
           },
           "parameters": [
-            "donut2"
+            "e1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "SelfDoubt1",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+          },
+          "parameters": [
+            "\"c5S\"",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+          },
+          "parameters": [
+            "\"c6S\"",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e6"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+          },
+          "parameters": [
+            "\"c7S\"",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+          },
+          "parameters": [
+            "\"c8S\"",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e4"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+          },
+          "parameters": [
+            "\"c9S\"",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "SelfDoubt1"
           ]
         }
       ]

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.49508400737497715,
+    "zoomFactor": 0.3925161175488924,
     "windowMask": false
   },
   "objectsGroups": [
@@ -16686,6 +16686,18 @@
             "",
             "\"textScroll\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "box-172883.mp3",
+            "yes",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -16742,45 +16754,6 @@
         "textR": 0
       },
       "comment": "Customer Setup"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "plated_cake",
-            "cake",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "coffee",
-            "coffee",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "donut",
-            "donut",
-            "=",
-            "0"
-          ]
-        }
-      ]
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -17056,7 +17029,7 @@
               },
               "parameters": [
                 "",
-                "x"
+                "z"
               ]
             }
           ],
@@ -17068,7 +17041,7 @@
               "parameters": [
                 "textScrollSpeed",
                 "=",
-                "0.02"
+                "0.00"
               ]
             }
           ]
@@ -17083,7 +17056,7 @@
               },
               "parameters": [
                 "",
-                "x"
+                "z"
               ]
             }
           ],
@@ -17095,7 +17068,7 @@
               "parameters": [
                 "textScrollSpeed",
                 "=",
-                "0.05"
+                "0.01"
               ]
             }
           ]
@@ -18576,7 +18549,6 @@
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -18584,7 +18556,7 @@
             "value": "DialogueTree::IsCommandCalled"
           },
           "parameters": [
-            "\"week3\""
+            "\"credits\""
           ]
         }
       ],
@@ -18595,7 +18567,7 @@
           },
           "parameters": [
             "",
-            "\"Week 2\"",
+            "\"Credits\"",
             ""
           ]
         }

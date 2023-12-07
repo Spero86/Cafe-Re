@@ -56,14 +56,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 88,
       "layer": "",
       "name": "play",
       "persistentUuid": "71a78d5a-a87a-4c0d-bc97-bd51cacff964",
-      "width": 0,
-      "x": 537,
-      "y": 427,
+      "width": 214,
+      "x": 533,
+      "y": 430,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -288,10 +289,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "PLAY",
+      "string": "Press \"E\" To Begin",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
-      "characterSize": 70,
+      "characterSize": 35,
       "color": {
         "b": 235,
         "g": 235,
@@ -327,7 +328,34 @@
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "e"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Pre-Opening\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,

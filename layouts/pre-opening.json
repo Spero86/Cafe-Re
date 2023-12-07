@@ -4955,8 +4955,8 @@
       "name": "empty_coffee9",
       "persistentUuid": "f61f1dda-9501-48e8-a714-cad8ec51e7fb",
       "width": 0,
-      "x": 502,
-      "y": 282,
+      "x": 385,
+      "y": 277,
       "zOrder": 219,
       "numberProperties": [],
       "stringProperties": [],
@@ -6347,10 +6347,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "maxSpeed": 130,
+          "acceleration": 600,
+          "maxSpeed": 200,
           "allowDiagonals": false,
           "rotateObject": false,
-          "acceleration": 400,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
           "customIsometryAngle": 30,
@@ -9570,6 +9570,28 @@
             "",
             "\"textScroll\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "lofi-relax-song-for-summer-vibes-156087.mp3",
+            "1",
+            "yes",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadSound"
+          },
+          "parameters": [
+            "",
+            "item-pick-up-38258.mp3"
+          ]
         }
       ]
     },
@@ -9611,47 +9633,6 @@
             "introTutorial",
             "=",
             "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Customer Setup"
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "plated_cake",
-            "cake",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "coffee",
-            "coffee",
-            "=",
-            "0"
           ]
         }
       ]
@@ -9930,7 +9911,7 @@
               },
               "parameters": [
                 "",
-                "x"
+                "z"
               ]
             }
           ],
@@ -9942,7 +9923,7 @@
               "parameters": [
                 "textScrollSpeed",
                 "=",
-                "0.02"
+                "0.00"
               ]
             }
           ]
@@ -9957,7 +9938,7 @@
               },
               "parameters": [
                 "",
-                "x"
+                "z"
               ]
             }
           ],
@@ -9969,7 +9950,7 @@
               "parameters": [
                 "textScrollSpeed",
                 "=",
-                "0.05"
+                "0.01"
               ]
             }
           ]
@@ -10414,6 +10395,18 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "item-pick-up-38258.mp3",
+            "",
+            "10",
+            ""
+          ]
         }
       ]
     },
@@ -10476,6 +10469,18 @@
             "organizedCupsAndPlates",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "item-pick-up-38258.mp3",
+            "",
+            "10",
+            ""
           ]
         }
       ]
@@ -10540,6 +10545,18 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "item-pick-up-38258.mp3",
+            "",
+            "10",
+            ""
+          ]
         }
       ]
     },
@@ -10602,6 +10619,18 @@
             "organizedCupsAndPlates",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "item-pick-up-38258.mp3",
+            "",
+            "10",
+            ""
           ]
         }
       ]
@@ -10666,6 +10695,18 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "item-pick-up-38258.mp3",
+            "",
+            "10",
+            ""
+          ]
         }
       ]
     },
@@ -10728,6 +10769,18 @@
             "organizedCupsAndPlates",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "item-pick-up-38258.mp3",
+            "",
+            "10",
+            ""
           ]
         }
       ]
@@ -10792,6 +10845,18 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "item-pick-up-38258.mp3",
+            "",
+            "10",
+            ""
+          ]
         }
       ]
     },
@@ -10855,6 +10920,18 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "item-pick-up-38258.mp3",
+            "",
+            "10",
+            ""
+          ]
         }
       ]
     },
@@ -10917,6 +10994,18 @@
             "organizedCupsAndPlates",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "item-pick-up-38258.mp3",
+            "",
+            "10",
+            ""
           ]
         }
       ]
@@ -10981,6 +11070,18 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "item-pick-up-38258.mp3",
+            "",
+            "10",
+            ""
+          ]
         }
       ]
     },
@@ -11044,6 +11145,18 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "item-pick-up-38258.mp3",
+            "",
+            "10",
+            ""
+          ]
         }
       ]
     },
@@ -11106,6 +11219,18 @@
             "organizedCupsAndPlates",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "item-pick-up-38258.mp3",
+            "",
+            "10",
+            ""
           ]
         }
       ]

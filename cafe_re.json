@@ -1,5 +1,5 @@
 {
-  "firstLayout": "Pre-Opening",
+  "firstLayout": "Title",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -13558,6 +13558,134 @@
         "name": "New image174",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "lofi-relax-song-for-summer-vibes-156087.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "lofi-relax-song-for-summer-vibes-156087.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "pillow-174089.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pillow-174089.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "box-172883.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "box-172883.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "city-lights-chill-lo-fi-176145.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "city-lights-chill-lo-fi-176145.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "amado-rio-short-love-bossa-178757.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "amado-rio-short-love-bossa-178757.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "item-pick-up-38258.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "item-pick-up-38258.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f050eea8c9631c6b163779937225dd43bb432edf6b66dbaf64413e005ce5fbed_Medieval Button Brown_Hovered.png",
+          "name": "Medieval Button Brown_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/236403e4a45a3c7435d21f15ebcf3ab54b83e7389964d6999b0f82a3a957056a_Medieval Button Brown_Idle.png",
+          "name": "Medieval Button Brown_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d9240cf31b0e332a890cdbe7658eef81c587545df6673b86565c9141a23bc195_Medieval Button Brown_Pressed.png",
+          "name": "Medieval Button Brown_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CaveatBrush-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "name": "CaveatBrush-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite119.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite119.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite118.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite118.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -15006,6 +15134,12 @@
       "name": "organizedCupsAndPlates",
       "type": "string",
       "value": "0"
+    },
+    {
+      "folded": true,
+      "name": "timerRanOut",
+      "type": "string",
+      "value": "0"
     }
   ],
   "layouts": [
@@ -15044,6 +15178,14 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/popup"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"

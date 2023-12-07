@@ -5,7 +5,7 @@
   "name": "Credits",
   "r": 29,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 25,
   "uiSettings": {
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5653158055126322,
+    "zoomFactor": 0.5843784410740942,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,8 +32,8 @@
       "name": "Credits",
       "persistentUuid": "c5caa1c9-d507-4d26-ad56-be384685c111",
       "width": 0,
-      "x": 508,
-      "y": 149,
+      "x": 74,
+      "y": 108,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -41,14 +41,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 223,
       "layer": "",
       "name": "bleh",
       "persistentUuid": "3a5e8e39-b750-4319-90da-b0b7bbd3cbd9",
-      "width": 0,
-      "x": 396,
-      "y": 257,
+      "width": 449,
+      "x": 12,
+      "y": 174,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -59,12 +60,44 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "bleh",
-      "persistentUuid": "2be0e327-ccbe-454e-b0b2-4998db16f072",
+      "name": "t1",
+      "persistentUuid": "565bf94d-bd06-41b9-b40c-28f65eaf8e53",
       "width": 0,
-      "x": 395,
-      "y": 324,
-      "zOrder": 3,
+      "x": 313,
+      "y": 42,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 222,
+      "layer": "",
+      "name": "bleh2",
+      "persistentUuid": "972812a5-3498-4b13-afcc-b6b0e2cd5c0f",
+      "width": 418,
+      "x": 330,
+      "y": 471,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 248,
+      "layer": "",
+      "name": "bleh3",
+      "persistentUuid": "fea6c400-d3c4-4a7c-919b-46003906e9bc",
+      "width": 334,
+      "x": 756,
+      "y": 174,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -74,12 +107,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "bleh",
-      "persistentUuid": "19f52918-d059-45be-8593-7ac300b59b48",
+      "name": "Assets",
+      "persistentUuid": "07ec8540-c93d-4f9c-8e15-a79749a2927a",
       "width": 0,
-      "x": 393,
-      "y": 390,
-      "zOrder": 4,
+      "x": 974,
+      "y": 108,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -89,12 +122,60 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "bleh",
-      "persistentUuid": "7de18552-6004-45b3-b9df-173d0709108c",
+      "name": "Music",
+      "persistentUuid": "1969c0cc-c048-4c86-aff9-1452d877a640",
       "width": 0,
-      "x": 393,
-      "y": 459,
-      "zOrder": 5,
+      "x": 543,
+      "y": 408,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 222,
+      "layer": "",
+      "name": "bleh4",
+      "persistentUuid": "040e7fcd-6c78-4051-acbb-38c0dbdc9fed",
+      "width": 349,
+      "x": 715,
+      "y": 471,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 190,
+      "layer": "",
+      "name": "bleh5",
+      "persistentUuid": "df043984-c536-4547-b76d-52883b337ebf",
+      "width": 304,
+      "x": 432,
+      "y": 174,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 262,
+      "layer": "",
+      "name": "bleh6",
+      "persistentUuid": "fd4c2be2-2219-4905-96db-d8fcd81b4536",
+      "width": 162,
+      "x": 1111,
+      "y": 174,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -115,7 +196,7 @@
       "string": "CREDITS",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
-      "characterSize": 50,
+      "characterSize": 35,
       "color": {
         "b": 235,
         "g": 235,
@@ -133,10 +214,178 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "AAAAAAAAAAAAAAAAAAAAA",
+      "string": "Visuals/Art and Writing\n                   \nSound Design and Writing    \n           \nGameplay and Writing                      ",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
-      "characterSize": 30,
+      "characterSize": 20,
+      "color": {
+        "b": 235,
+        "g": 235,
+        "r": 252
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "t1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Thanks for playing!",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 235,
+        "g": 235,
+        "r": 252
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Assets",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Assets",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 35,
+      "color": {
+        "b": 235,
+        "g": 235,
+        "r": 252
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Music",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Music",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 35,
+      "color": {
+        "b": 235,
+        "g": 235,
+        "r": 252
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "bleh2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Summer Vibes     \n\nBox                                     \n                          \nPillow                                                            ",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 235,
+        "g": 235,
+        "r": 252
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "bleh3",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Item Pick Up SFX                               \nPouring coffee SFX                        \nPlate SFX                                             \nRegister SFX                                      \n",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 235,
+        "g": 235,
+        "r": 252
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "bleh4",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "raulespa\n\nComa-Media \n(Yrii Semchyshyn)\n\nComa-Media \n(Yrii Semchyshyn)",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 235,
+        "g": 235,
+        "r": 252
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "bleh5",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Michelle Tan\n\nAastha Verma\n\nPatrick James Alcantara",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 235,
+        "g": 235,
+        "r": 252
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "bleh6",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Pixabay\n\nPixabay\n\nPixabay\n\nPixabay",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
       "color": {
         "b": 235,
         "g": 235,
@@ -151,7 +400,31 @@
         "objectName": "Credits"
       },
       {
+        "objectName": "t1"
+      },
+      {
+        "objectName": "Assets"
+      },
+      {
+        "objectName": "Music"
+      },
+      {
         "objectName": "bleh"
+      },
+      {
+        "objectName": "bleh2"
+      },
+      {
+        "objectName": "bleh3"
+      },
+      {
+        "objectName": "bleh4"
+      },
+      {
+        "objectName": "bleh5"
+      },
+      {
+        "objectName": "bleh6"
       }
     ]
   },
