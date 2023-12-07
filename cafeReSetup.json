@@ -42,7 +42,7 @@
 	{
 		"title": "cakeMade",
 		"tags": "",
-		"body": "<<if $cakeNum < 2>>\n<<Cake>>\nYou made cake! +1 cake\n<<else>>\nYou can't carry anymore cake!\n<<endif>>",
+		"body": "<<if $cakeNum < 1>>\n<<Cake>>\nYou made cake! +1 cake\n<<else>>\nYou can't carry anymore cake!\n<<endif>>",
 		"position": {
 			"x": -681,
 			"y": 442
@@ -62,7 +62,7 @@
 	{
 		"title": "coffeeMade",
 		"tags": "",
-		"body": "<<if $coffeeNum < 2>>\n<<Coffee>>  \nYou made coffee! +1 Coffee\n<<else>>\nYou can't carry anymore coffee!\n<<endif>>",
+		"body": "<<if $coffeeNum < 1>>\n<<Coffee>>  \nYou made coffee! +1 Coffee\n<<else>>\nYou can't carry anymore coffee!\n<<endif>>",
 		"position": {
 			"x": -680,
 			"y": 18
@@ -234,8 +234,8 @@
 		"tags": "",
 		"body": "It's starting to get a bit busy.\nHow did Grandpa do this all by himself? \n(Unlocked tea!)\n(Can now stack an additional pastry and drink!)\n<<week3>>\n[[ Go to next week |week3Load]]",
 		"position": {
-			"x": -97,
-			"y": 743
+			"x": -98,
+			"y": 742
 		},
 		"colorID": 0
 	},
@@ -1342,7 +1342,7 @@
 	{
 		"title": "coffeeMade2",
 		"tags": "",
-		"body": "<<if $coffeeNum < 2>>\n<<Coffee>>  \nYou made coffee! +1 Coffee\n<<else>>\nYou can't carry anymore coffee!\n<<endif>>",
+		"body": "<<if $coffeeNum < 1>>\n<<Coffee>>  \nYou made coffee! +1 Coffee\n<<else>>\nYou can't carry anymore coffee!\n<<endif>>",
 		"position": {
 			"x": -683,
 			"y": -727
@@ -1362,7 +1362,7 @@
 	{
 		"title": "cakeMade2",
 		"tags": "",
-		"body": "<<if $cakeNum < 2>>\n<<Cake>>\nYou made cake! +1 cake\n<<else>>\nYou can't carry anymore cake!\n<<endif>>",
+		"body": "<<if $cakeNum < 1>>\n<<Cake>>\nYou made cake! +1 cake\n<<else>>\nYou can't carry anymore cake!\n<<endif>>",
 		"position": {
 			"x": -689,
 			"y": -309
@@ -1392,7 +1392,7 @@
 	{
 		"title": "coffeeMade3",
 		"tags": "",
-		"body": "<<if $coffeeNum < 3>>\n<<Coffee>>  \nYou made coffee! +1 Coffee\n<<else>>\nYou can't carry anymore coffee!\n<<endif>>",
+		"body": "<<if $coffeeNum < 2>>\n<<Coffee>>  \nYou made coffee! +1 Coffee\n<<else>>\nYou can't carry anymore coffee!\n<<endif>>",
 		"position": {
 			"x": -700,
 			"y": -1415
@@ -1412,7 +1412,7 @@
 	{
 		"title": "cakeMade3",
 		"tags": "",
-		"body": "<<if $cakeNum < 3>>\n<<Cake>>\nYou made cake! +1 cake\n<<else>>\nYou can't carry anymore cake!\n<<endif>>",
+		"body": "<<if $cakeNum < 2>>\n<<Cake>>\nYou made cake! +1 cake\n<<else>>\nYou can't carry anymore cake!\n<<endif>>",
 		"position": {
 			"x": -688,
 			"y": -1001
@@ -1442,7 +1442,7 @@
 	{
 		"title": "donutMade2",
 		"tags": "",
-		"body": "<<if $donutNum < 2>>\n<<Donut>>\nYou made a donut! +1 donut\n<<else>>\nYou can't carry anymore donuts!\n<<endif>>",
+		"body": "<<if $donutNum < 1>>\n<<Donut>>\nYou made a donut! +1 donut\n<<else>>\nYou can't carry anymore donuts!\n<<endif>>",
 		"position": {
 			"x": -1015,
 			"y": -308
@@ -1452,7 +1452,7 @@
 	{
 		"title": "donutMade3",
 		"tags": "",
-		"body": "<<if $donutNum < 3>>\n<<Donut>>\nYou made a donut! +1 donut\n<<else>>\nYou can't carry anymore donuts!\n<<endif>>",
+		"body": "<<if $donutNum < 2>>\n<<Donut>>\nYou made a donut! +1 donut\n<<else>>\nYou can't carry anymore donuts!\n<<endif>>",
 		"position": {
 			"x": -994,
 			"y": -1002
@@ -1462,10 +1462,10 @@
 	{
 		"title": "teaMade3",
 		"tags": "",
-		"body": "<<if $teaNum < 3>>\n<<greenTea>>  \nYou made green tea! +1 green tea\n<<else>>\nYou can't carry anymore green tea!\n<<endif>>",
+		"body": "<<if $teaNum < 2>>\n<<greenTea>>  \nYou made green tea! +1 green tea\n<<else>>\nYou can't carry anymore green tea!\n<<endif>>",
 		"position": {
-			"x": -1004,
-			"y": -1420
+			"x": -1005,
+			"y": -1421
 		},
 		"colorID": 0
 	},
