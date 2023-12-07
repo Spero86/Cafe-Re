@@ -15,7 +15,7 @@
 		"body": "I see there’s a new face around here! \nIt’s been a while since that has happened. The old man always insisted on doing everything himself.\nOne coffee please!\n[[ (Give coffee) |giveCoffee1]] [[ Sure thing! |thanks1]]",
 		"position": {
 			"x": 980,
-			"y": 964
+			"y": 962
 		},
 		"colorID": 0
 	},
@@ -162,17 +162,17 @@
 	{
 		"title": "introTutorial",
 		"tags": "",
-		"body": "Hello! (Press \"z\" to go to next dialogue line and/or choose an option)\nHold \"x\" to make text scroll faster.\nUse arrow keys to move around.\nUse up and down arrow keys to go to each option.\nPress \"e\" to interact with objects and customers.\nAnd thats pretty much it! Welcome to the game!\n[[Answer:introLore|introLore]]",
+		"body": "Hello! (Press \"z\" to go to next dialogue line and/or choose an option)\nHold \"z\" to also make text scroll faster.\nUse arrow keys to move around.\nUse up and down arrow keys to go to each option.\nPress \"e\" to interact with appliances and customers.\nThat's all for controls! (Press 'z' to start intro to game)\n[[Start game!|introLore]]",
 		"position": {
 			"x": 498,
-			"y": -22
+			"y": -23
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Week4intro",
 		"tags": "",
-		"body": "It’s been weeks and I feel like I’m not getting enough done. Sometimes I wonder if this is really what Grandpa wanted for me. He must’ve had higher expectations of me.\n<< set $c22S to false >>  << set $c23S to false >> << set $c24S to false >> << set $c25S to false >>  << set $c26S to false >> << set $c27S to false >> << set $c28S to false >>  << set $c29S to false >> << set $c30S to false >> << set $c31S to false >>  << set $c32S to false >> << set $c33S to false >> << set $c35S to false >> << set $c36S to false >> << set $c37S to false >> << set $coffeeNum to 0 >> << set $cakeNum to 0 >> << set $donutNum to 0 >> << set $teaNum to 0 >>",
+		"body": "It’s been weeks and I feel like I’m not getting enough done. \nSometimes I wonder if this is really what Grandpa wanted for me. He must’ve had higher expectations of me.\n<< set $c22S to false >>  << set $c23S to false >> << set $c24S to false >> << set $c25S to false >>  << set $c26S to false >> << set $c27S to false >> << set $c28S to false >>  << set $c29S to false >> << set $c30S to false >> << set $c31S to false >>  << set $c32S to false >> << set $c33S to false >> << set $c35S to false >> << set $c36S to false >> << set $c37S to false >> << set $coffeeNum to 0 >> << set $cakeNum to 0 >> << set $donutNum to 0 >> << set $teaNum to 0 >>",
 		"position": {
 			"x": -427,
 			"y": 1349
@@ -182,7 +182,7 @@
 	{
 		"title": "Week3intro",
 		"tags": "",
-		"body": "Another week.\n<< set $c10S to false >>  << set $c11S to false >> << set $c12S to false >> << set $c13S to false >>  << set $c14S to false >> << set $c15S to false >> << set $c16S to false >>  << set $c17S to false >> << set $c18S to false >> << set $c19S to false >>  << set $c20S to false >> << set $c21S to false >> << set $coffeeNum to 0 >> << set $cakeNum to 0 >> << set $donutNum to 0 >> << set $teaNum to 0 >>",
+		"body": "Another week. There seems to be a lot more customers.\nHow can I make time to think about improving this old place when I’m always busy with customers?\n<< set $c10S to false >>  << set $c11S to false >> << set $c12S to false >> << set $c13S to false >>  << set $c14S to false >> << set $c15S to false >> << set $c16S to false >>  << set $c17S to false >> << set $c18S to false >> << set $c19S to false >>  << set $c20S to false >> << set $c21S to false >> << set $coffeeNum to 0 >> << set $cakeNum to 0 >> << set $donutNum to 0 >> << set $teaNum to 0 >>",
 		"position": {
 			"x": -87,
 			"y": 1348
@@ -192,7 +192,7 @@
 	{
 		"title": "summary1",
 		"tags": "",
-		"body": "That wasn't so bad.\n(Unlocked donuts!)\n<<week2>>\n[[ Go to next week |week2Load]]",
+		"body": "That wasn't so bad.\nThe customers also seemed grateful that I decided to re-open the cafe!\n(Unlocked donuts!)\n<<week2>>\n[[ Go to next week |week2Load]]",
 		"position": {
 			"x": 185,
 			"y": 740
@@ -222,7 +222,7 @@
 	{
 		"title": "summary3",
 		"tags": "",
-		"body": "This is getting so exhausting. This cafe was meant to be my grandfather’s dream, not mine. Should I just give up and sell it? But then I’d let him and our customers down… \n<<week4>>\n[[ Go to next week |week4Load]]",
+		"body": "This is getting so exhausting. This cafe was meant to be my grandfather’s dream, not mine. \nShould I just give up and sell it? But then I’d let him and the slime community down… \n<<week4>>\n[[ Go to next week |week4Load]]",
 		"position": {
 			"x": -426,
 			"y": 751
@@ -232,7 +232,7 @@
 	{
 		"title": "summary2",
 		"tags": "",
-		"body": "There are so many things to do! How can I make time to think about improving this old place when I’m always busy with customers? How did Grandpa do this all by himself?!\n(Unlocked tea!)\n(Can now stack an additional pastry and drink!)\n<<week3>>\n[[ Go to next week |week3Load]]",
+		"body": "It's starting to get a bit busy.\nHow did Grandpa do this all by himself? \n(Unlocked tea!)\n(Can now stack an additional pastry and drink!)\n<<week3>>\n[[ Go to next week |week3Load]]",
 		"position": {
 			"x": -97,
 			"y": 743
@@ -252,7 +252,7 @@
 	{
 		"title": "summary4",
 		"tags": "",
-		"body": "....\n..........\n<<endChoices>>\n[[ Go to next week |endingLoad]]",
+		"body": "....\n..........\nDespite it being a very busy week, I did enjoy interacting with the slimes and seeing how happy they get when I complete their orders. \nMaybe this was why grandpa was willing to keep this cafe up for so long…\n<<endChoices>>\n[[ Go to next week |endingLoad]]",
 		"position": {
 			"x": -749,
 			"y": 749
@@ -272,9 +272,9 @@
 	{
 		"title": "endingChoices",
 		"tags": "",
-		"body": "Weeks pass and you slowly begin to develop a routine. It’s starting to feel a lot easier and your customer base is growing steadily.\nThe cafe is no longer being overshadowed by its competitors. Your customers love the changes you’ve made.\nYou still have feelings of self-doubt from time to time but you’re feeling more confident in your skills now! Grandpa would’ve been proud of you. :)\nEnding achieved!!! (Press 'z' to go to credits)\n<<credits>>\n[[ Go to Credits|ending1]]",
+		"body": "Weeks pass and you slowly begin to develop a routine. \nIt’s starting to feel a lot more natural and more slimes have started coming to the cafe after hearing of its success and friendly owner. \nWorking in the cafe and Interacting with the slimes has left a positive lasting impression on you. \nYou still have feelings of self-doubt from time to time but you’re feeling more confident in your skills now! \nGrandpa would’ve been proud of you. :)\nEnd of story! (Press 'z' to go to credits)\n<<credits>>\n[[ Go to Credits|ending1]]",
 		"position": {
-			"x": -745,
+			"x": -744,
 			"y": 1342
 		},
 		"colorID": 0
@@ -332,7 +332,7 @@
 	{
 		"title": "Customer8",
 		"tags": "",
-		"body": "I didn’t know this place was still open. \nWhen I heard that the owner had passed, I thought it would shut down. \nI’m glad to see it’s still going, I’ve been coming here ever since I was a kid.\nOne cake please!\n[[ (Give cake) |giveCake8]] [[ Sure thing! |thanks8]]",
+		"body": "I didn’t know this place was still open. \nWhen I heard that the owner had passed, I thought it would shut down. \nI’m glad to see it’s still going, I’ve been coming here ever since I was a little slime.\nOne cake please!\n[[ (Give cake) |giveCake8]] [[ Sure thing! |thanks8]]",
 		"position": {
 			"x": 2160,
 			"y": 2054
@@ -632,7 +632,7 @@
 	{
 		"title": "Customer10",
 		"tags": "",
-		"body": "I’ve missed the coffee here so much! I know it’s only been a week but coming here every morning has become part of my daily routine.\nOne coffee please!\n[[ (Give coffee) |giveCoffee10]] [[ Sure thing! |thanks10]]",
+		"body": "I’ve missed the coffee here so much! \nI know it’s only been a week but coming here every morning has become part of my daily routine.\nOne coffee please!\n[[ (Give coffee) |giveCoffee10]] [[ Sure thing! |thanks10]]",
 		"position": {
 			"x": 3723,
 			"y": -413
@@ -752,7 +752,7 @@
 	{
 		"title": "Customer18",
 		"tags": "",
-		"body": "One green tea please!\n[[ (Give green tea) |giveTea18]] [[ Sure thing! |thanks18]]",
+		"body": "Coffee is what keeps me going! Without it, I don't know what I'll do!\nSaying that however, one green tea please!\n[[ (Give green tea) |giveTea18]] [[ Sure thing! |thanks18]]",
 		"position": {
 			"x": 4454,
 			"y": 955
@@ -872,7 +872,7 @@
 	{
 		"title": "Customer23",
 		"tags": "",
-		"body": "One cake please!\n[[ (Give cake) |giveCake23]] [[ Sure thing! |thanks23]]",
+		"body": "It’s nice having a place for us slimes to hang out! \nNone of the other cafes seem to want us there.\nOne cake please!\n[[ (Give cake) |giveCake23]] [[ Sure thing! |thanks23]]",
 		"position": {
 			"x": 6081,
 			"y": 321
@@ -1022,7 +1022,7 @@
 	{
 		"title": "Customer25",
 		"tags": "",
-		"body": "One cake please!\n[[ (Give cake) |giveCake25]] [[ Sure thing! |thanks25]]",
+		"body": "To celebrate my birthday, one cake please!\n[[ (Give cake) |giveCake25]] [[ Sure thing! |thanks25]]",
 		"position": {
 			"x": 6133,
 			"y": 1597
@@ -1322,7 +1322,7 @@
 	{
 		"title": "summary0",
 		"tags": "",
-		"body": "Maybe it’s worth trying to save. Do you think you can keep up?\n<<week1>>\n[[Answer:week1Load|week1Load]]",
+		"body": "Where would the slimes go if grandpa’s cafe shut down?\nMaybe it’s worth trying to save.\n<<week1>>\n[[Answer:week1Load|week1Load]]",
 		"position": {
 			"x": 489,
 			"y": -510
@@ -1472,7 +1472,7 @@
 	{
 		"title": "introLore",
 		"tags": "",
-		"body": "You inherit a cafe from your late grandfather and are tasked with reviving it.\nIt’s an old but classic cafe. The furniture, decorations, and menu items haven’t been changed at all since it first opened.\nAt first glance, everything seems fine but your customer base is slowly dwindling down. \nIt used to have such loyal customers but they’ve grown tired of the same thing over and over again. \nIt’s difficult to compete with the newer, trendier cafes. You could’ve just given up and sold the place but it’s been in the family for decades.\nIt’d be a shame to lose it… There are still quite a few regulars who would hate to see this place go.\nYou should probably organize/clean the place first. (Go near the cups and plates to organize/clean them!)",
+		"body": "You inherit a cafe from your late grandfather and are tasked with reviving it. \nYour late grandfather ran the only slime cafe in town for slimes to enjoy pastries and drinks. \nIt’d be a shame to lose it… the slimes would be disappointed if the cafe shut down. \nGoing inside the cafe, it’s old yet classic. The furniture, decorations, and menu items haven’t been changed at all since it first opened.\nLooking around, you should probably organize and clean the place first.\nGo near the cups and plates scattered around the cafe to organize them!",
 		"position": {
 			"x": 494,
 			"y": -261
@@ -1482,7 +1482,7 @@
 	{
 		"title": "Controls",
 		"tags": "",
-		"body": "Press \"z\" to go to next dialogue line and/or choose an option\nHold \"x\" to make text scroll faster.\nUse arrow keys to move around.\nUse up and down arrow keys to go to each option.\nPress \"e\" to interact with objects and customers.",
+		"body": "Press \"z\" to go to next dialogue line and/or choose an option\nHold \"z\" to also make text scroll faster.\nUse arrow keys to move around.\nUse up and down arrow keys to go to each option.\nPress \"e\" to interact with appliances and customers.",
 		"position": {
 			"x": 502,
 			"y": 549
