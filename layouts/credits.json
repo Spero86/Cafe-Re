@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5843784410740942,
+    "zoomFactor": 0.33253870912507794,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,8 +32,8 @@
       "name": "Credits",
       "persistentUuid": "c5caa1c9-d507-4d26-ad56-be384685c111",
       "width": 0,
-      "x": 121,
-      "y": 100,
+      "x": 603,
+      "y": 375,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -43,13 +43,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 223,
+      "height": 149,
       "layer": "",
       "name": "bleh",
       "persistentUuid": "3a5e8e39-b750-4319-90da-b0b7bbd3cbd9",
-      "width": 449,
-      "x": 59,
-      "y": 166,
+      "width": 376,
+      "x": 296,
+      "y": 448,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,8 +63,8 @@
       "name": "t1",
       "persistentUuid": "565bf94d-bd06-41b9-b40c-28f65eaf8e53",
       "width": 0,
-      "x": 360,
-      "y": 34,
+      "x": 390,
+      "y": 281,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -79,8 +79,8 @@
       "name": "bleh2",
       "persistentUuid": "972812a5-3498-4b13-afcc-b6b0e2cd5c0f",
       "width": 418,
-      "x": 377,
-      "y": 463,
+      "x": 251,
+      "y": 1037,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -95,8 +95,8 @@
       "name": "bleh3",
       "persistentUuid": "fea6c400-d3c4-4a7c-919b-46003906e9bc",
       "width": 334,
-      "x": 803,
-      "y": 166,
+      "x": 338,
+      "y": 710,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -110,8 +110,8 @@
       "name": "Assets",
       "persistentUuid": "07ec8540-c93d-4f9c-8e15-a79749a2927a",
       "width": 0,
-      "x": 1021,
-      "y": 100,
+      "x": 616,
+      "y": 633,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -125,8 +125,8 @@
       "name": "Music",
       "persistentUuid": "1969c0cc-c048-4c86-aff9-1452d877a640",
       "width": 0,
-      "x": 590,
-      "y": 400,
+      "x": 632,
+      "y": 951,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -141,8 +141,8 @@
       "name": "bleh4",
       "persistentUuid": "040e7fcd-6c78-4051-acbb-38c0dbdc9fed",
       "width": 349,
-      "x": 762,
-      "y": 463,
+      "x": 734,
+      "y": 1039,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -156,9 +156,9 @@
       "layer": "",
       "name": "bleh5",
       "persistentUuid": "df043984-c536-4547-b76d-52883b337ebf",
-      "width": 304,
-      "x": 479,
-      "y": 166,
+      "width": 437,
+      "x": 734,
+      "y": 449,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -173,8 +173,8 @@
       "name": "bleh6",
       "persistentUuid": "fd4c2be2-2219-4905-96db-d8fcd81b4536",
       "width": 162,
-      "x": 1158,
-      "y": 166,
+      "x": 733,
+      "y": 710,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -192,7 +192,24 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": -1000,
+          "LoopDuration": 70,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 1,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
       "string": "CREDITS",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
@@ -213,10 +230,27 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": -1000,
+          "LoopDuration": 70,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 1,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
       "string": "Visuals/Art and Writing\n                   \nSound Design and Writing    \n           \nGameplay and Writing                      ",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-      "textAlignment": "left",
+      "textAlignment": "right",
       "characterSize": 20,
       "color": {
         "b": 235,
@@ -234,7 +268,24 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": -1000,
+          "LoopDuration": 70,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 1,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
       "string": "Thanks for playing!",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
@@ -255,7 +306,24 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": -1000,
+          "LoopDuration": 70,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 1,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
       "string": "Assets",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
@@ -276,7 +344,24 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": -1000,
+          "LoopDuration": 70,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 1,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
       "string": "Music",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
@@ -297,10 +382,27 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": -1000,
+          "LoopDuration": 70,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 1,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
       "string": "Summer Vibes     \n\nBox                                     \n                          \nPillow                                                            ",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-      "textAlignment": "left",
+      "textAlignment": "right",
       "characterSize": 20,
       "color": {
         "b": 235,
@@ -318,10 +420,27 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": -1000,
+          "LoopDuration": 70,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 1,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
       "string": "Item Pick Up SFX                               \nPouring coffee SFX                        \nPlate SFX                                             \nRegister SFX                                      \n",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-      "textAlignment": "left",
+      "textAlignment": "right",
       "characterSize": 20,
       "color": {
         "b": 235,
@@ -331,7 +450,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "bleh4",
       "smoothed": true,
@@ -339,7 +458,24 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": -1000,
+          "LoopDuration": 70,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 1,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
       "string": "raulespa\n\nComa-Media \n(Yrii Semchyshyn)\n\nComa-Media \n(Yrii Semchyshyn)",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
@@ -352,7 +488,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "bleh5",
       "smoothed": true,
@@ -360,7 +496,24 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": -1000,
+          "LoopDuration": 70,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 1,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
       "string": "Michelle Tan\n\nAastha Verma\n\nPatrick James Alcantara",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
@@ -373,7 +526,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "bleh6",
       "smoothed": true,
@@ -381,7 +534,24 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": -1000,
+          "LoopDuration": 70,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 1,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
       "string": "Pixabay\n\nPixabay\n\nPixabay\n\nPixabay",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
@@ -428,7 +598,69 @@
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"credits\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"credits\"",
+            ">=",
+            "20"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"credits\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Play Again?\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -482,6 +714,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "EllipseMovement",
+      "type": "EllipseMovement::EllipseMovement"
     },
     {
       "name": "Flippable",

@@ -1,13 +1,13 @@
 {
-  "b": 25,
+  "b": 34,
   "disableInputWhenNotFocused": true,
   "mangledName": "Title",
   "name": "Title",
-  "r": 29,
+  "r": 43,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 25,
+  "v": 34,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6244537826600134,
+    "zoomFactor": 0.4481978045410478,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,24 +32,9 @@
       "name": "Cafe__Re",
       "persistentUuid": "edff34ac-f065-4eba-bff1-ad9e76c7c2c6",
       "width": 0,
-      "x": 315,
+      "x": 366,
       "y": 194,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "play_button",
-      "persistentUuid": "e7b9ad90-21b5-4988-81e2-4a850e6dbd81",
-      "width": 0,
-      "x": 461,
-      "y": 396,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -63,9 +48,9 @@
       "name": "play",
       "persistentUuid": "71a78d5a-a87a-4c0d-bc97-bd51cacff964",
       "width": 214,
-      "x": 533,
-      "y": 430,
-      "zOrder": 3,
+      "x": 597,
+      "y": 444,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -76,10 +61,10 @@
       "depth": 1,
       "height": 16,
       "layer": "",
-      "name": "border",
+      "name": "special_border",
       "persistentUuid": "2c73edc9-a2ab-4257-949a-5ed65f650301",
       "width": 1089,
-      "x": 96,
+      "x": 147,
       "y": 48,
       "zOrder": 4,
       "numberProperties": [],
@@ -92,10 +77,10 @@
       "depth": 1,
       "height": 16,
       "layer": "",
-      "name": "border",
+      "name": "special_border",
       "persistentUuid": "4306f3db-cc53-4a49-a9a9-2afdae1ab9ac",
       "width": 1086,
-      "x": 99,
+      "x": 150,
       "y": 656,
       "zOrder": 4,
       "numberProperties": [],
@@ -108,10 +93,10 @@
       "depth": 1,
       "height": 16,
       "layer": "",
-      "name": "border",
+      "name": "special_border",
       "persistentUuid": "525ad7ac-7c45-47fd-a83f-a0726e0885c0",
       "width": 527,
-      "x": -207,
+      "x": -156,
       "y": 352,
       "zOrder": 4,
       "numberProperties": [],
@@ -123,10 +108,10 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "border",
+      "name": "special_border",
       "persistentUuid": "5871426f-4060-4335-8ae3-7c64fce91516",
       "width": 0,
-      "x": 48,
+      "x": 99,
       "y": 48,
       "zOrder": 5,
       "numberProperties": [],
@@ -138,10 +123,10 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "border",
+      "name": "special_border",
       "persistentUuid": "a48fadd7-8400-4fe5-b412-58c13739f348",
       "width": 0,
-      "x": 49,
+      "x": 100,
       "y": 640,
       "zOrder": 6,
       "numberProperties": [],
@@ -154,10 +139,10 @@
       "depth": 1,
       "height": 16,
       "layer": "",
-      "name": "border",
+      "name": "special_border",
       "persistentUuid": "764fbb9c-8bc7-4299-961d-b00d61c404e8",
       "width": 530,
-      "x": 962,
+      "x": 1013,
       "y": 352,
       "zOrder": 4,
       "numberProperties": [],
@@ -169,10 +154,10 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "border",
+      "name": "special_border",
       "persistentUuid": "625fdb72-5da6-4dfa-893d-5c41a325028c",
       "width": 0,
-      "x": 1203,
+      "x": 1254,
       "y": 48,
       "zOrder": 7,
       "numberProperties": [],
@@ -184,12 +169,27 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "border",
+      "name": "special_border",
       "persistentUuid": "ed0534b6-6c9f-45fe-af49-c9edf74fc653",
       "width": 0,
-      "x": 1203,
+      "x": 1254,
       "y": 640,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "play_button2",
+      "persistentUuid": "f9f0d3b0-ea47-4290-abb7-5e88a4a35a62",
+      "width": 0,
+      "x": 532,
+      "y": 412,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -218,67 +218,6 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "play_button",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite119",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 10
-                      },
-                      {
-                        "x": 339,
-                        "y": 10
-                      },
-                      {
-                        "x": 339,
-                        "y": 150
-                      },
-                      {
-                        "x": 8,
-                        "y": 150
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
@@ -300,15 +239,65 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "height": 32,
-      "name": "border",
-      "texture": "New image174",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
+      "name": "play_button2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite121",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 4
+                      },
+                      {
+                        "x": 318,
+                        "y": 4
+                      },
+                      {
+                        "x": 318,
+                        "y": 154
+                      },
+                      {
+                        "x": 1,
+                        "y": 154
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -318,13 +307,10 @@
         "objectName": "Cafe__Re"
       },
       {
-        "objectName": "play_button"
-      },
-      {
         "objectName": "play"
       },
       {
-        "objectName": "border"
+        "objectName": "play_button2"
       }
     ]
   },

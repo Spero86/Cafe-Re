@@ -1832,7 +1832,7 @@
         "alwaysLoaded": false,
         "file": "assets/New image102.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image102.png\"}",
         "name": "New image102",
         "smoothed": false,
         "userAdded": true
@@ -1994,7 +1994,7 @@
         "alwaysLoaded": false,
         "file": "assets/New image119.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image119.png\"}",
         "name": "New image119",
         "smoothed": false,
         "userAdded": true
@@ -2238,7 +2238,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite45.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite45.png\"}",
         "name": "NewSprite24",
         "smoothed": false,
         "userAdded": true
@@ -2274,7 +2274,7 @@
         "alwaysLoaded": false,
         "file": "assets/New image138.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image138.png\"}",
         "name": "New image136",
         "smoothed": false,
         "userAdded": true
@@ -10701,7 +10701,7 @@
         "alwaysLoaded": false,
         "file": "assets/New image161.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image161.png\"}",
         "name": "New image159",
         "smoothed": false,
         "userAdded": true
@@ -13686,6 +13686,681 @@
         "name": "assets\\NewSprite118.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite120.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite120.png\"}",
+        "name": "NewSprite120",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite121.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite121.png\"}",
+        "name": "NewSprite121",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite122.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite122.png\"}",
+        "name": "NewSprite122",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite123.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite123",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite124.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite124",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite125.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite125",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite126.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite126",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite127.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite127",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite128.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite128",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite129.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite129.png\"}",
+        "name": "NewSprite129",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite130.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite130.png\"}",
+        "name": "NewSprite130",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite131.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite131.png\"}",
+        "name": "NewSprite131",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite132.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite132",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite133.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite133",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite134.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite134",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite135.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite135",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite136.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite136",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite137.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite137",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite138.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite138.png\"}",
+        "name": "NewSprite138",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite139.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite139",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite140.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite140.png\"}",
+        "name": "NewSprite140",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite141.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite141.png\"}",
+        "name": "NewSprite141",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite142.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite142",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite143.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite143",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite144",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite145.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite145",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite146.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite146.png\"}",
+        "name": "NewSprite146",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite147.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite147",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite148.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite148",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite149.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite149.png\"}",
+        "name": "NewSprite149",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite150.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite150.png\"}",
+        "name": "NewSprite150",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite151.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite151",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite152.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite152.png\"}",
+        "name": "NewSprite152",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image180.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image180.png\"}",
+        "name": "New image175",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image181.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image181.png\"}",
+        "name": "New image176",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image182.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image182.png\"}",
+        "name": "New image177",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite153.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite153.png\"}",
+        "name": "NewSprite153",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite154.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite154.png\"}",
+        "name": "NewSprite154",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite155.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite155",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite156.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite156.png\"}",
+        "name": "NewSprite156",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite157.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite157",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite158.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite158",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite159.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite159",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite160.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite160",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite161.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite161",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite118.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_NewSprite118.png2.png\"}",
+        "name": "assets\\NewSprite118.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite118.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite118.png3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite118.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite118.png4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite118.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite118.png5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite118.png6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite118.png6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite118.png7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite118.png7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite118.png8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite118.png8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite118.png9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite118.png9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite118.png10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite118.png10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite118.png11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite118.png11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite118.png12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite118.png12",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite118.png13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite118.png13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite162.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite162.png\"}",
+        "name": "NewSprite162",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite163.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite163.png\"}",
+        "name": "NewSprite163",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image183.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image178",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image184.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image184.png\"}",
+        "name": "New image179",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image185.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image185.png\"}",
+        "name": "New image180",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image186.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image186.png\"}",
+        "name": "New image181",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image187.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image187.png\"}",
+        "name": "New image182",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image188.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image183",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image189.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image184",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image190.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image185",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image191.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image186",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image192.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image187",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite164.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite164",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite165.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite165.png\"}",
+        "name": "NewSprite165",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite166.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite166",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite167.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite167",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite168.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite168",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite169.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite169",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -15048,6 +15723,565 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "special_border",
+      "texture": "New image174",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "play_button",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite120",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 4
+                      },
+                      {
+                        "x": 540,
+                        "y": 4
+                      },
+                      {
+                        "x": 540,
+                        "y": 154
+                      },
+                      {
+                        "x": 1,
+                        "y": 154
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "cake_shelf_bottom",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite122",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 86
+                      },
+                      {
+                        "x": 128,
+                        "y": 86
+                      },
+                      {
+                        "x": 128,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "table_top",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite123",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 35
+                      },
+                      {
+                        "x": 0,
+                        "y": 35
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "rug",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite138",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 6
+                      },
+                      {
+                        "x": 317,
+                        "y": 6
+                      },
+                      {
+                        "x": 317,
+                        "y": 142
+                      },
+                      {
+                        "x": 5,
+                        "y": 142
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "plant",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"NewSprite\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":0,\\\"height\\\":150,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite150\",\"NewSprite149\"],\"name\":\"NewSprite\"}}",
+              "timeBetweenFrames": 1.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite150",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 33
+                      },
+                      {
+                        "x": 85,
+                        "y": 33
+                      },
+                      {
+                        "x": 85,
+                        "y": 150
+                      },
+                      {
+                        "x": 9,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite149",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 33
+                      },
+                      {
+                        "x": 85,
+                        "y": 33
+                      },
+                      {
+                        "x": 85,
+                        "y": 150
+                      },
+                      {
+                        "x": 9,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "new_inventory_slot",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite153",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 87,
+                        "y": 1
+                      },
+                      {
+                        "x": 87,
+                        "y": 80
+                      },
+                      {
+                        "x": 0,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "_1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "/1",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 48,
+        "g": 55,
+        "r": 84
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "_2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "/2",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 48,
+        "g": 55,
+        "r": 84
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 3,
+      "name": "border_shadow",
+      "texture": "New image175",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 3,
+      "name": "border_light",
+      "texture": "New image176",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "timer_border",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite163",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 0
+                      },
+                      {
+                        "x": 245,
+                        "y": 0
+                      },
+                      {
+                        "x": 245,
+                        "y": 80
+                      },
+                      {
+                        "x": 43,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "timer",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "00:00",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 45,
+      "color": {
+        "b": 213,
+        "g": 227,
+        "r": 248
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -15106,6 +16340,45 @@
       },
       {
         "objectName": "lamp"
+      },
+      {
+        "objectName": "special_border"
+      },
+      {
+        "objectName": "play_button"
+      },
+      {
+        "objectName": "cake_shelf_bottom"
+      },
+      {
+        "objectName": "table_top"
+      },
+      {
+        "objectName": "rug"
+      },
+      {
+        "objectName": "plant"
+      },
+      {
+        "objectName": "new_inventory_slot"
+      },
+      {
+        "objectName": "_1"
+      },
+      {
+        "objectName": "_2"
+      },
+      {
+        "objectName": "border_shadow"
+      },
+      {
+        "objectName": "border_light"
+      },
+      {
+        "objectName": "timer_border"
+      },
+      {
+        "objectName": "timer"
       }
     ]
   },
@@ -15145,6 +16418,10 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/play-again"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/credits"
     },
     {
@@ -15178,6 +16455,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/popup"
