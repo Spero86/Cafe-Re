@@ -230,6 +230,16 @@
         },
         {
           "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
             "value": "DialogueTree::ClearState"
           },
           "parameters": []
