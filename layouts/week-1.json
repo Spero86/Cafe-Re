@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.9678640778703524,
+    "zoomFactor": 0.6244537826601742,
     "windowMask": false
   },
   "objectsGroups": [
@@ -88,6 +88,12 @@
     {
       "folded": true,
       "name": "cake",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "points",
       "type": "number",
       "value": 0
     }
@@ -5944,8 +5950,8 @@
       "name": "Collision_detect",
       "persistentUuid": "86812216-d520-471f-9857-2ed2264968bb",
       "width": 42,
-      "x": 678,
-      "y": 277,
+      "x": 586,
+      "y": 824,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -5960,8 +5966,8 @@
       "name": "Collision_detect",
       "persistentUuid": "278857d3-c777-467c-bec8-4fc558a6170e",
       "width": 42,
-      "x": 877,
-      "y": 268,
+      "x": 1205,
+      "y": 812,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -5976,8 +5982,8 @@
       "name": "Collision_detect",
       "persistentUuid": "923c3e99-34ae-49d5-91fa-003c3a4d6e6c",
       "width": 42,
-      "x": 990,
-      "y": 268,
+      "x": 696,
+      "y": 818,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -5992,8 +5998,8 @@
       "name": "Collision_detect",
       "persistentUuid": "b6628bbd-e4d1-43ed-acf2-9c647c6471a1",
       "width": 42,
-      "x": 781,
-      "y": 334,
+      "x": 525,
+      "y": 823,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -6008,8 +6014,8 @@
       "name": "Collision_detect",
       "persistentUuid": "4d32af24-5ce0-4098-8b3c-ec891615e03e",
       "width": 42,
-      "x": 784,
-      "y": 511,
+      "x": 799,
+      "y": 808,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -6024,8 +6030,8 @@
       "name": "Collision_detect",
       "persistentUuid": "559563a4-b8bc-414f-b5ba-c11c984de98f",
       "width": 42,
-      "x": 877,
-      "y": 446,
+      "x": 891,
+      "y": 799,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -6040,8 +6046,8 @@
       "name": "Collision_detect",
       "persistentUuid": "46e62a51-4ce6-430d-a09e-099f4a646700",
       "width": 42,
-      "x": 993,
-      "y": 440,
+      "x": 1009,
+      "y": 792,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -6056,8 +6062,8 @@
       "name": "Collision_detect",
       "persistentUuid": "64a48907-b99d-438a-9200-e81bef5c106b",
       "width": 42,
-      "x": 1100,
-      "y": 514,
+      "x": 1109,
+      "y": 796,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -6793,6 +6799,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 48,
+      "layer": "UI",
+      "name": "e9",
+      "persistentUuid": "54f7feb2-7b57-4743-853b-2b2ee6632919",
+      "width": 48,
+      "x": 700,
+      "y": 600,
+      "zOrder": 293,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -7514,6 +7536,26 @@
         "b": 213,
         "g": 227,
         "r": 248
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Week 1",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 32,
+        "color": "248;227;213"
       }
     },
     {
@@ -9247,6 +9289,26 @@
         "b": 0,
         "g": 0,
         "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
       }
     },
     {
@@ -9268,6 +9330,26 @@
         "b": 0,
         "g": 0,
         "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "]",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
       }
     },
     {
@@ -9289,6 +9371,26 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "E",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 35,
+        "color": "255;255;255"
       }
     },
     {
@@ -9310,6 +9412,26 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "E",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 35,
+        "color": "255;255;255"
       }
     },
     {
@@ -9331,6 +9453,26 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "E",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 35,
+        "color": "255;255;255"
       }
     },
     {
@@ -9988,6 +10130,26 @@
         "b": 48,
         "g": 55,
         "r": 84
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "84;55;48"
       }
     },
     {
@@ -10070,6 +10232,26 @@
         "b": 48,
         "g": 55,
         "r": 84
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "84;55;48"
       }
     },
     {
@@ -10091,6 +10273,26 @@
         "b": 48,
         "g": 55,
         "r": 84
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "84;55;48"
       }
     },
     {
@@ -10112,6 +10314,26 @@
         "b": 48,
         "g": 55,
         "r": 84
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "84;55;48"
       }
     },
     {
@@ -10163,6 +10385,26 @@
             "b": 235,
             "g": 235,
             "r": 252
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "CLICK FOR CONTROLS",
+            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+            "textAlignment": "center",
+            "characterSize": 18,
+            "color": "252;235;235"
           }
         },
         "Pressed": {
@@ -10196,6 +10438,26 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "000",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "255;255;255"
       }
     },
     {
@@ -10278,6 +10540,26 @@
         "b": 48,
         "g": 55,
         "r": 84
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "84;55;48"
       }
     }
   ],
@@ -10598,6 +10880,14 @@
         },
         {
           "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "scone"
+          ]
+        },
+        {
+          "type": {
             "value": "DialogueTree::LoadDialogueFromJsonFile"
           },
           "parameters": [
@@ -10612,6 +10902,32 @@
           "parameters": [
             "",
             "\"textScroll\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"weekFail\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "timer",
+            "Text",
+            "=",
+            "ToString(round(abs(TimerElapsedTime(\"weekFail\")-120)))"
           ]
         }
       ]
@@ -10816,6 +11132,15 @@
             "=",
             "811"
           ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"weekFail\""
+          ]
         }
       ]
     },
@@ -10904,6 +11229,15 @@
             "959",
             "=",
             "618"
+          ]
+        },
+        {
+          "type": {
+            "value": "UnPauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"weekFail\""
           ]
         }
       ]
@@ -12153,6 +12487,16 @@
           "parameters": [
             "e1"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -12177,6 +12521,16 @@
           "parameters": [
             "e2"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -12200,6 +12554,16 @@
           },
           "parameters": [
             "e3"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
           ]
         }
       ]
@@ -12228,7 +12592,6 @@
       "comment": "For when a level is completed, show summary, and moves on to next level after player closes summary"
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -12239,8 +12602,14 @@
             "",
             "\"weekFail\"",
             ">=",
-            ""
+            "120"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -12250,16 +12619,6 @@
           },
           "parameters": [
             "\"summary1\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "timerRanOut",
-            "+",
-            "1"
           ]
         }
       ]
@@ -12308,7 +12667,7 @@
                 "",
                 "\"endChat\"",
                 ">",
-                "5"
+                "2"
               ]
             },
             {
@@ -12355,6 +12714,154 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Quitting",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Gives the player the option to quit mid game"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "floor_border",
+            "Player",
+            "100",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e9"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "floor_border",
+            "Player",
+            "100",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "e9",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "e9"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"Quitting\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"playCredits\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Credits\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -12365,6 +12872,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -12392,6 +12900,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -12419,6 +12928,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": true,
@@ -12435,6 +12945,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -12477,6 +12988,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -12509,6 +13021,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -12541,6 +13054,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": true,
@@ -12573,6 +13087,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -12605,6 +13120,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -12637,6 +13153,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": true,
@@ -12664,6 +13181,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": true,
@@ -12696,6 +13214,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -12728,6 +13247,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -12760,6 +13280,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -12802,6 +13323,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,

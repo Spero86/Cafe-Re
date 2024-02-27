@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1726229638180345,
+    "zoomFactor": 0.5117784035211357,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1844,7 +1844,7 @@
       "persistentUuid": "7752052e-7803-4bb1-ae65-65fd45799093",
       "width": 220,
       "x": 445,
-      "y": 520,
+      "y": 498,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -6279,8 +6279,8 @@
       "name": "Collision_detect",
       "persistentUuid": "ed155d65-f0a3-4d5d-8ffc-996000263a0f",
       "width": 42,
-      "x": 678,
-      "y": 277,
+      "x": -167,
+      "y": 784,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -6295,8 +6295,8 @@
       "name": "Collision_detect",
       "persistentUuid": "4a4c615a-14f9-42f5-8200-f205d2cfe0a8",
       "width": 42,
-      "x": 781,
-      "y": 334,
+      "x": 58,
+      "y": 764,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -6311,8 +6311,8 @@
       "name": "Collision_detect",
       "persistentUuid": "dc7eac7d-009e-465a-8546-881b689562cc",
       "width": 42,
-      "x": 877,
-      "y": 268,
+      "x": -131,
+      "y": 872,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -6327,8 +6327,8 @@
       "name": "Collision_detect",
       "persistentUuid": "37cfda7b-4200-4b4a-914e-2bd770af0271",
       "width": 42,
-      "x": 990,
-      "y": 268,
+      "x": -34,
+      "y": 885,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -6343,8 +6343,8 @@
       "name": "Collision_detect",
       "persistentUuid": "7242c84d-80b6-4283-aaae-be3be57aeba2",
       "width": 42,
-      "x": 784,
-      "y": 511,
+      "x": 66,
+      "y": 825,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -6359,8 +6359,8 @@
       "name": "Collision_detect",
       "persistentUuid": "7f75efe6-9d32-4c6b-aafc-9577bd741851",
       "width": 42,
-      "x": 877,
-      "y": 446,
+      "x": 159,
+      "y": 779,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -6375,8 +6375,8 @@
       "name": "Collision_detect",
       "persistentUuid": "636bd525-ba5f-4fdd-9a65-43e382d74d0e",
       "width": 42,
-      "x": 1100,
-      "y": 511,
+      "x": -63,
+      "y": 816,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -6391,8 +6391,8 @@
       "name": "Collision_detect",
       "persistentUuid": "277f622c-0ecc-4403-a851-4865dda9061e",
       "width": 42,
-      "x": 993,
-      "y": 440,
+      "x": 163,
+      "y": 856,
       "zOrder": 246,
       "numberProperties": [],
       "stringProperties": [],
@@ -7286,6 +7286,150 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 48,
+      "layer": "UI",
+      "name": "e9",
+      "persistentUuid": "70071928-7b22-46b7-a186-fc6fae4a2cb4",
+      "width": 48,
+      "x": 700,
+      "y": 600,
+      "zOrder": 293,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 48,
+      "layer": "UI",
+      "name": "e10",
+      "persistentUuid": "841d873c-218b-485f-a3f7-4385ef116176",
+      "width": 48,
+      "x": 985,
+      "y": 445,
+      "zOrder": 294,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 48,
+      "layer": "UI",
+      "name": "e11",
+      "persistentUuid": "643ef250-6327-4a04-aa8f-547a65bc1757",
+      "width": 48,
+      "x": 673,
+      "y": 429,
+      "zOrder": 295,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 48,
+      "layer": "UI",
+      "name": "e12",
+      "persistentUuid": "9f82dd02-4149-48b2-8a8f-4b115444698b",
+      "width": 48,
+      "x": 637,
+      "y": 311,
+      "zOrder": 296,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 48,
+      "layer": "UI",
+      "name": "e13",
+      "persistentUuid": "af67dff1-663b-4171-87ec-726ca8f7febf",
+      "width": 48,
+      "x": 458,
+      "y": 214,
+      "zOrder": 297,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 60,
+      "layer": "Spills",
+      "name": "Spill1",
+      "persistentUuid": "b7038205-bfbf-4ace-a72e-9049d5e246f3",
+      "width": 60,
+      "x": 978,
+      "y": 496,
+      "zOrder": 298,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 60,
+      "layer": "Spills",
+      "name": "Spill2",
+      "persistentUuid": "94110565-6181-4f17-9a08-19dedee2831b",
+      "width": 60,
+      "x": 670,
+      "y": 494,
+      "zOrder": 299,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 60,
+      "layer": "Spills",
+      "name": "Spill3",
+      "persistentUuid": "69d541c1-d1f9-43e9-af63-a062359d41fb",
+      "width": 60,
+      "x": 632,
+      "y": 363,
+      "zOrder": 300,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 60,
+      "layer": "Spills",
+      "name": "Spill4",
+      "persistentUuid": "54113da5-e63d-4fb4-9794-bd752be02839",
+      "width": 60,
+      "x": 454,
+      "y": 272,
+      "zOrder": 301,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -8007,6 +8151,26 @@
         "b": 213,
         "g": 227,
         "r": 248
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Week 4",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 32,
+        "color": "248;227;213"
       }
     },
     {
@@ -9002,6 +9166,26 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "I’m exhausted…",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "255;255;255"
       }
     },
     {
@@ -9023,6 +9207,26 @@
         "b": 0,
         "g": 0,
         "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "]",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
       }
     },
     {
@@ -9044,6 +9248,26 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "E",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 35,
+        "color": "255;255;255"
       }
     },
     {
@@ -9065,6 +9289,26 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "E",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 35,
+        "color": "255;255;255"
       }
     },
     {
@@ -9086,6 +9330,26 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "E",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 35,
+        "color": "255;255;255"
       }
     },
     {
@@ -9743,6 +10007,26 @@
         "b": 48,
         "g": 55,
         "r": 84
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "84;55;48"
       }
     },
     {
@@ -13069,6 +13353,26 @@
         "b": 48,
         "g": 55,
         "r": 84
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "84;55;48"
       }
     },
     {
@@ -13090,6 +13394,26 @@
         "b": 48,
         "g": 55,
         "r": 84
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "84;55;48"
       }
     },
     {
@@ -13111,6 +13435,26 @@
         "b": 48,
         "g": 55,
         "r": 84
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "84;55;48"
       }
     },
     {
@@ -13162,6 +13506,26 @@
             "b": 213,
             "g": 227,
             "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Click for Controls",
+            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+            "textAlignment": "center",
+            "characterSize": 18,
+            "color": "248;227;213"
           }
         },
         "Pressed": {
@@ -13195,6 +13559,26 @@
         "b": 48,
         "g": 55,
         "r": 84
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "84;55;48"
       }
     },
     {
@@ -13787,6 +14171,114 @@
             "",
             "\"textScroll\""
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "scone"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"weekFail\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "-",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Spill1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Spill2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Spill3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Spill4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e10"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e11"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e12"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e13"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "timer",
+            "Text",
+            "=",
+            "ToString(round(abs(TimerElapsedTime(\"weekFail\")-120)))"
+          ]
         }
       ]
     },
@@ -13990,6 +14482,15 @@
             "=",
             "811"
           ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"weekFail\""
+          ]
         }
       ]
     },
@@ -14078,6 +14579,15 @@
             "959",
             "=",
             "618"
+          ]
+        },
+        {
+          "type": {
+            "value": "UnPauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"weekFail\""
           ]
         }
       ]
@@ -14934,6 +15444,78 @@
             "Text",
             "=",
             "ToString(Variable(cake))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"Scone\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "plateSound.mp3",
+            "",
+            "35",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "scone",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "scone",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetNumberVariable"
+          },
+          "parameters": [
+            "\"sconeNum\"",
+            "Variable(scone)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "scone_counter",
+            "Text",
+            "=",
+            "ToString(Variable(scone))"
           ]
         }
       ]
@@ -16625,6 +17207,104 @@
       "conditions": [
         {
           "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"removeScone\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "cash-register-purchase-87313.mp3",
+            "",
+            "35",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"endChat\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "scone",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "scone_counter",
+            "Text",
+            "=",
+            "ToString(Variable(scone))"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::SetNumberVariable"
+          },
+          "parameters": [
+            "\"sconeNum\"",
+            "Variable(scone)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateNumberVariable"
+              },
+              "parameters": [
+                "\"sconeNum\"",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "scone"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "DialogueTree::CompareDialogueStateBooleanVariable"
           },
           "parameters": [
@@ -16640,6 +17320,16 @@
           },
           "parameters": [
             "e1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
           ]
         }
       ]
@@ -16665,6 +17355,16 @@
           "parameters": [
             "e8"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -16679,6 +17379,12 @@
             "\"c32S\"",
             "True"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -16688,6 +17394,34 @@
           },
           "parameters": [
             "e2"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "e12",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Spill3",
+            ""
           ]
         }
       ]
@@ -16703,6 +17437,12 @@
             "\"c33S\"",
             "True"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -16712,6 +17452,34 @@
           },
           "parameters": [
             "e3"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "e10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Spill1",
+            ""
           ]
         }
       ]
@@ -16736,6 +17504,16 @@
           },
           "parameters": [
             "e4"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
           ]
         }
       ]
@@ -16769,6 +17547,16 @@
           "parameters": [
             "Text"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -16793,6 +17581,16 @@
           "parameters": [
             "e7"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -16816,6 +17614,16 @@
           },
           "parameters": [
             "e6"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
           ]
         }
       ]
@@ -16899,6 +17707,16 @@
             "Customer30",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -16967,6 +17785,16 @@
             "Text",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -17026,6 +17854,16 @@
             "Customer32",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -17084,6 +17922,16 @@
           "parameters": [
             "Customer33",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
           ]
         }
       ]
@@ -17159,6 +18007,12 @@
             "\"c27S\"",
             "True"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -17204,6 +18058,34 @@
             "Customer35",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "e11",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Spill2",
+            ""
+          ]
         }
       ]
     },
@@ -17218,6 +18100,12 @@
             "\"c28S\"",
             "True"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -17261,6 +18149,34 @@
           },
           "parameters": [
             "Customer36",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "e13",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Spill4",
             ""
           ]
         }
@@ -17322,6 +18238,16 @@
             "Customer37",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -17347,6 +18273,38 @@
         "textR": 0
       },
       "comment": "For when a level is completed, show summary, and moves on to next level after player closes summary"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"weekFail\"",
+            ">=",
+            "120"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"summary5\""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -17500,7 +18458,7 @@
                 "",
                 "\"endChat\"",
                 ">",
-                "5"
+                "2"
               ]
             },
             {
@@ -17547,6 +18505,534 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Quitting",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Gives the player the option to quit mid game"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "floor_border",
+            "Player",
+            "100",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e9"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "floor_border",
+            "Player",
+            "100",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "e9",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "e9"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"Quitting\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"playCredits\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Credits\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Spills",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "e"
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Spill1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "e10"
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "Spill1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Spill1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e10"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sweeping - Pixabay.mp3",
+            "",
+            "10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "e"
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Spill2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "e11"
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "Spill2"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Spill2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e11"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sweeping - Pixabay.mp3",
+            "",
+            "10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "e"
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Spill3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "e12"
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "Spill3"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Spill3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e12"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sweeping - Pixabay.mp3",
+            "",
+            "10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "e"
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Spill4",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "e13"
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "Spill4"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Spill4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "e13"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sweeping - Pixabay.mp3",
+            "",
+            "10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "totalPoints",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -17557,9 +19043,10 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "",
       "renderingType": "",
       "visibility": true,
@@ -17584,6 +19071,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": true,
@@ -17611,6 +19099,40 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Spills",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": true,
@@ -17627,6 +19149,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": true,
@@ -17669,6 +19192,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -17701,6 +19225,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -17733,6 +19258,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -17765,6 +19291,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -17797,6 +19324,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -17829,6 +19357,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": true,
@@ -17856,6 +19385,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -17888,6 +19418,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -17920,6 +19451,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -17952,6 +19484,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -17994,6 +19527,7 @@
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,

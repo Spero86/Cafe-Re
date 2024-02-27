@@ -1337,7 +1337,6 @@
           "description": "",
           "group": "Ellipse",
           "extraInformation": [],
-          "hidden": false,
           "name": "RadiusX"
         },
         {
@@ -1348,7 +1347,6 @@
           "description": "",
           "group": "Ellipse",
           "extraInformation": [],
-          "hidden": false,
           "name": "RadiusY"
         },
         {
@@ -1359,7 +1357,6 @@
           "description": "",
           "group": "Speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "LoopDuration"
         },
         {
@@ -1369,7 +1366,6 @@
           "description": "",
           "group": "Speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "InitialTurningLeft"
         },
         {
@@ -1380,7 +1376,6 @@
           "description": "",
           "group": "Speed",
           "extraInformation": [],
-          "hidden": false,
           "name": "InitialDirectionAngle"
         },
         {
@@ -1390,7 +1385,6 @@
           "description": "",
           "group": "Rotation",
           "extraInformation": [],
-          "hidden": false,
           "name": "ShouldRotate"
         },
         {
@@ -1401,7 +1395,6 @@
           "description": "",
           "group": "Rotation",
           "extraInformation": [],
-          "hidden": false,
           "name": "RotationOffset"
         },
         {

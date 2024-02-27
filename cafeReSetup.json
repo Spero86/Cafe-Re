@@ -2,10 +2,10 @@
 	{
 		"title": "Tutorial",
 		"tags": "",
-		"body": "Can I really do this? I’ve never even held a minimum-wage job before… What if I can’t keep up?\n<< set $c1S to false >>  << set $c2S to false >> << set $c3S to false >> << set $coffeeNum to 0 >> << set $cakeNum to 0 >>",
+		"body": "Unlocked pastry shelf! Press 'e' near it to make pastries!\nMake sure you complete customer's orders before time runs out!\nCan I really do this? I’ve never even held a minimum-wage job before… What if I can’t keep up?\n<< set $c1S to false >>  << set $c2S to false >> << set $c3S to false >> << set $coffeeNum to 0 >> << set $cakeNum to 0 >>",
 		"position": {
-			"x": 497,
-			"y": 292
+			"x": 498,
+			"y": 290
 		},
 		"colorID": 0
 	},
@@ -162,17 +162,17 @@
 	{
 		"title": "introTutorial",
 		"tags": "",
-		"body": "Hello! (Press \"z\" to go to next dialogue line and/or choose an option)\nHold \"z\" to also make text scroll faster.\nUse arrow keys to move around.\nUse up and down arrow keys to go to each option.\nPress \"e\" to interact with appliances and customers.\nThat's all for controls! (Press 'z' to start intro to game)\n[[Start game!|introLore]]",
+		"body": "Hello! (Press \"z\" to go to next dialogue line and/or choose an option)\nHold \"z\" to also make text scroll faster.\nUse arrow keys to move around.\nUse up and down arrow keys to go to each option.\nPress \"e\" to interact with appliances and customers.\nThat's all for controls! (Press 'z' to start intro to game)\n<< set $coffeeNum to 0 >>\n[[Start game!|introLore]]",
 		"position": {
 			"x": 498,
-			"y": -23
+			"y": -24
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Week4intro",
 		"tags": "",
-		"body": "It’s been weeks and I feel like I’m not getting enough done. \nSometimes I wonder if this is really what Grandpa wanted for me. He must’ve had higher expectations of me.\n<< set $c22S to false >>  << set $c23S to false >> << set $c24S to false >> << set $c25S to false >>  << set $c26S to false >> << set $c27S to false >> << set $c28S to false >>  << set $c29S to false >> << set $c30S to false >> << set $c31S to false >>  << set $c32S to false >> << set $c33S to false >> << set $c35S to false >> << set $c36S to false >> << set $c37S to false >> << set $coffeeNum to 0 >> << set $cakeNum to 0 >> << set $donutNum to 0 >> << set $teaNum to 0 >>",
+		"body": "It’s been weeks and I feel like I’m not getting enough done. \nSometimes I wonder if this is really what Grandpa wanted for me. He must’ve had higher expectations of me.\n<< set $c22S to false >>  << set $c23S to false >> << set $c24S to false >> << set $c25S to false >>  << set $c26S to false >> << set $c27S to false >> << set $c28S to false >>  << set $c29S to false >> << set $c30S to false >> << set $c31S to false >>  << set $c32S to false >> << set $c33S to false >> << set $c35S to false >> << set $c36S to false >> << set $c37S to false >> << set $coffeeNum to 0 >> << set $cakeNum to 0 >> << set $donutNum to 0 >> << set $teaNum to 0 >> << set $sconeNum to 0>>",
 		"position": {
 			"x": -427,
 			"y": 1349
@@ -182,7 +182,7 @@
 	{
 		"title": "Week3intro",
 		"tags": "",
-		"body": "Another week. There seems to be a lot more customers.\nHow can I make time to think about improving this old place when I’m always busy with customers?\n<< set $c10S to false >>  << set $c11S to false >> << set $c12S to false >> << set $c13S to false >>  << set $c14S to false >> << set $c15S to false >> << set $c16S to false >>  << set $c17S to false >> << set $c18S to false >> << set $c19S to false >>  << set $c20S to false >> << set $c21S to false >> << set $coffeeNum to 0 >> << set $cakeNum to 0 >> << set $donutNum to 0 >> << set $teaNum to 0 >>",
+		"body": "Another week. There seems to be a lot more customers.\nHow can I make time to think about improving this old place when I’m always busy with customers?\n<< set $c10S to false >>  << set $c11S to false >> << set $c12S to false >> << set $c13S to false >>  << set $c14S to false >> << set $c15S to false >> << set $c16S to false >>  << set $c17S to false >> << set $c18S to false >> << set $c19S to false >>  << set $c20S to false >> << set $c21S to false >> << set $coffeeNum to 0 >> << set $cakeNum to 0 >> << set $donutNum to 0 >> << set $teaNum to 0 >> << set $sconeNum to 0>>",
 		"position": {
 			"x": -87,
 			"y": 1348
@@ -232,10 +232,10 @@
 	{
 		"title": "summary2",
 		"tags": "",
-		"body": "It's starting to get a bit busy.\nHow did Grandpa do this all by himself? \n(Unlocked tea!)\n(Can now stack an additional pastry and drink!)\n<<week3>>\n[[ Go to next week |week3Load]]",
+		"body": "It's starting to get a bit busy.\nHow did Grandpa do this all by himself? \n(Unlocked tea and scones!)\n(Can now stack an additional pastry and drink!)\n<<week3>>\n[[ Go to next week |week3Load]]",
 		"position": {
 			"x": -98,
-			"y": 742
+			"y": 741
 		},
 		"colorID": 0
 	},
@@ -254,8 +254,8 @@
 		"tags": "",
 		"body": "....\n..........\nDespite it being a very busy week, I did enjoy interacting with the slimes and seeing how happy they get when I complete their orders. \nMaybe this was why grandpa was willing to keep this cafe up for so long…\n<<endChoices>>\n[[ Go to next week |endingLoad]]",
 		"position": {
-			"x": -749,
-			"y": 749
+			"x": -750,
+			"y": 748
 		},
 		"colorID": 0
 	},
@@ -274,8 +274,8 @@
 		"tags": "",
 		"body": "Weeks pass and you slowly begin to develop a routine. \nIt’s starting to feel a lot more natural and more slimes have started coming to the cafe after hearing of its success and friendly owner. \nWorking in the cafe and Interacting with the slimes has left a positive lasting impression on you. \nYou still have feelings of self-doubt from time to time but you’re feeling more confident in your skills now! \nGrandpa would’ve been proud of you. :)\nEnd of story! (Press 'z' to go to credits)\n<<credits>>\n[[ Go to Credits|ending1]]",
 		"position": {
-			"x": -744,
-			"y": 1342
+			"x": -751,
+			"y": 1343
 		},
 		"colorID": 0
 	},
@@ -292,9 +292,9 @@
 	{
 		"title": "ending2",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "It's over... I've done all I could, but it's just not enough.\nThis place meant everything to me, but sometimes... \nyou have to accept that all things don't always work out.\nNot everything can be saved, no matter how hard you try. \nHolding on too tightly only leads to more loss... I had to let go, for my own sake.\nThank you for the memories... and for a new beginning.\n<<credits>>\n[[ Go to Credits|ending1]]",
 		"position": {
-			"x": -1042,
+			"x": -1044,
 			"y": 1636
 		},
 		"colorID": 0
@@ -632,7 +632,7 @@
 	{
 		"title": "Customer10",
 		"tags": "",
-		"body": "I’ve missed the coffee here so much! \nI know it’s only been a week but coming here every morning has become part of my daily routine.\nOne coffee please!\n[[ (Give coffee) |giveCoffee10]] [[ Sure thing! |thanks10]]",
+		"body": "I’ve missed the coffee here so much! \nI know it’s only been a week but coming here every morning has become part of my daily routine.\nAlthough I miss the coffee, I'd like to try the scone for today!\n[[ (Give scone) |giveScone10]] [[ Sure thing! |thanks10]]",
 		"position": {
 			"x": 3723,
 			"y": -413
@@ -640,9 +640,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee10",
+		"title": "giveScone10",
 		"tags": "",
-		"body": "<<if $coffeeNum > 0>> \n<<removeCoffee>>\n<< set $c10S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $sconeNum > 0>> \n<<removeScone>>\n<< set $c10S to true >>\nThank you for the scone!  \n<<else>>\nIt seems like you didn't bring any scones with you.\n<<endif>>",
 		"position": {
 			"x": 4030,
 			"y": -408
@@ -812,7 +812,7 @@
 	{
 		"title": "Customer16",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee16]] [[ Sure thing! |thanks16]]",
+		"body": "One scone please!\n[[ (Give scone) |giveScone16]] [[ Sure thing! |thanks16]]",
 		"position": {
 			"x": 4449,
 			"y": -411
@@ -820,12 +820,12 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee16",
+		"title": "giveScone16",
 		"tags": "",
-		"body": "<<if $coffeeNum > 0>> \n<<removeCoffee>>\n<< set $c16S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $sconeNum > 0>> \n<<removeScone>>\n<< set $c16S to true >>\nThank you for the scone!  \n<<else>>\nIt seems like you didn't bring any scones with you.\n<<endif>>",
 		"position": {
-			"x": 4758,
-			"y": -411
+			"x": 4757,
+			"y": -412
 		},
 		"colorID": 0
 	},
@@ -1142,7 +1142,7 @@
 	{
 		"title": "Customer27",
 		"tags": "",
-		"body": "One coffee please!\n[[ (Give coffee) |giveCoffee27]] [[ Sure thing! |thanks27]]",
+		"body": "One scone please!\n[[ (Give scone) |giveScone27]] [[ Sure thing! |thanks27]]",
 		"position": {
 			"x": 6130,
 			"y": 2752
@@ -1150,9 +1150,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "giveCoffee27",
+		"title": "giveScone27",
 		"tags": "",
-		"body": "<<if $coffeeNum > 0>> \n<<removeCoffee>>\n<< set $c27S to true >>\nThank you for the coffee!  \n<<else>>\nIt seems like you didn't bring any coffee with you.\n<<endif>>",
+		"body": "<<if $sconeNum > 0>> \n<<removeScone>>\n<< set $c27S to true >>\nThank you for the scone!  \n<<else>>\nIt seems like you didn't bring any scones with you.\n<<endif>>",
 		"position": {
 			"x": 6440,
 			"y": 2753
@@ -1322,10 +1322,10 @@
 	{
 		"title": "summary0",
 		"tags": "",
-		"body": "Where would the slimes go if grandpa’s cafe shut down?\nMaybe it’s worth trying to save.\n<<week1>>\n[[Answer:week1Load|week1Load]]",
+		"body": "Seeing the place look fixed and tidied up made me realize something...\nWhere would the slimes go if grandpa’s cafe shut down?\nMaybe it’s worth trying to save.\n<<portrait>>\nPress \"z\" to exit.",
 		"position": {
-			"x": 489,
-			"y": -510
+			"x": 488,
+			"y": -509
 		},
 		"colorID": 0
 	},
@@ -1422,7 +1422,7 @@
 	{
 		"title": "makePastries3",
 		"tags": "",
-		"body": "What pastry would you like to make?\n[[ Cake |cakeMade3]] [[ Donut |donutMade3]] [[ Never mind |No3]]",
+		"body": "What pastry would you like to make?\n[[ Cake |cakeMade3]] [[ Donut |donutMade3]] [[ Scone |sconeMade3]] [[ Never mind |No3]]",
 		"position": {
 			"x": -398,
 			"y": -998
@@ -1482,10 +1482,280 @@
 	{
 		"title": "Controls",
 		"tags": "",
-		"body": "Press \"z\" to go to next dialogue line and/or choose an option\nHold \"z\" to also make text scroll faster.\nUse arrow keys to move around.\nUse up and down arrow keys to go to each option.\nPress \"e\" to interact with appliances and customers.",
+		"body": "Press \"z\" to go to next dialogue line and/or choose an option\nHold \"z\" to also make text scroll faster.\nUse arrow keys to move around.\nUse up and down arrow keys to go to each option.\nPress \"e\" to interact with appliances and customers.\nPress \"e\" to clean up spills",
 		"position": {
 			"x": 502,
 			"y": 549
+		},
+		"colorID": 0
+	},
+	{
+		"title": "fixAppliancesTutorial",
+		"tags": "",
+		"body": "I should probably go and see if the appliances need fixing.\nGo up to the microwave and coffee machine and press 'e' to start fixing them!",
+		"position": {
+			"x": 1190,
+			"y": -1579
+		},
+		"colorID": 0
+	},
+	{
+		"title": "fixMicrowave",
+		"tags": "",
+		"body": "Seems like the microwave needs to be fixed.\n[[Fix the microwave|mFix1]]",
+		"position": {
+			"x": 1666,
+			"y": -1854
+		},
+		"colorID": 0
+	},
+	{
+		"title": "fixCoffeeMachine",
+		"tags": "",
+		"body": "seems like the coffee machine needs to be fixed.\n[[Fix the coffee machine|cmFix1]]",
+		"position": {
+			"x": 1660,
+			"y": -1346
+		},
+		"colorID": 0
+	},
+	{
+		"title": "foodTutorial",
+		"tags": "",
+		"body": "I should probably test to see if I can still make drinks.\nGo up to the coffee machine (Press 'e') to make a drink!",
+		"position": {
+			"x": 503,
+			"y": -1357
+		},
+		"colorID": 0
+	},
+	{
+		"title": "spillCleanupTutorial",
+		"tags": "",
+		"body": "While I'm at it, I should probably cleanup these spills too.\nGo up to the spills and press 'e' to clean them!",
+		"position": {
+			"x": 501,
+			"y": -1703
+		},
+		"colorID": 0
+	},
+	{
+		"title": "mFix1",
+		"tags": "",
+		"body": "You noticed that the microwave does start, but does not heat up.\n[[Unplug power and remove plastic vent|mFix3]] [[Turn it off then on again|mFix2]]",
+		"position": {
+			"x": 2048,
+			"y": -1841
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cmFix1",
+		"tags": "",
+		"body": "You notice that some of the coffee machine components are loose.\nYou decide to tighten up the components.\nThere also seems to be some clogging and blockages inside the machine.\nYou decide to clean up the machine.\nAfter some extra stuff... the coffee machine is fixed!\n<<fixedCoffeeMachine>>\nPress \"z\" to exit.",
+		"position": {
+			"x": 2076,
+			"y": -1339
+		},
+		"colorID": 0
+	},
+	{
+		"title": "mFix2",
+		"tags": "",
+		"body": "Turning it off then on again wields the same results.\n[[Unplug power and remove plastic vent|mFix3]] [[Turn it off then on again|tangent1]]",
+		"position": {
+			"x": 2040,
+			"y": -2191
+		},
+		"colorID": 0
+	},
+	{
+		"title": "mFix3",
+		"tags": "",
+		"body": "With the upper vent removed, you see the control panel.\n[[Remove control panel|mFix6]] [[Check if there is any control panel backing|mFix4]]",
+		"position": {
+			"x": 2427,
+			"y": -1844
+		},
+		"colorID": 0
+	},
+	{
+		"title": "mFix9",
+		"tags": "",
+		"body": "After installing the new door switch, you reattach the control panel and upper vent.\nYou turn on the microwave again and it starts working!\n<<fixedMicrowave>>\nPress \"z\" to exit.",
+		"position": {
+			"x": 3503,
+			"y": -1850
+		},
+		"colorID": 0
+	},
+	{
+		"title": "mFix4",
+		"tags": "",
+		"body": "There is no control panel backing to remove.\n[[Remove the control panel|mFix6]] [[Double check|mFix5]]",
+		"position": {
+			"x": 2418,
+			"y": -2161
+		},
+		"colorID": 0
+	},
+	{
+		"title": "mFix5",
+		"tags": "",
+		"body": "A control panel backing does not magically appear.\n[[Remove control panel|mFix6]]",
+		"position": {
+			"x": 2415,
+			"y": -2426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "grandpasPortrait",
+		"tags": "",
+		"body": "...\n.........\nI miss you grandpa.\n<<week1>>\n[[Answer:week1Load|week1Load]]",
+		"position": {
+			"x": 496,
+			"y": -2289
+		},
+		"colorID": 0
+	},
+	{
+		"title": "portraitPutUp",
+		"tags": "",
+		"body": "But, before I forget...\nOne last thing...\nI should probably hang up the portrait now.",
+		"position": {
+			"x": 493,
+			"y": -2002
+		},
+		"colorID": 0
+	},
+	{
+		"title": "completedFoodTutorial",
+		"tags": "",
+		"body": "Everything seems to be working, I was able to make some coffee.\nIt was delicious!\n<<summary0>>\nPress \"z\" to exit.",
+		"position": {
+			"x": 785,
+			"y": -1352
+		},
+		"colorID": 0
+	},
+	{
+		"title": "tangent1",
+		"tags": "",
+		"body": "Are you dumb?\n[[Yes|tangent2]] [[No|tangent2]] [[Unplug power and remove vent|mFix3]]",
+		"position": {
+			"x": 2040,
+			"y": -2498
+		},
+		"colorID": 0
+	},
+	{
+		"title": "tangent2",
+		"tags": "",
+		"body": "That...\nThat...that was a rhetorical question.\n[[Oh|mFix31]] [[Unplug power and remove vent!!!|mFix3]]",
+		"position": {
+			"x": 2023,
+			"y": -2775
+		},
+		"colorID": 0
+	},
+	{
+		"title": "mFix6",
+		"tags": "",
+		"body": "With the control panel removed, you now see the door switch.\n[[Remove door switch|mFix8]] [[Take a break|mFix7]]",
+		"position": {
+			"x": 2777,
+			"y": -1840
+		},
+		"colorID": 0
+	},
+	{
+		"title": "mFix8",
+		"tags": "",
+		"body": "With the door switch removed, you install a new door switch.\n[[Install new door switch|mFix9]]",
+		"position": {
+			"x": 3156,
+			"y": -1835
+		},
+		"colorID": 0
+	},
+	{
+		"title": "mFix7",
+		"tags": "",
+		"body": "You decide to take a break before removing the door switch.\n[[Remove door switch|mFix8]]",
+		"position": {
+			"x": 2888,
+			"y": -2146
+		},
+		"colorID": 0
+	},
+	{
+		"title": "mFix31",
+		"tags": "",
+		"body": "After a lengthy conversation with the voice inside your head...\nYou decide to unplug the power and remove the upper vent.\n[[Remove control panel|mFix6]] [[Check if there is any control panel backing|mFix4]]",
+		"position": {
+			"x": 2755,
+			"y": -2431
+		},
+		"colorID": 0
+	},
+	{
+		"title": "fixed1",
+		"tags": "",
+		"body": "Loading...",
+		"position": {
+			"x": 1699,
+			"y": -1080
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Quitting",
+		"tags": "",
+		"body": "This might be too much for me...\nShould I just quit?\n[[Continue|Working]] [[Quit|endGame]]",
+		"position": {
+			"x": 987,
+			"y": -976
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Working",
+		"tags": "",
+		"body": "You decide to keep on working.",
+		"position": {
+			"x": 1350,
+			"y": -875
+		},
+		"colorID": 0
+	},
+	{
+		"title": "endGame",
+		"tags": "",
+		"body": "You decide to quit.\nRunning a cafe just wasn't for you.\nThere are times where you have to realize that it's better to just let go.\n<<playCredits>>\n[[Going to next scene...|fixed1]]",
+		"position": {
+			"x": 1334,
+			"y": -1190
+		},
+		"colorID": 0
+	},
+	{
+		"title": "summary5",
+		"tags": "",
+		"body": "....\n..........\nThis may not be for me...\n<<endChoices>>\n[[ Go to next week |endingLoad]]",
+		"position": {
+			"x": -1069,
+			"y": 744
+		},
+		"colorID": 0
+	},
+	{
+		"title": "sconeMade3",
+		"tags": "",
+		"body": "<<if $sconeNum < 2>>\n<<Scone>>\nYou made a scone! +1 scone\n<<else>>\nYou can't carry anymore scones!\n<<endif>>",
+		"position": {
+			"x": -1303,
+			"y": -998
 		},
 		"colorID": 0
 	}
