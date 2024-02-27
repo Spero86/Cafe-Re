@@ -12841,6 +12841,18 @@
           "parameters": [
             "e4"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sweeping - Pixabay.mp3",
+            "",
+            "10",
+            ""
+          ]
         }
       ]
     },
