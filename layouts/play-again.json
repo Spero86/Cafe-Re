@@ -227,6 +227,12 @@
             "=",
             "\"0\""
           ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::ClearState"
+          },
+          "parameters": []
         }
       ]
     }
