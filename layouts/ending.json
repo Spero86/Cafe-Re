@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6897782140106024,
+    "zoomFactor": 0.6244537826601402,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1179,27 +1179,12 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Plates & Cups (Bottom Half)",
-      "name": "cake",
-      "persistentUuid": "1686346b-c1c0-49ef-82dd-2499ceb03ea9",
-      "width": 0,
-      "x": 172,
-      "y": 349,
-      "zOrder": 97,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Plates & Cups (Bottom Half)",
+      "layer": "Items",
       "name": "cake",
       "persistentUuid": "78e6af81-519f-4f28-9f12-d406f7b15cad",
       "width": 0,
-      "x": 209,
-      "y": 350,
+      "x": 246,
+      "y": 319,
       "zOrder": 98,
       "numberProperties": [],
       "stringProperties": [],
@@ -1499,7 +1484,7 @@
       "name": "plated_cake",
       "persistentUuid": "21524e4a-2393-46f4-9062-c16d7c6c5f8a",
       "width": 0,
-      "x": 214,
+      "x": 231,
       "y": 258,
       "zOrder": 117,
       "numberProperties": [],
@@ -4345,7 +4330,7 @@
       "name": "plated_donut",
       "persistentUuid": "17c50384-f35a-42f2-9ea5-9e0df1b0626c",
       "width": 0,
-      "x": 165,
+      "x": 192,
       "y": 258,
       "zOrder": 162,
       "numberProperties": [],
@@ -4356,12 +4341,12 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Items",
+      "layer": "Plates & Cups (Bottom Half)",
       "name": "donut",
       "persistentUuid": "6bdf6fd4-7838-45ce-a03b-3808b3c75713",
       "width": 0,
-      "x": 173,
-      "y": 319,
+      "x": 209,
+      "y": 349,
       "zOrder": 163,
       "numberProperties": [],
       "stringProperties": [],
@@ -4378,21 +4363,6 @@
       "x": 209,
       "y": 319,
       "zOrder": 164,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Items",
-      "name": "donut",
-      "persistentUuid": "b2f25499-d556-48ac-9e21-ea785093d8f5",
-      "width": 0,
-      "x": 246,
-      "y": 319,
-      "zOrder": 165,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4518,7 +4488,7 @@
       "name": "shadow_tile",
       "persistentUuid": "5b5125c7-0f80-4bc9-9568-af488d50a04d",
       "width": 3,
-      "x": 230,
+      "x": 247,
       "y": 311,
       "zOrder": 169,
       "numberProperties": [],
@@ -4534,7 +4504,7 @@
       "name": "shadow_tile",
       "persistentUuid": "4c68ea85-a530-41f1-8d69-dc0b74cc846a",
       "width": 24,
-      "x": 233,
+      "x": 250,
       "y": 302,
       "zOrder": 168,
       "numberProperties": [],
@@ -4550,7 +4520,7 @@
       "name": "shadow_tile",
       "persistentUuid": "33c1050a-d2d6-4eda-a853-09d8cefd27c8",
       "width": 3,
-      "x": 227,
+      "x": 244,
       "y": 308,
       "zOrder": 169,
       "numberProperties": [],
@@ -4566,7 +4536,7 @@
       "name": "shadow_tile",
       "persistentUuid": "b8852f12-18cd-4a8a-8c57-0d8da7b7eaf5",
       "width": 3,
-      "x": 260,
+      "x": 277,
       "y": 308,
       "zOrder": 169,
       "numberProperties": [],
@@ -4582,7 +4552,7 @@
       "name": "shadow_tile",
       "persistentUuid": "0524dead-3b39-4edc-a329-89fb3ace6499",
       "width": 3,
-      "x": 257,
+      "x": 274,
       "y": 311,
       "zOrder": 169,
       "numberProperties": [],
@@ -4598,7 +4568,7 @@
       "name": "shadow_tile",
       "persistentUuid": "0850540a-b458-40a8-a9c8-e8a4c41376a3",
       "width": 3,
-      "x": 178,
+      "x": 205,
       "y": 308,
       "zOrder": 169,
       "numberProperties": [],
@@ -4614,7 +4584,7 @@
       "name": "shadow_tile",
       "persistentUuid": "119f6656-3591-44b1-9d76-e99bf3488a48",
       "width": 3,
-      "x": 181,
+      "x": 208,
       "y": 311,
       "zOrder": 169,
       "numberProperties": [],
@@ -4630,7 +4600,7 @@
       "name": "shadow_tile",
       "persistentUuid": "dc6e6b01-ec30-4d35-962e-c217843e3934",
       "width": 24,
-      "x": 184,
+      "x": 211,
       "y": 302,
       "zOrder": 168,
       "numberProperties": [],
@@ -4646,7 +4616,7 @@
       "name": "shadow_tile",
       "persistentUuid": "7cebcbed-bbbb-426c-9c47-74a0819ff6ac",
       "width": 3,
-      "x": 208,
+      "x": 235,
       "y": 311,
       "zOrder": 169,
       "numberProperties": [],
@@ -4662,7 +4632,7 @@
       "name": "shadow_tile",
       "persistentUuid": "0182d757-f362-47bd-a7a0-ce4d825034a6",
       "width": 3,
-      "x": 211,
+      "x": 238,
       "y": 308,
       "zOrder": 169,
       "numberProperties": [],
@@ -5475,8 +5445,8 @@
       "name": "tea_outline",
       "persistentUuid": "86a1fc02-2a87-46b1-99ca-a7bc652864be",
       "width": 42,
-      "x": 131,
-      "y": 601,
+      "x": 32,
+      "y": 211,
       "zOrder": 210,
       "numberProperties": [],
       "stringProperties": [],
@@ -6122,8 +6092,8 @@
       "name": "border_shadow",
       "persistentUuid": "d6f1bae6-7859-42cd-a846-140b76f48b65",
       "width": 0,
-      "x": 550,
-      "y": 663,
+      "x": 133,
+      "y": 543,
       "zOrder": 259,
       "numberProperties": [],
       "stringProperties": [],
@@ -6390,8 +6360,8 @@
       "name": "coffee2",
       "persistentUuid": "4f338f7e-bd9e-4aa9-98ad-ae7f8ce65592",
       "width": 42,
-      "x": 39,
-      "y": 605,
+      "x": 45,
+      "y": 126,
       "zOrder": 215,
       "numberProperties": [],
       "stringProperties": [],
@@ -6406,8 +6376,8 @@
       "name": "green_tea2",
       "persistentUuid": "c32290cb-f37f-4757-80e4-91a7c170cb74",
       "width": 42,
-      "x": 144,
-      "y": 605,
+      "x": 45,
+      "y": 215,
       "zOrder": 217,
       "numberProperties": [],
       "stringProperties": [],
@@ -6422,8 +6392,8 @@
       "name": "coffee_outline",
       "persistentUuid": "d725d64e-1f8d-44ab-b414-b1cda1629182",
       "width": 42,
-      "x": 39,
-      "y": 605,
+      "x": 45,
+      "y": 126,
       "zOrder": 214,
       "numberProperties": [],
       "stringProperties": [],
@@ -6438,8 +6408,8 @@
       "name": "tea_outline",
       "persistentUuid": "34dfbdec-4ed6-419d-9f39-1c5971913238",
       "width": 42,
-      "x": 144,
-      "y": 605,
+      "x": 45,
+      "y": 215,
       "zOrder": 216,
       "numberProperties": [],
       "stringProperties": [],
@@ -6454,8 +6424,8 @@
       "name": "cake2",
       "persistentUuid": "477d5b87-dc0d-43d2-8fdd-3757c5956deb",
       "width": 83,
-      "x": 339,
-      "y": 614,
+      "x": 27,
+      "y": 404,
       "zOrder": 215,
       "numberProperties": [],
       "stringProperties": [],
@@ -6470,8 +6440,8 @@
       "name": "donut2",
       "persistentUuid": "8c88ab3e-22a8-423d-b387-508a379d1cb2",
       "width": 83,
-      "x": 234,
-      "y": 612,
+      "x": 28,
+      "y": 319,
       "zOrder": 213,
       "numberProperties": [],
       "stringProperties": [],
@@ -6486,8 +6456,8 @@
       "name": "donut_outline",
       "persistentUuid": "1298da1e-f064-4d53-994e-b2860972e59a",
       "width": 83,
-      "x": 234,
-      "y": 612,
+      "x": 28,
+      "y": 319,
       "zOrder": 212,
       "numberProperties": [],
       "stringProperties": [],
@@ -6502,8 +6472,8 @@
       "name": "cake_outline",
       "persistentUuid": "e5e17d8d-9616-437a-b3a8-f22664b0573b",
       "width": 83,
-      "x": 339,
-      "y": 614,
+      "x": 27,
+      "y": 404,
       "zOrder": 214,
       "numberProperties": [],
       "stringProperties": [],
@@ -6517,8 +6487,8 @@
       "name": "coffee_counter",
       "persistentUuid": "cdc336a9-1241-4e5c-a9ce-37377c8a23be",
       "width": 0,
-      "x": 71,
-      "y": 623,
+      "x": 77,
+      "y": 144,
       "zOrder": 229,
       "numberProperties": [],
       "stringProperties": [],
@@ -6532,8 +6502,8 @@
       "name": "tea_counter",
       "persistentUuid": "d558195a-f71b-446f-aa08-93bf5608124d",
       "width": 0,
-      "x": 176,
-      "y": 623,
+      "x": 77,
+      "y": 233,
       "zOrder": 230,
       "numberProperties": [],
       "stringProperties": [],
@@ -6547,8 +6517,8 @@
       "name": "donut_counter",
       "persistentUuid": "ea0cbdcb-c62c-46d7-9f81-bcf0a0fc5a5b",
       "width": 0,
-      "x": 284,
-      "y": 623,
+      "x": 78,
+      "y": 330,
       "zOrder": 231,
       "numberProperties": [],
       "stringProperties": [],
@@ -6562,8 +6532,8 @@
       "name": "cake_counter",
       "persistentUuid": "32c37fd7-3680-496d-8611-9e394981b1dd",
       "width": 0,
-      "x": 389,
-      "y": 623,
+      "x": 77,
+      "y": 413,
       "zOrder": 232,
       "numberProperties": [],
       "stringProperties": [],
@@ -6578,8 +6548,8 @@
       "name": "new_inventory_slot",
       "persistentUuid": "3e9ced11-1a11-43ea-a859-48a217b91bd1",
       "width": 104,
-      "x": 22,
-      "y": 619,
+      "x": 28,
+      "y": 140,
       "zOrder": 114,
       "numberProperties": [],
       "stringProperties": [],
@@ -6594,8 +6564,8 @@
       "name": "new_inventory_slot",
       "persistentUuid": "da951d52-e4f0-4364-a393-0e6ebc90f1f9",
       "width": 104,
-      "x": 127,
-      "y": 619,
+      "x": 28,
+      "y": 229,
       "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
@@ -6610,8 +6580,8 @@
       "name": "new_inventory_slot",
       "persistentUuid": "54ee83d2-3ce4-471f-834d-7d09d2e078cf",
       "width": 104,
-      "x": 235,
-      "y": 619,
+      "x": 29,
+      "y": 326,
       "zOrder": 55,
       "numberProperties": [],
       "stringProperties": [],
@@ -6626,8 +6596,8 @@
       "name": "new_inventory_slot",
       "persistentUuid": "766f8c9d-d3c6-44fb-afab-41dda26002d2",
       "width": 104,
-      "x": 340,
-      "y": 619,
+      "x": 28,
+      "y": 409,
       "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
@@ -6641,8 +6611,8 @@
       "name": "_2",
       "persistentUuid": "5c8cd56a-eda2-4df0-9201-beaef3928fc4",
       "width": 0,
-      "x": 82,
-      "y": 623,
+      "x": 88,
+      "y": 144,
       "zOrder": 254,
       "numberProperties": [],
       "stringProperties": [],
@@ -6656,8 +6626,8 @@
       "name": "_2",
       "persistentUuid": "3bf6523c-e26b-44ab-bb68-189602f6831a",
       "width": 0,
-      "x": 187,
-      "y": 623,
+      "x": 88,
+      "y": 233,
       "zOrder": 255,
       "numberProperties": [],
       "stringProperties": [],
@@ -6671,8 +6641,8 @@
       "name": "_2",
       "persistentUuid": "92d8289c-517f-4bff-9bfa-f56235a6c1aa",
       "width": 0,
-      "x": 295,
-      "y": 623,
+      "x": 89,
+      "y": 330,
       "zOrder": 256,
       "numberProperties": [],
       "stringProperties": [],
@@ -6686,8 +6656,8 @@
       "name": "_2",
       "persistentUuid": "06845e56-3f8a-44d3-a512-cd31cd224e4b",
       "width": 0,
-      "x": 400,
-      "y": 623,
+      "x": 88,
+      "y": 413,
       "zOrder": 257,
       "numberProperties": [],
       "stringProperties": [],
@@ -6702,8 +6672,8 @@
       "name": "new_inventory_slot",
       "persistentUuid": "88bfc6f9-d9e6-4b0c-9d58-2d7b8359dc62",
       "width": 104,
-      "x": 445,
-      "y": 620,
+      "x": 28,
+      "y": 500,
       "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
@@ -6717,8 +6687,8 @@
       "name": "_2",
       "persistentUuid": "63c013c5-3a02-41f1-b82e-2f018c3c0c73",
       "width": 0,
-      "x": 505,
-      "y": 624,
+      "x": 88,
+      "y": 504,
       "zOrder": 257,
       "numberProperties": [],
       "stringProperties": [],
@@ -6726,15 +6696,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 83,
       "layer": "UI",
-      "name": "scone",
+      "name": "plated_scone",
       "persistentUuid": "08e5128f-c148-4347-9ef9-0bcc1b43d86b",
-      "width": 0,
-      "x": 454,
-      "y": 632,
-      "zOrder": 277,
+      "width": 83,
+      "x": 27,
+      "y": 495,
+      "zOrder": 281,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6747,9 +6718,150 @@
       "name": "scone_counter",
       "persistentUuid": "c1147811-c021-469f-adec-446f61df41e2",
       "width": 0,
-      "x": 494,
-      "y": 624,
+      "x": 77,
+      "y": 504,
       "zOrder": 278,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 83,
+      "layer": "UI",
+      "name": "scone_outline",
+      "persistentUuid": "48e7ca53-349a-4cfe-8dff-4d6f42cf7205",
+      "width": 83,
+      "x": 27,
+      "y": 495,
+      "zOrder": 280,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Plates & Cups (Bottom Half)",
+      "name": "scone",
+      "persistentUuid": "a300c73a-0c8f-4c51-a0e6-ad903323fa35",
+      "width": 0,
+      "x": 156,
+      "y": 331,
+      "zOrder": 282,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Items",
+      "name": "scone",
+      "persistentUuid": "5eee7a40-3559-4743-96b1-766fd5b1cc29",
+      "width": 0,
+      "x": 157,
+      "y": 301,
+      "zOrder": 283,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 15,
+      "layer": "Item Shadows",
+      "name": "shadow_tile",
+      "persistentUuid": "d69ecb7a-c8d2-4fcf-9c73-1ac3804e2230",
+      "width": 24,
+      "x": 172,
+      "y": 302,
+      "zOrder": 168,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3,
+      "layer": "Item Shadows",
+      "name": "shadow_tile",
+      "persistentUuid": "ca8bcb1a-925f-4ee7-be7f-b256868aa65a",
+      "width": 3,
+      "x": 199,
+      "y": 308,
+      "zOrder": 169,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3,
+      "layer": "Item Shadows",
+      "name": "shadow_tile",
+      "persistentUuid": "d14f9151-d64a-4c88-9414-41a7672b90e4",
+      "width": 3,
+      "x": 196,
+      "y": 311,
+      "zOrder": 169,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3,
+      "layer": "Item Shadows",
+      "name": "shadow_tile",
+      "persistentUuid": "1fa2ee8a-390f-4744-92cb-44701e6537a5",
+      "width": 3,
+      "x": 169,
+      "y": 311,
+      "zOrder": 169,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3,
+      "layer": "Item Shadows",
+      "name": "shadow_tile",
+      "persistentUuid": "7efe91fe-4979-4c31-8b1b-3717ae3b747d",
+      "width": 3,
+      "x": 166,
+      "y": 308,
+      "zOrder": 169,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Items",
+      "name": "animated_plated_scone",
+      "persistentUuid": "3971cd3a-71d7-45ea-9252-8ae4028dd504",
+      "width": 0,
+      "x": 153,
+      "y": 258,
+      "zOrder": 284,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -17411,7 +17523,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "scone",
+      "name": "plated_scone",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -17429,7 +17541,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite167",
+                  "image": "NewSprite181",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17445,20 +17557,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 20
+                        "x": 13,
+                        "y": 29
                       },
                       {
                         "x": 49,
-                        "y": 20
+                        "y": 29
                       },
                       {
                         "x": 49,
-                        "y": 58
+                        "y": 56
                       },
                       {
-                        "x": 12,
-                        "y": 58
+                        "x": 13,
+                        "y": 56
                       }
                     ]
                   ]
@@ -17509,6 +17621,225 @@
         "characterSize": 15,
         "color": "84;55;48"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "scone_outline",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite180",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "scone",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite188",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 29
+                      },
+                      {
+                        "x": 46,
+                        "y": 29
+                      },
+                      {
+                        "x": 46,
+                        "y": 50
+                      },
+                      {
+                        "x": 16,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "animated_plated_scone",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "animated_plated_scone",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.6,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "animated_plated_scone",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "animated_plated_scone2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -17743,10 +18074,19 @@
         "objectName": "cake_counter"
       },
       {
-        "objectName": "scone"
+        "objectName": "plated_scone"
+      },
+      {
+        "objectName": "scone_outline"
       },
       {
         "objectName": "scone_counter"
+      },
+      {
+        "objectName": "scone"
+      },
+      {
+        "objectName": "animated_plated_scone"
       }
     ]
   },
@@ -19921,7 +20261,7 @@
       "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "Plates & Cups (Bottom Half)",
       "renderingType": "",
       "visibility": true,
@@ -20053,7 +20393,7 @@
       "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "Item Shadows",
       "renderingType": "",
       "visibility": true,

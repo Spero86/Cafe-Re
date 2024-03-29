@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6040838749990477,
+    "zoomFactor": 0.5653158055127896,
     "windowMask": false
   },
   "objectsGroups": [
@@ -5909,13 +5909,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 58,
+      "height": 63,
       "layer": "Spills",
       "name": "Spill1",
       "persistentUuid": "b6acafa6-8f31-4299-9bb4-92895061927e",
-      "width": 62,
+      "width": 67,
       "x": 574,
-      "y": 430,
+      "y": 425.35,
       "zOrder": 280,
       "numberProperties": [],
       "stringProperties": [],
@@ -5930,8 +5930,8 @@
       "name": "Spill2",
       "persistentUuid": "7e67eb77-e071-42fb-b30f-1ce3c53ef7c4",
       "width": 62,
-      "x": 916,
-      "y": 352,
+      "x": 917,
+      "y": 348,
       "zOrder": 281,
       "numberProperties": [],
       "stringProperties": [],
@@ -6028,6 +6028,51 @@
       "x": 1086,
       "y": 240,
       "zOrder": 287,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Furniture",
+      "name": "broken_coffee_machine",
+      "persistentUuid": "05c8e629-8600-4356-8662-c5b7c85f7b6d",
+      "width": 0,
+      "x": 369,
+      "y": 92,
+      "zOrder": 288,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Furniture",
+      "name": "broken_microwave",
+      "persistentUuid": "7a451e86-f231-477e-b988-28e4c64d19c3",
+      "width": 0,
+      "x": 293,
+      "y": 156,
+      "zOrder": 289,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Furniture",
+      "name": "empty_menu",
+      "persistentUuid": "252d1d0b-baab-4dcf-9a32-fd05f17bb172",
+      "width": 0,
+      "x": 511,
+      "y": 114,
+      "zOrder": 290,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -10399,6 +10444,297 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "broken_coffee_machine",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.475,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite199",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 13
+                      },
+                      {
+                        "x": 64,
+                        "y": 13
+                      },
+                      {
+                        "x": 64,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite200",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 13
+                      },
+                      {
+                        "x": 64,
+                        "y": 13
+                      },
+                      {
+                        "x": 64,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite201",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 13
+                      },
+                      {
+                        "x": 64,
+                        "y": 13
+                      },
+                      {
+                        "x": 64,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite198",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 13
+                      },
+                      {
+                        "x": 64,
+                        "y": 13
+                      },
+                      {
+                        "x": 64,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "broken_microwave",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite202",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 10
+                      },
+                      {
+                        "x": 70,
+                        "y": 10
+                      },
+                      {
+                        "x": 70,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "empty_menu",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite203",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 112,
+                        "y": 0
+                      },
+                      {
+                        "x": 112,
+                        "y": 80
+                      },
+                      {
+                        "x": 0,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -10480,7 +10816,16 @@
         "objectName": "coffee_machine"
       },
       {
+        "objectName": "broken_coffee_machine"
+      },
+      {
         "objectName": "microwave"
+      },
+      {
+        "objectName": "broken_microwave"
+      },
+      {
+        "objectName": "empty_menu"
       },
       {
         "objectName": "tip_jar"
