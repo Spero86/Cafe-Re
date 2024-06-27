@@ -232,7 +232,7 @@
 	{
 		"title": "summary2",
 		"tags": "",
-		"body": "It's starting to get a bit busy.\nHow did Grandpa do this all by himself? \n(Unlocked tea and scones!)\n(Can now stack an additional pastry and drink!)\n<<week3>>\n[[ Go to next week |week3Load]]",
+		"body": "It's starting to get a bit busy.\nHow did Grandpa do this all by himself? \n(Unlocked tea and scones!)\nFor scones, before serving them, warm them up in the microwave!\n(Can now stack an additional pastry and drink!)\nBe careful! Your kitchen appliances may break during periods of time and will be unusable.\nTo fix the kitchen appliance, press 'E' on them!\n<<week3>>\n[[ Go to next week |week3Load]]",
 		"position": {
 			"x": -98,
 			"y": 741
@@ -1322,7 +1322,7 @@
 	{
 		"title": "summary0",
 		"tags": "",
-		"body": "Seeing the place look fixed and tidied up made me realize something...\nWhere would the slimes go if grandpa’s cafe shut down?\nMaybe it’s worth trying to save.\n<<portrait>>\nPress \"z\" to exit.",
+		"body": "The menu looks good for now!\n...\nSeeing the place look fixed and tidied up made me realize something...\nWhere would the slimes go if grandpa’s cafe shut down?\nMaybe it’s worth trying to save.\n<<portrait>>\nPress \"z\" to exit.",
 		"position": {
 			"x": 488,
 			"y": -509
@@ -1422,10 +1422,10 @@
 	{
 		"title": "makePastries3",
 		"tags": "",
-		"body": "What pastry would you like to make?\n[[ Cake |cakeMade3]] [[ Donut |donutMade3]] [[ Scone |sconeMade3]] [[ Never mind |No3]]",
+		"body": "What pastry would you like to make?\n[[ Cake |cakeMade3]] [[ Donut |donutMade3]] [[ Never mind |No3]]",
 		"position": {
-			"x": -398,
-			"y": -998
+			"x": -399,
+			"y": -999
 		},
 		"colorID": 0
 	},
@@ -1632,7 +1632,7 @@
 	{
 		"title": "completedFoodTutorial",
 		"tags": "",
-		"body": "Everything seems to be working, I was able to make some coffee.\nIt was delicious!\n<<summary0>>\nPress \"z\" to exit.",
+		"body": "Everything seems to be working, I was able to make some coffee.\nIt was delicious!\n<<menu>>\nPress \"z\" to exit.",
 		"position": {
 			"x": 785,
 			"y": -1352
@@ -1642,7 +1642,7 @@
 	{
 		"title": "tangent1",
 		"tags": "",
-		"body": "Are you dumb?\n[[Yes|tangent2]] [[No|tangent2]] [[Unplug power and remove vent|mFix3]]",
+		"body": "Why?\n[[Yes|tangent2]] [[No|tangent2]] [[Unplug power and remove vent|mFix3]]",
 		"position": {
 			"x": 2040,
 			"y": -2498
@@ -1652,7 +1652,7 @@
 	{
 		"title": "tangent2",
 		"tags": "",
-		"body": "That...\nThat...that was a rhetorical question.\n[[Oh|mFix31]] [[Unplug power and remove vent!!!|mFix3]]",
+		"body": "...\n[[Oh|mFix31]] [[Unplug power and remove vent!!!|mFix3]]",
 		"position": {
 			"x": 2023,
 			"y": -2775
@@ -1752,10 +1752,30 @@
 	{
 		"title": "sconeMade3",
 		"tags": "",
-		"body": "<<if $sconeNum < 2>>\n<<Scone>>\nYou made a scone! +1 scone\n<<else>>\nYou can't carry anymore scones!\n<<endif>>",
+		"body": "<<if $sconeNum < 2>>\n<<Scone>>\nYou warmed up a scone! +1 scone\n<<else>>\n<<off>> \nYou can't carry anymore scones!\n<<endif>>",
 		"position": {
 			"x": -1303,
 			"y": -998
+		},
+		"colorID": 0
+	},
+	{
+		"title": "fillInMenu",
+		"tags": "",
+		"body": "Since I know that the appliances are working now, I can work on the menu now!\nHmmmmmmmmmmm........\nOh I know what to serve!",
+		"position": {
+			"x": 905,
+			"y": -1971
+		},
+		"colorID": 0
+	},
+	{
+		"title": "makeScone",
+		"tags": "",
+		"body": "Warm up a scone?\n[[ Scone |sconeMade3]] [[ Never mind |No3]]",
+		"position": {
+			"x": 100,
+			"y": -872
 		},
 		"colorID": 0
 	}

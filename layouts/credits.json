@@ -558,7 +558,7 @@
           "OldY": 2.0247e-320
         }
       ],
-      "string": "Item Pick Up SFX                               \nPouring coffee SFX                        \nPlate SFX                                             \nRegister SFX                                      \n",
+      "string": "Item Pick Up SFX                               \nPouring coffee SFX                        \nPlate SFX                                             \nRegister SFX                                      \nSweeping SFX",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "right",
       "characterSize": 20,
@@ -581,7 +581,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Item Pick Up SFX                               \nPouring coffee SFX                        \nPlate SFX                                             \nRegister SFX                                      \n",
+        "text": "Item Pick Up SFX                               \nPouring coffee SFX                        \nPlate SFX                                             \nRegister SFX                                      \nSweeping SFX",
         "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
         "textAlignment": "right",
         "characterSize": 20,
@@ -732,7 +732,7 @@
           "OldY": 2.0247e-320
         }
       ],
-      "string": "Pixabay\n\nPixabay\n\nPixabay\n\nPixabay",
+      "string": "Pixabay\n\nPixabay\n\nPixabay\n\nPixabay\n\nPixabay",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
@@ -755,7 +755,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Pixabay\n\nPixabay\n\nPixabay\n\nPixabay",
+        "text": "Pixabay\n\nPixabay\n\nPixabay\n\nPixabay\n\nPixabay",
         "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
         "textAlignment": "left",
         "characterSize": 20,
