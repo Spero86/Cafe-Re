@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6672773998331567,
+    "zoomFactor": 0.6455105703313022,
     "windowMask": false
   },
   "objectsGroups": [
@@ -7042,6 +7042,102 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Items",
+      "name": "plated_donut2",
+      "persistentUuid": "25cb3b2d-9b18-4259-9d8e-81b727fd4e0f",
+      "width": 0,
+      "x": 728,
+      "y": 235,
+      "zOrder": 298,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Items",
+      "name": "plated_donut3",
+      "persistentUuid": "184fe982-aecd-4405-af00-8fbc240b7ea5",
+      "width": 0,
+      "x": 1042,
+      "y": 231,
+      "zOrder": 299,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Items",
+      "name": "plated_cake2",
+      "persistentUuid": "852aa985-b81c-4899-aac4-496057a5b71c",
+      "width": 0,
+      "x": 808,
+      "y": 224,
+      "zOrder": 300,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Human",
+      "name": "coffee3",
+      "persistentUuid": "5e95453f-40b7-448f-b729-966bf2a52e6e",
+      "width": 0,
+      "x": 1095,
+      "y": 422,
+      "zOrder": 301,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Items",
+      "name": "coffee4",
+      "persistentUuid": "8d4e63cb-2cb1-415f-91f0-fe7cbec880e7",
+      "width": 0,
+      "x": 788,
+      "y": 417,
+      "zOrder": 302,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Items",
+      "name": "plated_cake3",
+      "persistentUuid": "69a9bb54-91a9-43c8-ad7e-7dbcb8315b8d",
+      "width": 0,
+      "x": 813,
+      "y": 401,
+      "zOrder": 303,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -11305,6 +11401,660 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "plated_donut2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"NewSprite\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAmxJREFUeF7tm7FKA0EQhpPaThAExVLBQkUIBEWireADWNhYiJ3oC4iVnWInFoJY+ACClaBBlEBA1CKghUVQEAQ7ay0Cw4J3cN7OFXPzpQqX3X9n/vkyk0tItcLDtQNV19mTfAUAnEMAAADg3AHn6dMBAMC5A87TpwMAgHMHnKdPBwAA5w44T58OAADOHXCePh0AAJw74Dx9OgAAOHfAefp0AABw7oDz9OkAAODcAefp0wEAwLkDztOnAwCAcwecp08HAADnDhSU/tTw0I+G9MPbe6Fv0kLFNQywqgEAViunFDcAKBlpSSYs+unOqkroK9vHolPEOGAEqJSpJwIAimZalAIAi1WLjDlL0dutOzml0/1IPHF8ZFCu1+oziWuKGAeMAACIdMD5djoAAMgXPocbS+JGX/+AijPfX5+is35wrn5HwAiILFPYAQAg0kyL2wHAYtUUYw4BWJ4fE+XG5GjiOAhbevPxJTGSxYVZuX5xdSvPz66fGQGKtVORAgAVG+2KAIDd2uWOPCz6TaspOnP1hjwPx0HY0juv3X+du3tyKevTzor5jYC7gH+Vo7cYAHKYVqYtAFCmaubIJQ2A9tO9qG2tbeZQ/rtl72hfLtYmphPHDSNAxersIgCQ3atSrgSAUpY1e1JpAIQK4TjIrvx3Zdj2w1fDOw5GQIzDOfYCQA7TyrQFAMpUzchcssAQeYT6J/8wHr4IiqwOAEQaaH07AFivoGL8Wn8GSQsp5tN+miYjAAAUHXAuRQdwDoDF9BkBFqumGDMAKJppUQoALFZNMWYAUDTTohQAWKyaYswAoGimRSkAsFg1xZh/Abf0LFB7ud5MAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAApFJREFUeF7tm79LHFEQx++aCBYnKlYeWAU7EUWIqOj1FlomjV1AsNH/QdJdmkDA7hottbAUVEJAEH8gsThiIzkrQcFC0EYLYfLgdmVv39yxb+dj9Vjfmzff73ycOVcsFvgy7UDRtHrEFwDAOAQAAADGHTAunw4AAMYdMC6fDgAAxh0wLp8OAADGHTAunw4AAMYdMC6fDgAAxh0wLp8OAADGHTAunw4AAMYdMC6fDgAAxh0wLp8OAADGHTAunw4AAMYdMC6fDgAAxh1ok/zR8uCLRujzxk1bf0jbGlzDgFBjAEColVPKGwCUjAwpjFv0naXlllLv6e+L3F+prsvzdowDRkBLZXp/MwAomhliKAAIsWqeOScper3x7/8tT0/RN3Z1yfPpyqSsb/82ZL1Q+6k+DhgBAODpgPHjdAAAkBc+Pxa/iBvlUo+sBz6WZf189xjp2Ie+7sjnZyeX8nxle5MRkDXe3A4AAFmrTgfyAYAOmJzlK1wAPs8NS6pTveOy7i2VZH3/8CDr3/cnkdLmhyryfPd6X9ZbB3VGQNZgAICsVaTD+QBAhw3PwnVu0X8dHUpKM59mZe2OA7el/ylctSThW21P9sfd5fM3Al4EtVSOt80AkMK0PB0BgDxVM4WWOACOL04l2trX1RSRm49UN77Lw4mRschxwwhQsTp5EABI7lUudwJALsuaXFQcAG4Edxwkj9y802377nfd3zgYAT4OpzgLAClMy9MRAMhTNT21JIHB8wr1T/5uPrwI8qwOAHgaGPpxAAi9gor5a/0zSFxKPp/242IyAgBA0QHjoegAxgEIUT4jIMSqKeYMAIpmhhgKAEKsmmLOAKBoZoihACDEqinmDACKZoYYCgBCrJpizq+aBThQ6F6cCQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAoNJREFUeF7tmM8rRFEUx2c2pixGRlamrGQnkSLE7C1YsrFTyob/QXZjo5TdbFiysFRISsmPxGJiI2OlKAvFht3xpt7UnTv31nv3fKyu17nnnu/3fObcmZfN8Kfagaxq9YjPAIByCAAAAJQ7oFw+EwAAlDugXD4TAACUO6BcPhMAAJQ7oFw+EwAAlDugXD4TAACUO6BcPhMAAJQ7oFw+EwAAlDugXD4TAACUO6BcPhMAAJQ7oFw+EwAAlDugXD4TAACUO6BcPhMAAJQ7oFy+twkwWOz5deHtbe3VW40u6kt7Dm/mAkA60ACAdPTJW5VOAYh+6g8Wl5squqOrEBtfKq/Lc66Dpiw1CgYAI5vCDQKAcHtrpKxlAEzGfrX28l/M93d8YbmcPJ8ojcn67bEm69nKNteBUVvNgwDA3KsgIwEgyLaai3IKwNbcgpxczHfIuruvKOuf96/Y6toK7bHPb64e5PnK/i5XgHlvjSIBwMimcIMAINzeGimzAqDRa9756X45dLxzWNad+bysPz4/ZX3+cRVb5ExvSZ4fPh/Leu+kGhvPCyKjXscGAYC9d0HsBIAg2mgvomUAzi5O5fTJ0SlZR6+D6Ei/zzw1Ve1G5UjiG53FFdCUpXXBAGDvXRA7ASCINtqLcArA5d21VLK2tGpfVWRneWdT/hsZGIq9brgC7K0GAHvvgtgJAEG00V6EFQDR46IvhaLf0u1Larwz+iuDse/GYQBw42NqswBAalvnpvCWAWh0Hbgprz4LY9+9qwDg3tNUZQSAVLXLfbFOAXBfHhl9OwAAvh1OeH4ASHiDfJcHAL4dTnh+AEh4g3yXBwC+HU54fgBIeIN8lwcAvh1OeP4/D3IaUAThFEkAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"NewSprite27\",\"NewSprite21\"],\"name\":\"NewSprite\"}}",
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite27",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite21",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "plated_donut3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"NewSprite\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAmxJREFUeF7tm7FKA0EQhpPaThAExVLBQkUIBEWireADWNhYiJ3oC4iVnWInFoJY+ACClaBBlEBA1CKghUVQEAQ7ay0Cw4J3cN7OFXPzpQqX3X9n/vkyk0tItcLDtQNV19mTfAUAnEMAAADg3AHn6dMBAMC5A87TpwMAgHMHnKdPBwAA5w44T58OAADOHXCePh0AAJw74Dx9OgAAOHfAefp0AABw7oDz9OkAAODcAefp0wEAwLkDztOnAwCAcwecp08HAADnDhSU/tTw0I+G9MPbe6Fv0kLFNQywqgEAViunFDcAKBlpSSYs+unOqkroK9vHolPEOGAEqJSpJwIAimZalAIAi1WLjDlL0dutOzml0/1IPHF8ZFCu1+oziWuKGAeMAACIdMD5djoAAMgXPocbS+JGX/+AijPfX5+is35wrn5HwAiILFPYAQAg0kyL2wHAYtUUYw4BWJ4fE+XG5GjiOAhbevPxJTGSxYVZuX5xdSvPz66fGQGKtVORAgAVG+2KAIDd2uWOPCz6TaspOnP1hjwPx0HY0juv3X+du3tyKevTzor5jYC7gH+Vo7cYAHKYVqYtAFCmaubIJQ2A9tO9qG2tbeZQ/rtl72hfLtYmphPHDSNAxersIgCQ3atSrgSAUpY1e1JpAIQK4TjIrvx3Zdj2w1fDOw5GQIzDOfYCQA7TyrQFAMpUzchcssAQeYT6J/8wHr4IiqwOAEQaaH07AFivoGL8Wn8GSQsp5tN+miYjAAAUHXAuRQdwDoDF9BkBFqumGDMAKJppUQoALFZNMWYAUDTTohQAWKyaYswAoGimRSkAsFg1xZh/Abf0LFB7ud5MAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAApFJREFUeF7tm79LHFEQx++aCBYnKlYeWAU7EUWIqOj1FlomjV1AsNH/QdJdmkDA7hottbAUVEJAEH8gsThiIzkrQcFC0EYLYfLgdmVv39yxb+dj9Vjfmzff73ycOVcsFvgy7UDRtHrEFwDAOAQAAADGHTAunw4AAMYdMC6fDgAAxh0wLp8OAADGHTAunw4AAMYdMC6fDgAAxh0wLp8OAADGHTAunw4AAMYdMC6fDgAAxh0wLp8OAADGHTAunw4AAMYdMC6fDgAAxh1ok/zR8uCLRujzxk1bf0jbGlzDgFBjAEColVPKGwCUjAwpjFv0naXlllLv6e+L3F+prsvzdowDRkBLZXp/MwAomhliKAAIsWqeOScper3x7/8tT0/RN3Z1yfPpyqSsb/82ZL1Q+6k+DhgBAODpgPHjdAAAkBc+Pxa/iBvlUo+sBz6WZf189xjp2Ie+7sjnZyeX8nxle5MRkDXe3A4AAFmrTgfyAYAOmJzlK1wAPs8NS6pTveOy7i2VZH3/8CDr3/cnkdLmhyryfPd6X9ZbB3VGQNZgAICsVaTD+QBAhw3PwnVu0X8dHUpKM59mZe2OA7el/ylctSThW21P9sfd5fM3Al4EtVSOt80AkMK0PB0BgDxVM4WWOACOL04l2trX1RSRm49UN77Lw4mRschxwwhQsTp5EABI7lUudwJALsuaXFQcAG4Edxwkj9y802377nfd3zgYAT4OpzgLAClMy9MRAMhTNT21JIHB8wr1T/5uPrwI8qwOAHgaGPpxAAi9gor5a/0zSFxKPp/242IyAgBA0QHjoegAxgEIUT4jIMSqKeYMAIpmhhgKAEKsmmLOAKBoZoihACDEqinmDACKZoYYCgBCrJpizq+aBThQ6F6cCQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAoNJREFUeF7tmM8rRFEUx2c2pixGRlamrGQnkSLE7C1YsrFTyob/QXZjo5TdbFiysFRISsmPxGJiI2OlKAvFht3xpt7UnTv31nv3fKyu17nnnu/3fObcmZfN8Kfagaxq9YjPAIByCAAAAJQ7oFw+EwAAlDugXD4TAACUO6BcPhMAAJQ7oFw+EwAAlDugXD4TAACUO6BcPhMAAJQ7oFw+EwAAlDugXD4TAACUO6BcPhMAAJQ7oFw+EwAAlDugXD4TAACUO6BcPhMAAJQ7oFy+twkwWOz5deHtbe3VW40u6kt7Dm/mAkA60ACAdPTJW5VOAYh+6g8Wl5squqOrEBtfKq/Lc66Dpiw1CgYAI5vCDQKAcHtrpKxlAEzGfrX28l/M93d8YbmcPJ8ojcn67bEm69nKNteBUVvNgwDA3KsgIwEgyLaai3IKwNbcgpxczHfIuruvKOuf96/Y6toK7bHPb64e5PnK/i5XgHlvjSIBwMimcIMAINzeGimzAqDRa9756X45dLxzWNad+bysPz4/ZX3+cRVb5ExvSZ4fPh/Leu+kGhvPCyKjXscGAYC9d0HsBIAg2mgvomUAzi5O5fTJ0SlZR6+D6Ei/zzw1Ve1G5UjiG53FFdCUpXXBAGDvXRA7ASCINtqLcArA5d21VLK2tGpfVWRneWdT/hsZGIq9brgC7K0GAHvvgtgJAEG00V6EFQDR46IvhaLf0u1Larwz+iuDse/GYQBw42NqswBAalvnpvCWAWh0Hbgprz4LY9+9qwDg3tNUZQSAVLXLfbFOAXBfHhl9OwAAvh1OeH4ASHiDfJcHAL4dTnh+AEh4g3yXBwC+HU54fgBIeIN8lwcAvh1OeP4/D3IaUAThFEkAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"NewSprite27\",\"NewSprite21\"],\"name\":\"NewSprite\"}}",
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite27",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite21",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 29
+                      },
+                      {
+                        "x": 49,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "plated_cake2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.6,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 26
+                      },
+                      {
+                        "x": 49,
+                        "y": 26
+                      },
+                      {
+                        "x": 49,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 26
+                      },
+                      {
+                        "x": 49,
+                        "y": 26
+                      },
+                      {
+                        "x": 49,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "plated_cake3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.6,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 26
+                      },
+                      {
+                        "x": 49,
+                        "y": 26
+                      },
+                      {
+                        "x": 49,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 26
+                      },
+                      {
+                        "x": 49,
+                        "y": 26
+                      },
+                      {
+                        "x": 49,
+                        "y": 56
+                      },
+                      {
+                        "x": 13,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "coffee3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 63
+                      },
+                      {
+                        "x": 1,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 63
+                      },
+                      {
+                        "x": 1,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 63
+                      },
+                      {
+                        "x": 1,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "coffee4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 63
+                      },
+                      {
+                        "x": 1,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 63
+                      },
+                      {
+                        "x": 1,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 63
+                      },
+                      {
+                        "x": 1,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -11407,6 +12157,12 @@
         "objectName": "coffee"
       },
       {
+        "objectName": "coffee3"
+      },
+      {
+        "objectName": "coffee4"
+      },
+      {
         "objectName": "coffee2"
       },
       {
@@ -11422,6 +12178,12 @@
         "objectName": "plated_donut"
       },
       {
+        "objectName": "plated_donut2"
+      },
+      {
+        "objectName": "plated_donut3"
+      },
+      {
         "objectName": "donut2"
       },
       {
@@ -11429,6 +12191,12 @@
       },
       {
         "objectName": "plated_cake"
+      },
+      {
+        "objectName": "plated_cake2"
+      },
+      {
+        "objectName": "plated_cake3"
       },
       {
         "objectName": "cake2"
@@ -11701,6 +12469,54 @@
           },
           "parameters": [
             "e10"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "plated_donut2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "plated_donut3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "plated_cake2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "plated_cake3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "coffee3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "coffee4"
           ]
         }
       ]
@@ -13671,6 +14487,15 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "plated_donut2",
+            ""
+          ]
         }
       ]
     },
@@ -13704,6 +14529,15 @@
             "totalPoints",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "plated_cake2",
+            ""
           ]
         }
       ]
@@ -13739,6 +14573,15 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "coffee3",
+            ""
+          ]
         }
       ]
     },
@@ -13773,6 +14616,15 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "coffee4",
+            ""
+          ]
         }
       ]
     },
@@ -13806,6 +14658,15 @@
             "totalPoints",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "plated_cake3",
+            ""
           ]
         }
       ]
@@ -13871,6 +14732,15 @@
           },
           "parameters": [
             "e10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "plated_donut3",
             ""
           ]
         }
@@ -14326,7 +15196,7 @@
       "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "",
       "renderingType": "",
       "visibility": true,
@@ -14541,7 +15411,7 @@
       "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "Counter & Bakery Shelf",
       "renderingType": "",
       "visibility": true,
@@ -14574,7 +15444,7 @@
       "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "Slimes",
       "renderingType": "",
       "visibility": true,
@@ -14668,7 +15538,7 @@
       "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "Items",
       "renderingType": "",
       "visibility": true,
